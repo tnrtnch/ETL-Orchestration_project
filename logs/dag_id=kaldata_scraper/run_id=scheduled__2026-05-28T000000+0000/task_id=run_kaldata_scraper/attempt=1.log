@@ -1,0 +1,14 @@
+[2026-05-29T11:19:21.061+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: kaldata_scraper.run_kaldata_scraper scheduled__2026-05-28T00:00:00+00:00 [queued]>
+[2026-05-29T11:19:21.333+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: kaldata_scraper.run_kaldata_scraper scheduled__2026-05-28T00:00:00+00:00 [queued]>
+[2026-05-29T11:19:21.348+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2026-05-29T11:19:22.352+0000] {taskinstance.py:2214} INFO - Executing <Task(DockerOperator): run_kaldata_scraper> on 2026-05-28 00:00:00+00:00
+[2026-05-29T11:19:22.423+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'kaldata_scraper', 'run_kaldata_scraper', 'scheduled__2026-05-28T00:00:00+00:00', '--job-id', '305', '--raw', '--subdir', 'DAGS_FOLDER/kaldata_dag.py', '--cfg-path', '/tmp/tmparbbk65n']
+[2026-05-29T11:19:22.466+0000] {standard_task_runner.py:88} INFO - Job 305: Subtask run_kaldata_scraper
+[2026-05-29T11:19:22.410+0000] {standard_task_runner.py:60} INFO - Started process 75 to run task
+[2026-05-29T11:19:23.033+0000] {task_command.py:423} INFO - Running <TaskInstance: kaldata_scraper.run_kaldata_scraper scheduled__2026-05-28T00:00:00+00:00 [running]> on host f39b18a112ca
+[2026-05-29T11:19:26.430+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='kaldata_scraper' AIRFLOW_CTX_TASK_ID='run_kaldata_scraper' AIRFLOW_CTX_EXECUTION_DATE='2026-05-28T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-28T00:00:00+00:00'
+[2026-05-29T11:19:28.641+0000] {docker.py:359} INFO - Starting docker container from image kaldata-scrapy:v1
+[2026-05-29T11:19:29.409+0000] {docker.py:367} WARNING - Using remote engine or docker-in-docker and mounting temporary volume from host is not supported. Falling back to `mount_tmp_dir=False` mode. You can set `mount_tmp_dir` parameter to False to disable mounting and remove the warning
+[2026-05-29T11:30:39.854+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=kaldata_scraper, task_id=run_kaldata_scraper, execution_date=20260528T000000, start_date=20260529T111921, end_date=20260529T113039
+[2026-05-29T11:30:40.413+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-05-29T11:30:41.229+0000] {taskinstance.py:3309} INFO - 1 downstream tasks scheduled from follow-on schedule check

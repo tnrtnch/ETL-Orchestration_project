@@ -1,0 +1,106 @@
+services:
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    volumes:
+      - postgres_db:/var/lib/postgresql/data
+      - ./db/init_postgres.sql:/docker-entrypoint-initdb.d/init_postgres.sql
+      - ./dags:/opt/airflow/dags
+      - ./logs:/opt/airflow/logs
+      - /var/run/docker.sock:/var/run/docker.sock
+
+  airflow-webserver:
+    user: root
+    image: apache/airflow:2.8.2
+    depends_on:
+      - postgres
+    environment:
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
+      AIRFLOW__CORE__FERNET_KEY: 'dKe5e_s9GT5PMLbvxulRV1YuFTNzALP48KZWC1miQKk='
+      AIRFLOW__WEBSERVER__RBAC: 'True'
+      AIRFLOW__WEBSERVER__WEB_SERVER_TIMEOUT: 300
+      AIRFLOW__WEBSERVER__WORKERS: 1
+      AIRFLOW__CORE__PARALLELISM: 4
+      AIRFLOW__CORE__DAG_CONCURRENCY: 4
+      AIRFLOW__CORE__MAX_ACTIVE_RUNS_PER_DAG: 2
+    ports:
+      - "8080:8080"
+    command: webserver
+
+    volumes:
+      - C:/Users/User/desktop/docker-projects/data:/opt/airflow/data
+      - airflow_logs:/opt/airflow/logs
+      - ./dags:/opt/airflow/dags
+      - ./logs:/opt/airflow/logs
+      - /var/run/docker.sock:/var/run/docker.sock
+
+  airflow-scheduler:
+    user: root
+    image: apache/airflow:2.8.2
+    depends_on:
+      - postgres
+    environment:
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
+      AIRFLOW__CORE__FERNET_KEY: 'dKe5e_s9GT5PMLbvxulRV1YuFTNzALP48KZWC1miQKk='
+      AIRFLOW__WEBSERVER__WEB_SERVER_TIMEOUT: 300
+      AIRFLOW__WEBSERVER__WORKERS: 1
+      AIRFLOW__CORE__PARALLELISM: 4
+      AIRFLOW__CORE__DAG_CONCURRENCY: 4
+      AIRFLOW__CORE__MAX_ACTIVE_RUNS_PER_DAG: 2
+    command: scheduler
+
+    volumes:
+      - C:/Users/User/desktop/docker-projects/data:/opt/airflow/data
+      - airflow_logs:/opt/airflow/logs
+      - ./dags:/opt/airflow/dags
+      - ./logs:/opt/airflow/logs
+      - /var/run/docker.sock:/var/run/docker.sock
+
+
+  airflow-init:
+    image: apache/airflow:2.8.2
+    depends_on:
+      - postgres
+    environment:
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
+      AIRFLOW__CORE__FERNET_KEY: 'dKe5e_s9GT5PMLbvxulRV1YuFTNzALP48KZWC1miQKk='
+      AIRFLOW__WEBSERVER__WEB_SERVER_TIMEOUT: 300
+      AIRFLOW__WEBSERVER__WORKERS: 1
+      AIRFLOW__CORE__PARALLELISM: 4
+      AIRFLOW__CORE__DAG_CONCURRENCY: 4
+      AIRFLOW__CORE__MAX_ACTIVE_RUNS_PER_DAG: 2
+    command: airflow db init
+    restart: "no"
+    volumes:
+      - airflow_logs:/opt/airflow/logs
+      - ./dags:/opt/airflow/dags
+      - ./logs:/opt/airflow/logs
+      - /var/run/docker.sock:/var/run/docker.sock
+
+
+  fastapi:
+    build: ./api
+    ports:
+      - "8000:8000"
+    depends_on:
+      - postgres
+    environment:
+      DATABASE_URL: postgresql://airflow:airflow@postgres:5432/airflow
+
+  streamlit:
+    build: ./streamlit
+    ports:
+      - "8501:8501"
+    depends_on:
+      - postgres
+
+
+volumes:
+  postgres_db:
+  airflow_logs:

@@ -1,0 +1,540 @@
+[2026-05-25T14:13:16.875+0000] {processor.py:161} INFO - Started process (PID=53) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:13:16.878+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:13:16.884+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:13:16.883+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:13:16.948+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:13:16.957+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'telegraph.db']
+[2026-05-25T14:13:16.971+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: False
+[2026-05-25T14:13:17.139+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:13:20.877+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:13:20.876+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:13:21.231+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:13:21.216+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:13:21.409+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 4.552 seconds
+[2026-05-25T14:13:55.117+0000] {processor.py:161} INFO - Started process (PID=92) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:13:55.712+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:13:56.223+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:13:56.076+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:13:56.995+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:13:57.156+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'telegraph.db']
+[2026-05-25T14:13:57.204+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: False
+[2026-05-25T14:13:58.784+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:14:01.085+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:14:01.084+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:14:02.200+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:14:02.200+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:14:03.886+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 9.407 seconds
+[2026-05-25T14:14:37.856+0000] {processor.py:161} INFO - Started process (PID=122) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:14:37.869+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:14:37.930+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:14:37.929+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:14:38.344+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:14:38.369+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'kaldata.db-shm', 'kaldata.db-wal', 'telegraph.db']
+[2026-05-25T14:14:38.432+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: False
+[2026-05-25T14:14:38.680+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:14:40.166+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:14:40.094+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:14:40.840+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:14:40.838+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:14:41.613+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 3.808 seconds
+[2026-05-25T14:15:14.632+0000] {processor.py:161} INFO - Started process (PID=154) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:15:14.817+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:15:14.912+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:15:14.899+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:15:15.760+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:15:15.875+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'kaldata.db-shm', 'kaldata.db-wal', 'telegraph.db']
+[2026-05-25T14:15:15.896+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: False
+[2026-05-25T14:15:16.358+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:15:17.453+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:15:17.453+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:15:17.641+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:15:17.641+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:15:17.947+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 3.958 seconds
+[2026-05-25T14:15:49.799+0000] {processor.py:161} INFO - Started process (PID=184) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:15:49.834+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:15:49.858+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:15:49.852+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:15:52.935+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:15:53.256+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'kaldata.db-shm', 'kaldata.db-wal', 'telegraph.db']
+[2026-05-25T14:15:53.430+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: False
+[2026-05-25T14:15:55.525+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:15:56.608+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:15:56.592+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:15:56.889+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:15:56.888+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:15:57.798+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 8.651 seconds
+[2026-05-25T14:16:29.088+0000] {processor.py:161} INFO - Started process (PID=214) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:16:29.130+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:16:29.140+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:16:29.139+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:16:29.344+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:16:29.396+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'kaldata.db-shm', 'kaldata.db-wal', 'telegraph.db']
+[2026-05-25T14:16:29.399+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: False
+[2026-05-25T14:16:29.701+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:16:32.566+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:16:32.565+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:16:32.988+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:16:32.983+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:16:33.138+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 4.291 seconds
+[2026-05-25T14:17:08.230+0000] {processor.py:161} INFO - Started process (PID=244) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:17:08.323+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:17:08.369+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:17:08.355+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:17:09.747+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:17:09.763+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'kaldata.db-shm', 'kaldata.db-wal', 'telegraph.db']
+[2026-05-25T14:17:09.778+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: False
+[2026-05-25T14:17:09.877+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:17:10.232+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:17:10.231+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:17:10.543+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:17:10.543+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:17:11.509+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 3.681 seconds
+[2026-05-25T14:17:44.299+0000] {processor.py:161} INFO - Started process (PID=274) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:17:44.588+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:17:44.748+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:17:44.747+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:17:45.892+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:17:46.185+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'kaldata.db-shm', 'kaldata.db-wal', 'telegraph.db']
+[2026-05-25T14:17:46.219+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: False
+[2026-05-25T14:17:46.724+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:17:48.375+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:17:48.373+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:17:48.588+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:17:48.587+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:17:48.732+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 5.116 seconds
+[2026-05-25T14:18:20.343+0000] {processor.py:161} INFO - Started process (PID=304) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:18:20.351+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:18:20.362+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:18:20.357+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:18:21.223+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:18:21.605+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'kaldata.db-shm', 'kaldata.db-wal', 'telegraph.db']
+[2026-05-25T14:18:21.838+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: False
+[2026-05-25T14:18:23.769+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:18:28.269+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:18:28.265+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:18:30.219+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:18:30.219+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:18:31.874+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 11.598 seconds
+[2026-05-25T14:19:06.109+0000] {processor.py:161} INFO - Started process (PID=336) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:19:06.158+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:19:06.237+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:19:06.236+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:19:08.471+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:19:08.644+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'kaldata.db-shm', 'kaldata.db-wal', 'telegraph.db']
+[2026-05-25T14:19:08.725+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: False
+[2026-05-25T14:19:08.981+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:19:09.843+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:19:09.815+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:19:10.405+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:19:10.343+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:19:11.301+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 5.225 seconds
+[2026-05-25T14:19:42.650+0000] {processor.py:161} INFO - Started process (PID=368) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:19:42.686+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:19:42.749+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:19:42.748+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:19:43.528+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:19:43.620+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'kaldata.db-shm', 'kaldata.db-wal', 'telegraph.db']
+[2026-05-25T14:19:43.630+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: False
+[2026-05-25T14:19:43.764+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:19:44.058+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:19:44.051+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:19:44.173+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:19:44.173+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:19:44.367+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 1.755 seconds
+[2026-05-25T14:20:15.753+0000] {processor.py:161} INFO - Started process (PID=400) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:20:15.778+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:20:15.799+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:20:15.788+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:20:16.318+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:20:16.735+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'kaldata.db-shm', 'kaldata.db-wal', 'merge.lock', 'telegraph.db']
+[2026-05-25T14:20:16.817+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: True
+[2026-05-25T14:20:17.592+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:20:19.215+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:20:19.213+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:20:19.566+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:20:19.566+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:20:20.430+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 4.724 seconds
+[2026-05-25T14:21:03.615+0000] {processor.py:161} INFO - Started process (PID=430) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:21:03.742+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:21:03.825+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:21:03.824+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:21:06.310+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:21:06.561+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'kaldata.db-shm', 'kaldata.db-wal', 'merge.lock', 'telegraph.db']
+[2026-05-25T14:21:06.724+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: True
+[2026-05-25T14:21:06.980+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:21:07.767+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:21:07.766+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:21:08.280+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:21:08.232+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:21:09.638+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 6.119 seconds
+[2026-05-25T14:21:41.364+0000] {processor.py:161} INFO - Started process (PID=462) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:21:41.373+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:21:41.378+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:21:41.377+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:21:41.560+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:21:41.566+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'kaldata.db-shm', 'kaldata.db-wal', 'merge.lock', 'telegraph.db']
+[2026-05-25T14:21:41.597+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: True
+[2026-05-25T14:21:41.731+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:21:42.062+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:21:42.059+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:21:42.182+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:21:42.181+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:21:42.458+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 1.133 seconds
+[2026-05-25T14:22:14.117+0000] {processor.py:161} INFO - Started process (PID=492) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:22:14.142+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:22:14.147+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:22:14.146+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:22:14.307+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:22:14.342+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'kaldata.db-shm', 'kaldata.db-wal', 'merge.lock', 'telegraph.db']
+[2026-05-25T14:22:14.360+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: True
+[2026-05-25T14:22:14.504+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:22:14.748+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:22:14.747+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:22:15.062+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:22:15.034+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:22:15.592+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 1.561 seconds
+[2026-05-25T14:22:47.283+0000] {processor.py:161} INFO - Started process (PID=522) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:22:47.297+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:22:47.304+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:22:47.301+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:22:47.360+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:22:47.379+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'kaldata.db-shm', 'kaldata.db-wal', 'telegraph.db']
+[2026-05-25T14:22:47.381+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: False
+[2026-05-25T14:22:47.419+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:22:47.552+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:22:47.551+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:22:47.657+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:22:47.656+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:22:48.246+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 0.993 seconds
+[2026-05-25T14:23:19.895+0000] {processor.py:161} INFO - Started process (PID=556) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:23:19.904+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:23:19.915+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:23:19.907+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:23:19.999+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:23:20.008+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'telegraph.db']
+[2026-05-25T14:23:20.010+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: False
+[2026-05-25T14:23:20.089+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:23:20.271+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:23:20.270+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:23:20.396+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:23:20.395+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:23:20.571+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 0.699 seconds
+[2026-05-25T14:24:00.398+0000] {processor.py:161} INFO - Started process (PID=586) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:24:00.407+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:24:00.414+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:24:00.413+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:24:00.488+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:24:00.499+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'merge.lock', 'telegraph.db']
+[2026-05-25T14:24:00.505+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: True
+[2026-05-25T14:24:00.567+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:24:01.479+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:24:01.478+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:24:02.237+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:24:02.236+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:24:03.207+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 2.835 seconds
+[2026-05-25T14:24:37.472+0000] {processor.py:161} INFO - Started process (PID=616) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:24:37.490+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:24:37.517+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:24:37.516+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:24:38.389+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:24:38.614+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'merge.lock', 'telegraph.db']
+[2026-05-25T14:24:38.821+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: True
+[2026-05-25T14:24:39.035+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:24:39.803+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:24:39.802+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:24:40.294+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:24:40.281+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:24:41.056+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 3.659 seconds
+[2026-05-25T14:25:16.714+0000] {processor.py:161} INFO - Started process (PID=646) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:25:16.729+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:25:16.764+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:25:16.763+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:25:16.955+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:25:17.149+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'telegraph.db']
+[2026-05-25T14:25:17.211+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: False
+[2026-05-25T14:25:17.804+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:25:18.732+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:25:18.732+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:25:18.874+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:25:18.869+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:25:19.606+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 2.944 seconds
+[2026-05-25T14:25:51.055+0000] {processor.py:161} INFO - Started process (PID=676) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:25:51.066+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:25:51.074+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:25:51.073+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:25:51.156+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:25:51.170+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'telegraph.db']
+[2026-05-25T14:25:51.172+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: False
+[2026-05-25T14:25:51.262+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:25:51.498+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:25:51.496+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:25:51.631+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:25:51.631+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:25:52.155+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 1.135 seconds
+[2026-05-25T14:26:23.156+0000] {processor.py:161} INFO - Started process (PID=706) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:26:23.174+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:26:23.196+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:26:23.195+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:26:24.196+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:26:24.254+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'telegraph.db']
+[2026-05-25T14:26:24.263+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: False
+[2026-05-25T14:26:24.346+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:26:24.627+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:26:24.608+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:26:24.741+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:26:24.732+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:26:25.474+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 2.385 seconds
+[2026-05-25T14:26:59.098+0000] {processor.py:161} INFO - Started process (PID=736) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:26:59.240+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:26:59.337+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:26:59.306+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:27:00.299+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:27:00.404+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'telegraph.db']
+[2026-05-25T14:27:00.406+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: False
+[2026-05-25T14:27:01.079+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:27:01.935+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:27:01.934+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:27:02.482+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:27:02.481+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:27:02.849+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 3.896 seconds
+[2026-05-25T14:27:34.851+0000] {processor.py:161} INFO - Started process (PID=766) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:27:34.939+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:27:34.953+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:27:34.952+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:27:35.137+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:27:35.161+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'telegraph.db']
+[2026-05-25T14:27:35.166+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: False
+[2026-05-25T14:27:35.307+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:27:35.466+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:27:35.462+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:27:35.542+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:27:35.541+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:27:35.690+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 0.902 seconds
+[2026-05-25T14:28:06.897+0000] {processor.py:161} INFO - Started process (PID=796) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:28:06.926+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:28:06.945+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:28:06.944+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:28:07.346+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:28:07.350+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'telegraph.db']
+[2026-05-25T14:28:07.357+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: False
+[2026-05-25T14:28:07.406+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:28:07.611+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:28:07.610+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:28:07.716+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:28:07.712+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:28:07.853+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 1.078 seconds
+[2026-05-25T14:28:40.216+0000] {processor.py:161} INFO - Started process (PID=826) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:28:40.236+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:28:40.248+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:28:40.247+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:28:40.518+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:28:40.707+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'telegraph.db']
+[2026-05-25T14:28:40.753+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: False
+[2026-05-25T14:28:41.458+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:28:41.747+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:28:41.746+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:28:41.824+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:28:41.824+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:28:41.898+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 1.752 seconds
+[2026-05-25T14:29:13.744+0000] {processor.py:161} INFO - Started process (PID=856) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:29:13.821+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:29:13.839+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:29:13.837+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:29:14.980+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:29:14.993+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'telegraph.db']
+[2026-05-25T14:29:15.009+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: False
+[2026-05-25T14:29:15.111+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:29:15.287+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:29:15.285+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:29:15.381+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:29:15.381+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:29:15.514+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 1.854 seconds
+[2026-05-25T14:29:49.142+0000] {processor.py:161} INFO - Started process (PID=885) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:29:49.153+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:29:49.162+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:29:49.158+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:29:49.241+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:29:49.246+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'telegraph.db']
+[2026-05-25T14:29:49.257+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: False
+[2026-05-25T14:29:49.322+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:29:49.547+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:29:49.546+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:29:49.939+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:29:49.938+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:29:50.645+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 1.545 seconds
+[2026-05-25T14:30:21.969+0000] {processor.py:161} INFO - Started process (PID=920) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:30:21.975+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:30:21.989+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:30:21.983+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:30:22.088+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:30:22.100+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'merge.lock', 'telegraph.db']
+[2026-05-25T14:30:22.103+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: True
+[2026-05-25T14:30:22.152+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:30:22.372+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:30:22.369+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:30:22.485+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:30:22.482+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:30:22.869+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 0.928 seconds
+[2026-05-25T14:30:54.502+0000] {processor.py:161} INFO - Started process (PID=952) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:30:54.511+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:30:54.515+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:30:54.514+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:30:54.597+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:30:54.617+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'telegraph.db']
+[2026-05-25T14:30:54.620+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: False
+[2026-05-25T14:30:54.676+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:30:54.794+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:30:54.793+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:30:54.874+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:30:54.873+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:30:55.002+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 0.563 seconds
+[2026-05-25T14:31:25.514+0000] {processor.py:161} INFO - Started process (PID=984) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:31:25.531+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:31:25.536+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:31:25.535+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:31:25.601+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:31:25.607+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'telegraph.db']
+[2026-05-25T14:31:25.612+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: False
+[2026-05-25T14:31:25.634+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:31:25.742+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:31:25.741+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:31:25.787+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:31:25.786+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:31:25.916+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 0.422 seconds
+[2026-05-25T14:31:56.141+0000] {processor.py:161} INFO - Started process (PID=1012) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:31:56.155+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:31:56.158+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:31:56.157+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:31:56.204+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:31:56.215+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'telegraph.db']
+[2026-05-25T14:31:56.218+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: False
+[2026-05-25T14:31:56.250+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:31:56.345+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:31:56.344+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:31:56.394+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:31:56.393+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:31:56.481+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 0.359 seconds
+[2026-05-25T14:32:27.019+0000] {processor.py:161} INFO - Started process (PID=1037) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:32:27.024+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:32:27.027+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:32:27.026+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:32:27.104+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:32:27.109+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'telegraph.db']
+[2026-05-25T14:32:27.111+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: False
+[2026-05-25T14:32:27.135+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:32:27.208+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:32:27.207+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:32:27.248+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:32:27.247+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:32:27.362+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 0.353 seconds
+[2026-05-25T14:33:11.870+0000] {processor.py:161} INFO - Started process (PID=1064) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:33:11.925+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:33:11.943+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:33:11.942+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:33:12.339+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:33:12.440+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'telegraph.db']
+[2026-05-25T14:33:12.470+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: False
+[2026-05-25T14:33:12.530+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:33:12.693+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:33:12.692+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:33:12.874+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:33:12.874+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:33:13.415+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 1.578 seconds
+[2026-05-25T14:33:50.047+0000] {processor.py:161} INFO - Started process (PID=1084) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:33:50.428+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:33:50.644+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:33:50.643+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:34:04.661+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:34:05.572+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'telegraph.db']
+[2026-05-25T14:34:05.661+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: False
+[2026-05-25T14:34:05.775+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:34:06.113+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:34:06.111+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:34:06.440+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:34:06.439+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:34:07.429+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 17.419 seconds
+[2026-05-25T14:34:54.222+0000] {processor.py:161} INFO - Started process (PID=1117) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:34:54.310+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:34:54.396+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:34:54.395+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:34:55.658+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:34:56.359+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'telegraph.db']
+[2026-05-25T14:34:56.628+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: False
+[2026-05-25T14:34:56.739+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:34:56.929+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:34:56.928+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:34:57.060+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:34:57.059+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:34:57.473+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 3.270 seconds
+[2026-05-25T14:35:28.189+0000] {processor.py:161} INFO - Started process (PID=1149) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:35:28.193+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:35:28.196+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:35:28.195+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:35:28.231+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:35:28.242+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'telegraph.db']
+[2026-05-25T14:35:28.243+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: False
+[2026-05-25T14:35:28.385+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:35:28.723+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:35:28.722+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:35:28.860+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:35:28.859+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:35:28.987+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 0.808 seconds
+[2026-05-25T14:35:59.404+0000] {processor.py:161} INFO - Started process (PID=1179) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:35:59.407+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:35:59.410+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:35:59.409+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:35:59.488+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:35:59.492+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'telegraph.db']
+[2026-05-25T14:35:59.494+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: False
+[2026-05-25T14:35:59.524+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:35:59.618+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:35:59.617+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:35:59.652+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:35:59.651+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:35:59.728+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 0.347 seconds
+[2026-05-25T14:36:36.316+0000] {processor.py:161} INFO - Started process (PID=1209) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:36:36.345+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:36:36.369+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:36:36.367+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:36:37.310+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:36:37.660+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'telegraph.db']
+[2026-05-25T14:36:37.832+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: False
+[2026-05-25T14:36:37.921+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:36:38.156+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:36:38.154+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:36:38.307+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:36:38.306+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:36:39.989+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 3.693 seconds
+[2026-05-25T14:37:13.004+0000] {processor.py:161} INFO - Started process (PID=1239) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:37:13.008+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:37:13.019+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:37:13.018+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:37:13.892+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:37:14.016+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'telegraph.db']
+[2026-05-25T14:37:14.058+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: False
+[2026-05-25T14:37:14.130+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:37:14.309+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:37:14.299+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:37:14.407+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:37:14.406+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:37:14.660+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 1.674 seconds
+[2026-05-25T14:37:46.057+0000] {processor.py:161} INFO - Started process (PID=1269) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:37:46.094+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:37:46.127+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:37:46.126+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:37:47.009+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:37:47.033+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'telegraph.db']
+[2026-05-25T14:37:47.044+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: False
+[2026-05-25T14:37:47.121+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:37:47.595+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:37:47.558+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:37:47.893+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:37:47.893+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:37:48.487+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 2.479 seconds
+[2026-05-25T14:38:21.399+0000] {processor.py:161} INFO - Started process (PID=1299) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:38:21.454+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:38:21.476+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:38:21.467+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:38:21.749+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:38:21.757+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'telegraph.db']
+[2026-05-25T14:38:21.759+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: False
+[2026-05-25T14:38:21.851+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:38:21.989+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:38:21.988+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:38:22.061+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:38:22.060+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:38:22.167+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 0.818 seconds
+[2026-05-25T14:38:53.434+0000] {processor.py:161} INFO - Started process (PID=1329) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:38:53.449+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:38:53.453+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:38:53.452+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:38:53.710+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:38:53.770+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'telegraph.db']
+[2026-05-25T14:38:53.772+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: False
+[2026-05-25T14:38:53.837+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:38:53.968+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:38:53.967+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:38:54.011+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:38:54.011+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:38:54.073+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 0.671 seconds
+[2026-05-25T14:39:25.313+0000] {processor.py:161} INFO - Started process (PID=1359) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:39:25.317+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:39:25.321+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:39:25.320+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:39:25.370+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:39:25.374+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'telegraph.db']
+[2026-05-25T14:39:25.376+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: False
+[2026-05-25T14:39:25.402+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:39:25.482+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:39:25.481+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:39:25.519+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:39:25.518+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:39:25.578+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 0.275 seconds
+[2026-05-25T14:39:56.191+0000] {processor.py:161} INFO - Started process (PID=1389) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:39:56.195+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:39:56.200+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:39:56.197+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:39:56.249+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:39:56.253+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'telegraph.db']
+[2026-05-25T14:39:56.257+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: False
+[2026-05-25T14:39:56.286+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:39:56.370+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:39:56.369+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:39:56.409+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:39:56.408+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:39:56.533+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 0.353 seconds
+[2026-05-25T14:40:26.872+0000] {processor.py:161} INFO - Started process (PID=1419) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:40:26.880+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:40:26.886+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:40:26.885+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:40:26.943+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:40:26.947+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'telegraph.db']
+[2026-05-25T14:40:26.950+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: False
+[2026-05-25T14:40:26.979+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:40:27.251+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:40:27.240+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:40:27.563+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:40:27.562+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:40:27.891+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 1.034 seconds
+[2026-05-25T14:41:05.602+0000] {processor.py:161} INFO - Started process (PID=1449) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:41:05.616+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:41:05.621+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:41:05.620+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:41:05.800+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:41:05.841+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'telegraph.db']
+[2026-05-25T14:41:05.853+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: False
+[2026-05-25T14:41:05.912+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:41:06.177+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:41:06.176+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:41:06.320+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:41:06.319+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:41:06.563+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 0.995 seconds
+[2026-05-25T14:41:36.795+0000] {processor.py:161} INFO - Started process (PID=1479) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:41:36.798+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:41:36.802+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:41:36.801+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:41:36.836+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:41:36.840+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'telegraph.db']
+[2026-05-25T14:41:36.842+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: False
+[2026-05-25T14:41:36.863+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:41:36.940+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:41:36.939+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:41:36.982+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:41:36.981+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:41:37.078+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 0.294 seconds
+[2026-05-25T14:42:08.104+0000] {processor.py:161} INFO - Started process (PID=1509) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:42:08.108+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:42:08.110+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:42:08.109+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:42:08.208+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:42:08.236+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'telegraph.db']
+[2026-05-25T14:42:08.246+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: False
+[2026-05-25T14:42:08.288+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:42:08.511+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:42:08.510+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:42:08.607+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:42:08.606+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:42:08.766+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 0.672 seconds
+[2026-05-25T14:42:39.803+0000] {processor.py:161} INFO - Started process (PID=1539) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:42:39.815+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:42:39.829+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:42:39.828+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:42:39.926+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:42:39.934+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'telegraph.db']
+[2026-05-25T14:42:39.936+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: False
+[2026-05-25T14:42:39.960+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:42:40.040+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:42:40.039+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:42:40.077+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:42:40.076+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:42:40.132+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 0.348 seconds
+[2026-05-25T14:43:10.398+0000] {processor.py:161} INFO - Started process (PID=1569) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:43:10.402+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:43:10.406+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:43:10.405+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:43:10.445+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:43:10.450+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'telegraph.db']
+[2026-05-25T14:43:10.452+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: False
+[2026-05-25T14:43:10.474+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:43:10.555+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:43:10.555+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:43:10.593+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:43:10.592+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:43:10.688+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 0.306 seconds
+[2026-05-25T14:43:41.709+0000] {processor.py:161} INFO - Started process (PID=1599) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:43:41.780+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:43:41.783+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:43:41.782+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:43:41.829+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:43:41.833+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'telegraph.db']
+[2026-05-25T14:43:41.835+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: False
+[2026-05-25T14:43:41.864+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:43:42.055+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:43:42.044+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:43:42.136+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:43:42.135+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:43:42.304+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 0.618 seconds
+[2026-05-25T14:44:12.844+0000] {processor.py:161} INFO - Started process (PID=1629) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:44:12.849+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:44:12.852+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:44:12.851+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:44:12.890+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:44:12.894+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'telegraph.db']
+[2026-05-25T14:44:12.897+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: False
+[2026-05-25T14:44:12.920+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:44:13.004+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:44:13.003+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:44:13.041+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:44:13.040+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:44:13.110+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 0.285 seconds
+[2026-05-25T14:44:43.883+0000] {processor.py:161} INFO - Started process (PID=1659) to work on /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:44:43.890+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/merge_dag.py for tasks to queue
+[2026-05-25T14:44:43.893+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:44:43.892+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:44:43.940+0000] {logging_mixin.py:188} INFO - DATA_PATH: /opt/airflow/data
+[2026-05-25T14:44:43.944+0000] {logging_mixin.py:188} INFO - FILES: ['eu_fsf_sanctions.json', 'final_output.json', 'inegi_playwright.json', 'inegi_scraper.json', 'kaldata.db', 'telegraph.db']
+[2026-05-25T14:44:43.945+0000] {logging_mixin.py:188} INFO - LOCK EXISTS: False
+[2026-05-25T14:44:43.975+0000] {processor.py:840} INFO - DAG(s) 'merge_all_scrapers' retrieved from /opt/airflow/dags/merge_dag.py
+[2026-05-25T14:44:44.057+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:44:44.056+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-05-25T14:44:44.096+0000] {logging_mixin.py:188} INFO - [2026-05-25T14:44:44.095+0000] {dag.py:3834} INFO - Setting next_dagrun for merge_all_scrapers to None, run_after=None
+[2026-05-25T14:44:44.149+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/merge_dag.py took 0.279 seconds

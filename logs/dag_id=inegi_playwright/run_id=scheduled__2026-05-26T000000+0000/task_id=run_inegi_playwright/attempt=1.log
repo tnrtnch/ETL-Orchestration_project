@@ -1,0 +1,17 @@
+[2026-05-27T07:51:29.880+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: inegi_playwright.run_inegi_playwright scheduled__2026-05-26T00:00:00+00:00 [queued]>
+[2026-05-27T07:51:30.496+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: inegi_playwright.run_inegi_playwright scheduled__2026-05-26T00:00:00+00:00 [queued]>
+[2026-05-27T07:51:30.615+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2026-05-27T07:51:35.522+0000] {taskinstance.py:2214} INFO - Executing <Task(DockerOperator): run_inegi_playwright> on 2026-05-26 00:00:00+00:00
+[2026-05-27T07:51:35.730+0000] {standard_task_runner.py:60} INFO - Started process 234 to run task
+[2026-05-27T07:51:36.013+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'inegi_playwright', 'run_inegi_playwright', 'scheduled__2026-05-26T00:00:00+00:00', '--job-id', '219', '--raw', '--subdir', 'DAGS_FOLDER/inegi_playwright_dag.py', '--cfg-path', '/tmp/tmp2400wb8g']
+[2026-05-27T07:51:36.112+0000] {standard_task_runner.py:88} INFO - Job 219: Subtask run_inegi_playwright
+[2026-05-27T07:51:39.864+0000] {task_command.py:423} INFO - Running <TaskInstance: inegi_playwright.run_inegi_playwright scheduled__2026-05-26T00:00:00+00:00 [running]> on host f39b18a112ca
+[2026-05-27T07:51:47.016+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='inegi_playwright' AIRFLOW_CTX_TASK_ID='run_inegi_playwright' AIRFLOW_CTX_EXECUTION_DATE='2026-05-26T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-26T00:00:00+00:00'
+[2026-05-27T07:51:49.430+0000] {docker.py:359} INFO - Starting docker container from image inegi-playwright:v1
+[2026-05-27T07:52:34.798+0000] {docker.py:429} INFO - The page is opening...
+[2026-05-27T07:52:38.195+0000] {docker.py:429} INFO - ERROR: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www3.inegi.org.mx/sistemas/ci/relps/
+Call log:
+  - navigating to "https://www3.inegi.org.mx/sistemas/ci/relps/", waiting until "load"
+[2026-05-27T07:52:42.966+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=inegi_playwright, task_id=run_inegi_playwright, execution_date=20260526T000000, start_date=20260527T075129, end_date=20260527T075242
+[2026-05-27T07:52:43.797+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-05-27T07:52:46.709+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,79 @@
+[2026-05-18T13:38:11.301+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: telegraph_scraper.run_telegraph_container scheduled__2026-05-17T00:00:00+00:00 [queued]>
+[2026-05-18T13:38:11.427+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: telegraph_scraper.run_telegraph_container scheduled__2026-05-17T00:00:00+00:00 [queued]>
+[2026-05-18T13:38:11.570+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2026-05-18T13:38:11.940+0000] {taskinstance.py:2214} INFO - Executing <Task(DockerOperator): run_telegraph_container> on 2026-05-17 00:00:00+00:00
+[2026-05-18T13:38:12.605+0000] {standard_task_runner.py:60} INFO - Started process 73 to run task
+[2026-05-18T13:38:12.641+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'telegraph_scraper', 'run_telegraph_container', 'scheduled__2026-05-17T00:00:00+00:00', '--job-id', '44', '--raw', '--subdir', 'DAGS_FOLDER/telegraph_dag.py', '--cfg-path', '/tmp/tmpgig9ka3q']
+[2026-05-18T13:38:12.969+0000] {standard_task_runner.py:88} INFO - Job 44: Subtask run_telegraph_container
+[2026-05-18T13:38:18.921+0000] {task_command.py:423} INFO - Running <TaskInstance: telegraph_scraper.run_telegraph_container scheduled__2026-05-17T00:00:00+00:00 [running]> on host f39b18a112ca
+[2026-05-18T13:38:33.366+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='telegraph_scraper' AIRFLOW_CTX_TASK_ID='run_telegraph_container' AIRFLOW_CTX_EXECUTION_DATE='2026-05-17T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-17T00:00:00+00:00'
+[2026-05-18T13:38:41.281+0000] {docker.py:359} INFO - Starting docker container from image telegraph-scraper:v1
+[2026-05-18T13:38:42.480+0000] {docker.py:367} WARNING - Using remote engine or docker-in-docker and mounting temporary volume from host is not supported. Falling back to `mount_tmp_dir=False` mode. You can set `mount_tmp_dir` parameter to False to disable mounting and remove the warning
+[2026-05-18T13:40:35.773+0000] {docker.py:429} INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/urllib3/connection.py", line 204, in _new_conn
+[2026-05-18T13:40:35.849+0000] {docker.py:429} INFO - sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/usr/local/lib/python3.11/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+[2026-05-18T13:40:35.954+0000] {docker.py:429} INFO - ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/usr/local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/usr/local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/usr/local/lib/python3.11/site-packages/urllib3/connection.py", line 759, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<HTTPSConnection(host='telegraph.bg', port=443) at 0x7459becf6310>, 'Connection to telegraph.bg timed out. (connect timeout=15)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/requests/adapters.py", line 645, in send
+[2026-05-18T13:40:36.060+0000] {docker.py:429} INFO - resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/urllib3/util/retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='telegraph.bg', port=443): Max retries exceeded with url: /posledni-novini (Caused by ConnectTimeoutError(<HTTPSConnection(host='telegraph.bg', port=443) at 0x7459becf6310>, 'Connection to telegraph.bg timed out. (connect timeout=15)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/app/main.py", line 15, in <module>
+    run()
+  File "/app/main.py", line 9, in run
+    for item in fetch_articles():
+  File "/app/scraper.py", line 10, in fetch_articles
+    response = requests.get(url, timeout=15)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/requests/api.py", line 73, in get
+[2026-05-18T13:40:36.140+0000] {docker.py:429} INFO - return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/requests/sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/requests/sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/requests/adapters.py", line 666, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='telegraph.bg', port=443): Max retries exceeded with url: /posledni-novini (Caused by ConnectTimeoutError(<HTTPSConnection(host='telegraph.bg', port=443) at 0x7459becf6310>, 'Connection to telegraph.bg timed out. (connect timeout=15)'))

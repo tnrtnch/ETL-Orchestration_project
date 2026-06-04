@@ -1,0 +1,14 @@
+[2026-05-29T11:27:50.746+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: merge_all_scrapers.merge_all_outputs manual__2026-05-29T11:26:28.905818+00:00 [queued]>
+[2026-05-29T11:27:51.109+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: merge_all_scrapers.merge_all_outputs manual__2026-05-29T11:26:28.905818+00:00 [queued]>
+[2026-05-29T11:27:51.250+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2026-05-29T11:27:52.181+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): merge_all_outputs> on 2026-05-29 11:26:28.905818+00:00
+[2026-05-29T11:27:52.471+0000] {standard_task_runner.py:60} INFO - Started process 458 to run task
+[2026-05-29T11:27:52.505+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'merge_all_scrapers', 'merge_all_outputs', 'manual__2026-05-29T11:26:28.905818+00:00', '--job-id', '312', '--raw', '--subdir', 'DAGS_FOLDER/merge_dag.py', '--cfg-path', '/tmp/tmpc1y7gzxy']
+[2026-05-29T11:27:52.890+0000] {standard_task_runner.py:88} INFO - Job 312: Subtask merge_all_outputs
+[2026-05-29T11:27:55.474+0000] {task_command.py:423} INFO - Running <TaskInstance: merge_all_scrapers.merge_all_outputs manual__2026-05-29T11:26:28.905818+00:00 [running]> on host f39b18a112ca
+[2026-05-29T11:27:56.518+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='merge_all_scrapers' AIRFLOW_CTX_TASK_ID='merge_all_outputs' AIRFLOW_CTX_EXECUTION_DATE='2026-05-29T11:26:28.905818+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-29T11:26:28.905818+00:00'
+[2026-05-29T11:27:57.735+0000] {logging_mixin.py:188} INFO - ⏳ Merge already running, skipping...
+[2026-05-29T11:27:57.896+0000] {python.py:202} INFO - Done. Returned value was: None
+[2026-05-29T11:27:58.141+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=merge_all_scrapers, task_id=merge_all_outputs, execution_date=20260529T112628, start_date=20260529T112750, end_date=20260529T112758
+[2026-05-29T11:27:58.537+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-05-29T11:27:58.650+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

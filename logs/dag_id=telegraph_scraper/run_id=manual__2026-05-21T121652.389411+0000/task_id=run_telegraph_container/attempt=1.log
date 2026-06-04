@@ -1,0 +1,83 @@
+[2026-05-21T12:20:39.576+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: telegraph_scraper.run_telegraph_container manual__2026-05-21T12:16:52.389411+00:00 [queued]>
+[2026-05-21T12:20:39.829+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: telegraph_scraper.run_telegraph_container manual__2026-05-21T12:16:52.389411+00:00 [queued]>
+[2026-05-21T12:20:39.849+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2026-05-21T12:20:41.139+0000] {taskinstance.py:2214} INFO - Executing <Task(DockerOperator): run_telegraph_container> on 2026-05-21 12:16:52.389411+00:00
+[2026-05-21T12:20:41.558+0000] {standard_task_runner.py:60} INFO - Started process 904 to run task
+[2026-05-21T12:20:41.656+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'telegraph_scraper', 'run_telegraph_container', 'manual__2026-05-21T12:16:52.389411+00:00', '--job-id', '158', '--raw', '--subdir', 'DAGS_FOLDER/telegraph_dag.py', '--cfg-path', '/tmp/tmppn1tu_nn']
+[2026-05-21T12:20:41.869+0000] {standard_task_runner.py:88} INFO - Job 158: Subtask run_telegraph_container
+[2026-05-21T12:20:45.309+0000] {task_command.py:423} INFO - Running <TaskInstance: telegraph_scraper.run_telegraph_container manual__2026-05-21T12:16:52.389411+00:00 [running]> on host f39b18a112ca
+[2026-05-21T12:20:48.875+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='telegraph_scraper' AIRFLOW_CTX_TASK_ID='run_telegraph_container' AIRFLOW_CTX_EXECUTION_DATE='2026-05-21T12:16:52.389411+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-21T12:16:52.389411+00:00'
+[2026-05-21T12:20:51.183+0000] {docker.py:359} INFO - Starting docker container from image telegraph-scraper:v1
+[2026-05-21T12:20:51.883+0000] {docker.py:367} WARNING - Using remote engine or docker-in-docker and mounting temporary volume from host is not supported. Falling back to `mount_tmp_dir=False` mode. You can set `mount_tmp_dir` parameter to False to disable mounting and remove the warning
+[2026-05-21T12:21:35.095+0000] {docker.py:429} INFO - [+] Saved: ДАРА ПРЕД CNN TURK: Все още не съм възприела победата напълно!
+[2026-05-21T12:21:39.073+0000] {docker.py:429} INFO - [+] Saved: Георги Костадинов с първи думи като спортен директор на Левски (ВИДЕО)
+[2026-05-21T12:21:41.449+0000] {docker.py:429} INFO - [+] Saved: Калояна Налбантова допусна поражение във втория кръг на турнир по бадминтон в Малайзия
+[2026-05-21T12:21:44.491+0000] {docker.py:429} INFO - [+] Saved: Над 500 състезатели от 15 държави ще участват на Световната купа по спортна акробатика в Бургас
+[2026-05-21T12:21:47.476+0000] {docker.py:429} INFO - [+] Saved: ПРИТЕСНИТЕЛНО: Случаите на гонорея и сифилис в Европа на рекордно ниво!
+[2026-05-21T12:21:50.172+0000] {docker.py:429} INFO - [+] Saved: Съдът глоби Пепи Еврото и отмени ареста му
+[2026-05-21T12:21:55.184+0000] {docker.py:429} INFO - [+] Saved: Влезте в съблекалнята на ЦСКА (ВИДЕО)
+[2026-05-21T12:21:57.756+0000] {docker.py:429} INFO - [+] Saved: Екоминистерството затваря котел 2 на ТЕЦ "Бобов дол"
+[2026-05-21T12:22:00.979+0000] {docker.py:429} INFO - [+] Saved: КАКВО ГОВОРИ ЗА НАС ПОСЛЕДНАТА ЦИФРА В ГОДИНАТА НА РАЖДАНЕ?
+[2026-05-21T12:22:03.347+0000] {docker.py:429} INFO - [+] Saved: Националният отбор на Иран подаде документи за американски визи в Анкара
+[2026-05-21T12:22:05.302+0000] {docker.py:429} INFO - [+] Saved: ДЕЛОТО СРЕЩУ ДИМО АЛЕКСИЕВ: Съдът допусна разпит на полицай и видеотехническа експертиза
+[2026-05-21T12:22:08.780+0000] {docker.py:429} INFO - [+] Saved: Вижте как Гриша Ганчев реагира на триумфа на ЦСКА
+[2026-05-21T12:22:12.219+0000] {docker.py:429} INFO - [+] Saved: ТРУС В БЕХ: Освобождават съвета на директорите!
+[2026-05-21T12:22:14.687+0000] {docker.py:429} INFO - [+] Saved: ПАНИКА ВЪВ ВЪЗДУХА: Приземиха самолет заради опасения за Ебола!
+[2026-05-21T12:22:17.710+0000] {docker.py:429} INFO - [+] Saved: ПСЖ с куп кадрови проблеми преди финала в Шампионската лига срещу Арсенал
+[2026-05-21T12:22:19.959+0000] {docker.py:429} INFO - [+] Saved: Мерц предлага Украйна да стане "асоцииран член" на ЕС
+[2026-05-21T12:22:22.957+0000] {docker.py:429} INFO - [+] Saved: НЕ МУ Е ПИСАНО: Бизонът Доналд Тръмп ще бъде заколен! (ВИДЕО)
+[2026-05-21T12:22:25.268+0000] {docker.py:429} INFO - [+] Saved: Търсят 500 мечки фантоми
+[2026-05-21T12:22:28.372+0000] {docker.py:429} INFO - [+] Saved: НА ПРАГА НА СЕЗОНА: Погнаха търговците на ментета на Златните
+[2026-05-21T12:22:30.762+0000] {docker.py:429} INFO - [+] Saved: Неоспоримите!
+[2026-05-21T12:22:33.125+0000] {docker.py:429} INFO - [+] Saved: Задържаха още 14 турски звезди!
+[2026-05-21T12:22:35.236+0000] {docker.py:429} INFO - [+] Saved: Наско Сираков развърза кесията след титлата на Левски!
+[2026-05-21T12:22:39.319+0000] {docker.py:429} INFO - [+] Saved: Йотова: Подкрепям подхода за обществено обсъждане на административната реформа
+[2026-05-21T12:22:41.578+0000] {docker.py:429} INFO - [+] Saved: Историческо постижение: футболист на Лудогорец №1 сред реализаторите в Лига Европа
+[2026-05-21T12:22:43.677+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/bulgaria/novini/podpochveni-vodi-na-50-sm-pod-zemiata-prichinili-svlachishteto-kraj-pamporovo.-zalagame-na-naj-byrzoto-reshenie-za-vyzstanoviavaneto-na-pytia-obiavi-shishkov-492068
+[2026-05-21T12:22:45.360+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/bulgaria/novini/za-24-maj-vestnik-telegraf-s-podaryk-krasiva-starinna-ikona-na-svetite-bratia-kiril-i-metodij-492067
+[2026-05-21T12:22:47.823+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/sport/futbol-svqt/nova-kontuziia-za-nejmar.-shte-byde-li-gotov-za-starta-na-svetovnoto-492066
+[2026-05-21T12:22:50.225+0000] {docker.py:429} INFO - [+] Saved: Министърът на земеделието направи оценка за състоянието на сектора
+[2026-05-21T12:22:52.066+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/sport/futbol-svqt/dobra-novina-za-cska-postaven-statut-i-iasnota-okolo-sypernicite-v-liga-evropa.-sled-pobedata-na-astyn-vila-sreshtu-frajburg-vyv-finala-chervenite-poluchiha-vazhno-predimstvo-492064
+[2026-05-21T12:22:54.310+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/bulgaria/novini/peevski-sezira-prokuraturata-zaradi-tvyrdeniia-na-db-za-pytuvaniiata-mu-zad-granica.-tova-stava-iasno-ot-poziciia-izpratena-do-mediite-492062
+[2026-05-21T12:22:56.893+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/sport/futbol-svqt/dzhokerite-na-topchiite-po-pytia-kym-celta.-cialata-razrabotka-chetete-v-dneshniia-broj-na-mach-telegraf-492042
+[2026-05-21T12:22:59.545+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/telegraphplus/novini/koj-kak-se-iadosva-po-zodii-ovenyt-se-pali-naj-byrzo.-ne-draznete-kozirog-i-bliznaci-491585
+[2026-05-21T12:23:02.176+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/pr/novini/liubov-misteriia-i-adrenalin-chetiri-turski-seriala-po-filmbox-koito-shte-vi-ostaviat-bez-dyh.-ot-kriminalni-drami-do-epichni-istoricheski-produkcii-turskite-zaglaviia-vyv-filmbox-sa-filmovoto-izkushenie-ot-koeto-ne-znaete-che-imate-nuzhda-491173
+[2026-05-21T12:23:04.298+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/sport/futbol-bulgaria/daniel-dimov-triabva-da-se-izpolzvat-greshkite-na-arda.-vsichki-v-cherno-more-triabva-sega-da-rabotiat-na-spokojstvie-492041
+[2026-05-21T12:23:06.647+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/svetski/novini/myzhka-duma-s-lord-evgeni-minchev-za-slozhnata-ni-gurme-frazeologiia...-na-gol-tumbak-chifte-papardele-i-nioki-491962
+[2026-05-21T12:23:09.044+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/svetski/novini/ivo-hristov-niakoi-hora-iskat-da-se-kachat-na-ramenete-na-dara-tozi-uspeh-e-nein-evroviziia-e-investiciia-koiato-shte-se-izplati-vyv-vremeto-veche-ima-zavisheni-rezervacii-za-poseshteniia-prez-maj-2027-g-492046
+[2026-05-21T12:23:12.008+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/svetat/novini/zemetresenie-razliulia-neapol.-to-e-s-magnitud-44-po-skalata-na-rihter-492045
+[2026-05-21T12:23:15.017+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/sport/futbol-bulgaria/baj-dobri-tozi-trofej-e-mnogo-vazhen-za-men.-s-malko-zor-no-vse-pak-stana-rabotata-dobavi-toj-video-492048
+[2026-05-21T12:23:17.784+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/bulgaria/novini/porednata-rokada-radev-osvobozhdava-shefa-na-babh-d-r-angel-mavrovski-beshe-naznachen-ot-sluzhebnoto-pravitelstvo-na-giurov-492044
+[2026-05-21T12:23:20.116+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/sport/futbol-bulgaria/mihail-aleksandrov-grehota-e-10-hiliadi-mesta-da-ostanat-prazni.-imame-mnogo-rabota-za-da-stignem-tam-kydeto-sme-se-zapytili-dobavi-toj-492047
+[2026-05-21T12:23:22.011+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/sport/futbol-bulgaria/hristo-stoichkov-sys-silni-dumi-za-triumfa-na-cska.-armejskiiat-duh-nikoga-ne-umira-napisa-kamata-492039
+[2026-05-21T12:23:24.232+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/bulgaria/novini/15-kilometrova-kolona-ot-tirove-na-magistrala-marica.-intenziven-trafik-kym-kapitan-andreevo-492038
+[2026-05-21T12:23:26.397+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/sport/futbol-bulgaria/sinite-trudno-shte-nameriat-x-factor.-shkolata-vse-oshte-dalech-ot-standartite-zadadeni-ot-don-hulio-492040
+[2026-05-21T12:23:29.336+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/telegraphplus/novini/chereshi-ot-petrich-zalivat-pazara-za-24-maj.-cenata-mezhdu-4-i-8-evro-kiloto-491997
+[2026-05-21T12:23:31.324+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/sport/tv-sport/gledajte-dnes-futbol-basketbol-i-tenis-a-syshto-taka-machove-ot-svetovnoto-pyrvenstvo-po-hokej-na-led-492016
+[2026-05-21T12:23:33.252+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/bulgaria/novini/parlamentyt-razglezhda-promeni-v-zakona-za-dyrzhavnata-finansova-inspekciia.-predvideno-e-i-izslushvane-na-ministyra-na-regionalnoto-razvitie-i-blagoustrojstvoto-492037
+[2026-05-21T12:23:35.001+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/bulgaria/novini/vremeto-zhylt-kod-za-dyzhd-i-grymotevici-v-5-oblasti.-zhivakyt-skacha-do-27-gradusa-492036
+[2026-05-21T12:23:37.098+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/sport/timeout/napadatel-chaka-vtoro-ot-modelka.-leon-daiaku-i-leoni-siiaiat-v-dubaj-492017
+[2026-05-21T12:23:39.860+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/sport/timeout/iamal-s-novata-v-gyrciia-predi-svetovnoto.-ines-se-opravdava-za-bivshiia-si-492019
+[2026-05-21T12:23:41.944+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/sport/oshte-sport/volejbolistite-specheliha-pyrviia-si-mach-za-2026-g.-lyvovete-nadviha-ukrajna-na-turnir-v-polsha-492035
+[2026-05-21T12:23:43.876+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/sport/futbol-svqt/astyn-vila-triumfira-v-liga-evropa-za-pyrvi-trofej-ot-30-godini-unaj-emeri-prodylzhava-dominaciiata-si-v-turnira-492034
+[2026-05-21T12:23:45.572+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/sport/timeout/trap-i-godenicata-mu-ozariha-kan.-ubijstvenata-izabel-gular-veche-10-godini-radva-vrataria-snimki-492015
+[2026-05-21T12:23:47.572+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/sport/futbol-bulgaria/bojko-velichkov-spasihme-sezona-s-kupata-nashite-celi-sa-mnogo-po-visoki-492033
+[2026-05-21T12:23:49.613+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/telegraphplus/novini/ai-mafiiata-udari-bylgariia-bot-kasapnica-tochi-smetkite-ni.-falshivi-globi-ot-kat-kurieri-mente-i-liubovni-kapani-s-izkustven-intelekt-491518
+[2026-05-21T12:23:51.540+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/sport/futbol-bulgaria/hristo-ianev-cska-e-vsichko-za-men-spechelihme-s-harakter-volia-i-neprimirimost-492032
+[2026-05-21T12:23:54.771+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/telegraphtv/novini/chervena-bangaranga-vizhte-komentarnoto-studio-na-machkast-ot-stadiona-sled-triumfa-na-cska-za-kupata-492031
+[2026-05-21T12:23:57.003+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/sport/futbol-bulgaria/za-pyrvi-pyt-ot-20-godini-levski-i-cska-shte-se-sreshtnat-vyv-finala-za-superkupata-492030
+[2026-05-21T12:24:00.155+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/sport/futbol-bulgaria/dushan-kosich-iskahme-da-si-trygnem-s-trofeia-mozhe-bi-drugiia-pyt-492029
+[2026-05-21T12:24:02.519+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/sport/futbol-bulgaria/cska-likuva-s-kupata-chervenite-prechupiha-lokomotiv-plovdiv-s-duzpi-vyv-finala-492028
+[2026-05-21T12:24:05.023+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/sport/oshte-sport/i-viktoriia-tomova-otpadna-ot-kvalifikaciite-na-rolan-garos-bylgariia-bez-predstavitel-v-shemata-za-pyrvi-pyt-ot-45-g-492027
+[2026-05-21T12:24:07.229+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/svetski/novini/franko-nero-sadi-lipa-v-stara-zagora.-ekranniiat-dzhango-shte-poluchi-nagradata-za-cialosten-prinos-v-kinoto-491964
+[2026-05-21T12:24:09.870+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/telegraphplus/novini/iavor-gechev-optimist-bez-iliuzii-shokira-zemedelcite-kogato-vmesto-ministyr-stana-deputat-491527
+[2026-05-21T12:24:11.720+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/sport/oshte-sport/lokomotiv-plovdiv-detronira-rilski-sportist-i-se-klasira-na-final-v-basketbolnoto-pyrvenstvo-492026
+[2026-05-21T12:24:13.723+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/svetat/novini/sasht-povdignaha-obvineniia-na-raul-kastro-iskat-mu-smetka-za-ubijstvoto-na-amerikanski-grazhdani-492025
+[2026-05-21T12:24:15.437+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/bulgaria/novini/za-praznika-na-bukvite-parad-s-uchilishtni-znamena-za-24-maj.-praviat-cvetna-figura-na-slynce-pred-pametnika-na-svetite-bratia-491974
+[2026-05-21T12:24:18.293+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/svetat/novini/kriza-v-nato-trymp-namaliava-seriozno-voennite-sili-za-evropejskite-dyrzhavi-ochakva-se-sasht-da-obiaviat-namereniiata-si-na-sreshta-v-briuksel-492024
+[2026-05-21T12:24:20.636+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/sport/oshte-sport/ekvadorec-vze-treta-pobeda-v-dzhiroto-portugalec-zapazi-rozovata-flanelka-492023
+[2026-05-21T12:24:22.630+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/zdrave/novini/szo-v-panika-ognishteto-na-ebola-veche-e-nekontroliruemo-razprostrani-se-v-oshte-edna-dyrzhava-492020
+[2026-05-21T12:24:24.563+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/obshtestvo/novini/kmetyt-na-obshtina-burgas-dimityr-nikolov-pred-telegraf-evroviziia-v-burgas-shte-proslavi-bylgariia.-imame-opit-i-samochuvstvie-za-golemi-mezhdunarodni-sybitiia-491966
+[2026-05-21T12:24:31.542+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=telegraph_scraper, task_id=run_telegraph_container, execution_date=20260521T121652, start_date=20260521T122039, end_date=20260521T122431
+[2026-05-21T12:24:33.011+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-05-21T12:24:34.244+0000] {taskinstance.py:3309} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,159 @@
+[2026-05-27T07:48:21.378+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: eu_fsf_sanc.run_eu_fsf_sanc_container scheduled__2026-05-25T00:00:00+00:00 [queued]>
+[2026-05-27T07:48:21.939+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: eu_fsf_sanc.run_eu_fsf_sanc_container scheduled__2026-05-25T00:00:00+00:00 [queued]>
+[2026-05-27T07:48:21.951+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2026-05-27T07:48:22.247+0000] {taskinstance.py:2214} INFO - Executing <Task(DockerOperator): run_eu_fsf_sanc_container> on 2026-05-25 00:00:00+00:00
+[2026-05-27T07:48:22.473+0000] {standard_task_runner.py:60} INFO - Started process 81 to run task
+[2026-05-27T07:48:22.988+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'eu_fsf_sanc', 'run_eu_fsf_sanc_container', 'scheduled__2026-05-25T00:00:00+00:00', '--job-id', '210', '--raw', '--subdir', 'DAGS_FOLDER/eu_fsf_sanc_dag.py', '--cfg-path', '/tmp/tmpu_fwoz_p']
+[2026-05-27T07:48:23.091+0000] {standard_task_runner.py:88} INFO - Job 210: Subtask run_eu_fsf_sanc_container
+[2026-05-27T07:48:25.098+0000] {task_command.py:423} INFO - Running <TaskInstance: eu_fsf_sanc.run_eu_fsf_sanc_container scheduled__2026-05-25T00:00:00+00:00 [running]> on host f39b18a112ca
+[2026-05-27T07:48:27.968+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='eu_fsf_sanc' AIRFLOW_CTX_TASK_ID='run_eu_fsf_sanc_container' AIRFLOW_CTX_EXECUTION_DATE='2026-05-25T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-25T00:00:00+00:00'
+[2026-05-27T07:48:28.928+0000] {docker.py:359} INFO - Starting docker container from image eu-fsf-sanc:v1
+[2026-05-27T07:48:29.126+0000] {docker.py:367} WARNING - Using remote engine or docker-in-docker and mounting temporary volume from host is not supported. Falling back to `mount_tmp_dir=False` mode. You can set `mount_tmp_dir` parameter to False to disable mounting and remove the warning
+[2026-05-27T07:49:08.639+0000] {docker.py:429} INFO - 2026-05-27 07:49:08 [scrapy.utils.log] INFO: Scrapy 2.14.2 started (bot: eu)
+[2026-05-27T07:49:09.005+0000] {docker.py:429} INFO - 2026-05-27 07:49:08 [scrapy.utils.log] INFO: Versions:
+{'lxml': '6.0.2',
+ 'libxml2': '2.14.6',
+ 'cssselect': '1.4.0',
+ 'parsel': '1.11.0',
+ 'w3lib': '2.4.1',
+ 'Twisted': '25.5.0',
+ 'Python': '3.11.15 (main, Mar 16 2026, 23:07:56) [GCC 14.2.0]',
+ 'pyOpenSSL': '26.0.0 (OpenSSL 3.5.5 27 Jan 2026)',
+ 'cryptography': '46.0.6',
+ 'Platform': 'Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.41'}
+2026-05-27 07:49:08 [scrapy.crawler] DEBUG: Using AsyncCrawlerProcess
+[2026-05-27T07:49:09.024+0000] {docker.py:429} INFO - 2026-05-27 07:49:08 [asyncio] DEBUG: Using selector: EpollSelector
+[2026-05-27T07:49:09.045+0000] {docker.py:429} INFO - 2026-05-27 07:49:09 [scrapy.addons] INFO: Enabled addons:
+[]
+[2026-05-27T07:49:09.127+0000] {docker.py:429} INFO - 2026-05-27 07:49:09 [scrapy.extensions.telnet] INFO: Telnet Password: 360f188050697f7c
+[2026-05-27T07:49:09.545+0000] {docker.py:429} INFO - 2026-05-27 07:49:09 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.logcount.LogCount',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+[2026-05-27T07:49:09.558+0000] {docker.py:429} INFO - 2026-05-27 07:49:09 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'eu',
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'eu.spiders',
+ 'SPIDER_MODULES': ['eu.spiders']}
+[2026-05-27T07:49:12.467+0000] {docker.py:429} INFO - 2026-05-27 07:49:12 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+[2026-05-27T07:49:12.517+0000] {docker.py:429} INFO - 2026-05-27 07:49:12 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.start.StartSpiderMiddleware',
+ 'scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+[2026-05-27T07:49:12.533+0000] {docker.py:429} INFO - 2026-05-27 07:49:12 [scrapy.middleware] INFO: Enabled item pipelines:
+['eu.pipelines.EuPipeline']
+[2026-05-27T07:49:12.552+0000] {docker.py:429} INFO - 2026-05-27 07:49:12 [py.warnings] WARNING: /usr/local/lib/python3.11/site-packages/scrapy/pipelines/__init__.py:41: ScrapyDeprecationWarning: EuPipeline.open_spider() requires a spider argument, this is deprecated and the argument will not be passed in future Scrapy versions. If you need to access the spider instance you can save the crawler instance passed to from_crawler() and use its spider attribute.
+  self._check_mw_method_spider_arg(pipe.open_spider)
+[2026-05-27T07:49:12.568+0000] {docker.py:429} INFO - 2026-05-27 07:49:12 [py.warnings] WARNING: /usr/local/lib/python3.11/site-packages/scrapy/pipelines/__init__.py:44: ScrapyDeprecationWarning: EuPipeline.close_spider() requires a spider argument, this is deprecated and the argument will not be passed in future Scrapy versions. If you need to access the spider instance you can save the crawler instance passed to from_crawler() and use its spider attribute.
+  self._check_mw_method_spider_arg(pipe.close_spider)
+
+2026-05-27 07:49:12 [py.warnings] WARNING: /usr/local/lib/python3.11/site-packages/scrapy/pipelines/__init__.py:47: ScrapyDeprecationWarning: EuPipeline.process_item() requires a spider argument, this is deprecated and the argument will not be passed in future Scrapy versions. If you need to access the spider instance you can save the crawler instance passed to from_crawler() and use its spider attribute.
+  self._check_mw_method_spider_arg(pipe.process_item)
+
+2026-05-27 07:49:12 [scrapy.core.engine] INFO: Spider opened
+[2026-05-27T07:49:12.642+0000] {docker.py:429} INFO - 2026-05-27 07:49:12 [py.warnings] WARNING: /usr/local/lib/python3.11/site-packages/scrapy/core/spidermw.py:490: ScrapyDeprecationWarning: eu.spiders.eu_spider.EuSpider defines the deprecated start_requests() method. start_requests() has been deprecated in favor of a new method, start(), to support asynchronous code execution. start_requests() will stop being called in a future version of Scrapy. If you use Scrapy 2.13 or higher only, replace start_requests() with start(); note that start() is a coroutine (async def). If you need to maintain compatibility with lower Scrapy versions, when overriding start_requests() in a spider class, override start() as well; you can use super() to reuse the inherited start() implementation without copy-pasting. See the release notes of Scrapy 2.13 for details: https://docs.scrapy.org/en/2.13/news.html
+  warn(
+
+2026-05-27 07:49:12 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+[2026-05-27T07:49:12.656+0000] {docker.py:429} INFO - 2026-05-27 07:49:12 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+[2026-05-27T07:49:13.486+0000] {docker.py:429} INFO - 2026-05-27 07:49:13 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://data.opensanctions.org/datasets/latest/eu_fsf/targets.simple.csv> (failed 3 times): DNS lookup failed: no results for hostname lookup: data.opensanctions.org.
+[2026-05-27T07:49:13.858+0000] {docker.py:429} INFO - 2026-05-27 07:49:13 [scrapy.core.scraper] ERROR: Error downloading <GET https://data.opensanctions.org/datasets/latest/eu_fsf/targets.simple.csv>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/twisted/internet/defer.py", line 1853, in _inlineCallbacks
+    result = context.run(
+             ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/twisted/python/failure.py", line 467, in throwExceptionIntoGenerator
+    return g.throw(self.value.with_traceback(self.tb))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/engine.py", line 490, in _download
+    result = yield self.downloader.fetch(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/twisted/internet/defer.py", line 1853, in _inlineCallbacks
+    result = context.run(
+             ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/twisted/python/failure.py", line 467, in throwExceptionIntoGenerator
+    return g.throw(self.value.with_traceback(self.tb))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/downloader/__init__.py", line 144, in fetch
+    yield deferred_from_coro(
+  File "/usr/local/lib/python3.11/site-packages/twisted/internet/defer.py", line 1257, in adapt
+    extracted: _SelfResultT | Failure = result.result()
+                                        ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/downloader/middleware.py", line 158, in download_async
+    result = await process_exception(ex)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/downloader/middleware.py", line 150, in process_exception
+    raise exception
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/downloader/middleware.py", line 153, in download_async
+    result: Response | Request = await process_request(request)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/downloader/middleware.py", line 97, in process_request
+    return await download_func(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/downloader/__init__.py", line 202, in _enqueue_request
+    return await maybe_deferred_to_future(d)  # fired in _wait_for_download()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/downloader/__init__.py", line 269, in _wait_for_download
+    response = await self._download(slot, request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/downloader/__init__.py", line 239, in _download
+    response: Response = await self.handlers.download_request_async(request)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/downloader/handlers/__init__.py", line 156, in download_request_async
+    return await handler.download_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/downloader/handlers/http11.py", line 113, in download_request
+    return await maybe_deferred_to_future(agent.download_request(request))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/twisted/internet/defer.py", line 1092, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/twisted/internet/endpoints.py", line 1091, in startConnectionAttempts
+    raise error.DNSLookupError(
+twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostname lookup: data.opensanctions.org.
+2026-05-27 07:49:13 [scrapy.core.engine] INFO: Closing spider (finished)
+[2026-05-27T07:49:13.981+0000] {docker.py:429} INFO - 2026-05-27 07:49:13 [eu_spider] INFO: 0 records written to /app/data/eu_fsf_sanctions.json
+2026-05-27 07:49:13 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/exception_count': 3,
+ 'downloader/exception_type_count/twisted.internet.error.DNSLookupError': 3,
+ 'downloader/request_bytes': 792,
+ 'downloader/request_count': 3,
+ 'downloader/request_method_count/GET': 3,
+ 'elapsed_time_seconds': 1.280772,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2026, 5, 27, 7, 49, 13, 911760, tzinfo=datetime.timezone.utc),
+ 'items_per_minute': 0.0,
+ 'log_count/ERROR': 2,
+ 'log_count/INFO': 4,
+ 'memusage/max': 74117120,
+ 'memusage/startup': 74117120,
+ 'responses_per_minute': 0.0,
+ 'retry/count': 2,
+ 'retry/max_reached': 1,
+ 'retry/reason_count/twisted.internet.error.DNSLookupError': 2,
+ 'scheduler/dequeued': 3,
+ 'scheduler/dequeued/memory': 3,
+ 'scheduler/enqueued': 3,
+ 'scheduler/enqueued/memory': 3,
+ 'start_time': datetime.datetime(2026, 5, 27, 7, 49, 12, 630988, tzinfo=datetime.timezone.utc)}
+[2026-05-27T07:49:13.999+0000] {docker.py:429} INFO - 2026-05-27 07:49:13 [scrapy.core.engine] INFO: Spider closed (finished)
+[2026-05-27T07:49:18.650+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=eu_fsf_sanc, task_id=run_eu_fsf_sanc_container, execution_date=20260525T000000, start_date=20260527T074821, end_date=20260527T074918
+[2026-05-27T07:49:23.616+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-05-27T07:49:24.288+0000] {taskinstance.py:3309} INFO - 1 downstream tasks scheduled from follow-on schedule check

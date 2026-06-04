@@ -1,0 +1,12 @@
+[2026-05-15T07:23:35.983+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: inegi_scraper.trigger_merge scheduled__2026-05-14T00:00:00+00:00 [queued]>
+[2026-05-15T07:23:36.100+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: inegi_scraper.trigger_merge scheduled__2026-05-14T00:00:00+00:00 [queued]>
+[2026-05-15T07:23:36.127+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 3
+[2026-05-15T07:23:36.301+0000] {taskinstance.py:2214} INFO - Executing <Task(TriggerDagRunOperator): trigger_merge> on 2026-05-14 00:00:00+00:00
+[2026-05-15T07:23:36.382+0000] {standard_task_runner.py:60} INFO - Started process 1054 to run task
+[2026-05-15T07:23:36.665+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'inegi_scraper', 'trigger_merge', 'scheduled__2026-05-14T00:00:00+00:00', '--job-id', '32', '--raw', '--subdir', 'DAGS_FOLDER/inegi_scraper_dag.py', '--cfg-path', '/tmp/tmp3gw19jcl']
+[2026-05-15T07:23:36.741+0000] {standard_task_runner.py:88} INFO - Job 32: Subtask trigger_merge
+[2026-05-15T07:23:37.805+0000] {task_command.py:423} INFO - Running <TaskInstance: inegi_scraper.trigger_merge scheduled__2026-05-14T00:00:00+00:00 [running]> on host 26acb5ca21e7
+[2026-05-15T07:23:39.011+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='inegi_scraper' AIRFLOW_CTX_TASK_ID='trigger_merge' AIRFLOW_CTX_EXECUTION_DATE='2026-05-14T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-14T00:00:00+00:00'
+[2026-05-15T07:23:39.703+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=inegi_scraper, task_id=trigger_merge, execution_date=20260514T000000, start_date=20260515T072336, end_date=20260515T072339
+[2026-05-15T07:23:39.864+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-05-15T07:23:40.024+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

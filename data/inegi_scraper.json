@@ -1,0 +1,534 @@
+{
+  "last_updated": "2026-06-03 07:41:37 UTC",
+  "data": [
+    {
+      "name": "ASHANTY FERNANDEZ MARTINEZ",
+      "sanction_numbers": [
+        "40.902.05/8/2013"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "CARLO REYES BANDERAS",
+      "sanction_numbers": [
+        "INEGI.OIC5.03/8/2023"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "DANIELA XIMENA VIVEROS URRIOLAGOITIA",
+      "sanction_numbers": [
+        "INEGI.OIC5.03/3/2024"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "FELIPE MORAN AGUILAR",
+      "sanction_numbers": [
+        "INEGI.OIC5.03/12/2020"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "GUADALUPE IRENE SOSA SALINAS",
+      "sanction_numbers": [
+        "INEGI.CIN3.05/21/2018"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "JAVIER SOLIS MARTNEZ",
+      "sanction_numbers": [
+        "INEGI.OIC5.03/3/2023"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "JAVIER VAZQUEZ DIEGUEZ",
+      "sanction_numbers": [
+        "INEGI.OIC5.03/14/2022",
+        "INEGI.OIC5.03/19/2022"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "JOSE ANTONIO FERNANDEZ AYALA",
+      "sanction_numbers": [
+        "40.902.05/13/2013"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "JOSE LUIS HERNANDEZ JIMENEZ",
+      "sanction_numbers": [
+        "INEGI.CIN3.05/1/2016",
+        "INEGI.CIN3.05/6/2016"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "PATRICIA ROMERO PEREZ",
+      "sanction_numbers": [
+        "SP-011/2009"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "PEDRO JAVIER DIAZ HUERTA",
+      "sanction_numbers": [
+        "INEGI.OIC3.05/6/2019"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "ROSA MARIA LARA MATA",
+      "sanction_numbers": [
+        "IINEGI.OIC5.03/7/2023"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "TANIA RUBI RODRIGUEZ ESPARZA",
+      "sanction_numbers": [
+        "INEGI.OIC5.03/4/2024"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "TERESA VIRGINIA HERRERA FLORES",
+      "sanction_numbers": [
+        "INEGI.CIN3.05/18/2017"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "ADMINISTRACIÓN VIRTUAL DEL SERVICIO DE LIMPIEZA, S.A. DE C.V.",
+      "sanction_numbers": [
+        "INEGI.OIC3.05/19/2019"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "ARPLUS, S.A. DE C.V.",
+      "sanction_numbers": [
+        "INEGI.OIC5.03/8/2020"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "AUTOMABER, S.A. DE C.V.",
+      "sanction_numbers": [
+        "INEGI.OIC5.03/11/2023"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "BARRERA ASESORES TURÍSTICOS INTERNACIONALES, SOCIEDAD ANÓNIMA DE CAPITAL VARIABLE",
+      "sanction_numbers": [
+        "INEGI.OIC5.03/13/2023"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "BL DISEÑO Y MANTENIMIENTO EMPRESARIAL, S.A. DE C.V.",
+      "sanction_numbers": [
+        "INEGI.OIC5.03/2/2020"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "BNI ESTACIONAMIENTOS, S.A. DE C.V.",
+      "sanction_numbers": [
+        "INEGI.OIC5.03/12/2023"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "BRAZZO SEGURIDAD PRIVADA, SOCIEDAD DE RESPONSABILIDAD LIMITADA DE CAPITAL VARIABLE",
+      "sanction_numbers": [
+        "INEGI.OIC5.03./15/2022"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "CARROCERÍAS CARGOLEER, S.A. DE C.V.",
+      "sanction_numbers": [
+        "INEGI.OIC3.05/17/2018"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "CIE RESTAURANTES, S.A. DE C.V.",
+      "sanction_numbers": [
+        "INEGI.OIC5.03/17/2023"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "CILUR, S.A. DE C.V.",
+      "sanction_numbers": [
+        "INEGI.CIN3.05/7/2016"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "COMERCIALIZADORA INFINITO MC, S.A. DE C.V.",
+      "sanction_numbers": [
+        "INEGI.OIC5.03/2/2023"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "COMPAÑÍA KINICH DE LA PENÍNSULA, S.A. DE C.V.",
+      "sanction_numbers": [
+        "INEGI.OIC5.03/3/2025"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "CONECTIVIDAD Y TELECOMUNICACIÓN, S.A. DE C.V.",
+      "sanction_numbers": [
+        "SP-020/2009"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "CONSORCIO EMPRESARIAL DE SEGURIDAD PRIVADA, LIMPIEZA Y MANTENIMIENTO, S.A. DE C.V.",
+      "sanction_numbers": [
+        "INEGI.OIC5.03/4/2023"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "CONVERTIDORA DE PAPEL PRATZ, S.A. DE C.V.",
+      "sanction_numbers": [
+        "40.902.05/001/2013"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "CORPORACIÓN DE INSTALACIÓN Y SERVICIOS INTERNOS EMPRESARIALES, S.A. DE C.V.",
+      "sanction_numbers": [
+        "INEGI.CIN3.05/12/2015"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "CORPORACIÓN DE INSTALACIÓN Y SERVICIOS INTERNOS EMPRESARIALES, SOCIEDAD ANÓNIMA DE CAPITAL VARIABLE",
+      "sanction_numbers": [
+        "INEGI.OIC3.05/10/2019"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "DISEÑOS Y SOLUCIONES ADR, S. DE R.L. DE C.V.",
+      "sanction_numbers": [
+        "INEGI.OIC5.03/18/2022",
+        "INEGI.OIC5.03/19/2022"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "DISTRIBUIDORA GARDI, S.A. DE C.V.",
+      "sanction_numbers": [
+        "INEGI.OIC5.03/16/2022"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "DORLAB MEXICO, S.A. DE C.V.",
+      "sanction_numbers": [
+        "INEGI.OIC5.03/7/2021"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "ELECTRICA LOSI, S.A. DE C.V.",
+      "sanction_numbers": [
+        "SP-013/2010"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "EXPANSIÓN, S.A. DE C.V.",
+      "sanction_numbers": [
+        "INEGI.OIC5.03/14/2024"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "GRUPO CONSULTOR EN INFORMATICA, S.A. DE C.V.",
+      "sanction_numbers": [
+        "40.902.05/014/2011"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "GRUPO RENPO, S.A. DE C.V.",
+      "sanction_numbers": [
+        "INEGI.OIC5.03/5/2024"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "IMPULSORA CULTURAL Y TECNOLÓGICA, S.A. DE C.V.",
+      "sanction_numbers": [
+        "INEGI.OIC5.03/16/2024"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "INTEGRADORA DE PRODUCTOS Y SERVICIOS SOLANO, S.A. DE C.V.",
+      "sanction_numbers": [
+        "INEGI.OIC5.03/9/2021"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "INTEGRAL PROJECT ADVANCE DEVICES, S. DE R.L. DE C.V.",
+      "sanction_numbers": [
+        "INEGI.CIN3.05/1/2017"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "IT CLOUD DYNAMICS BUSINESS CONSULTING, S.A. DE C.V.",
+      "sanction_numbers": [
+        "INEGI.OIC5.03/11/2024"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "JM REFACCIONES INDUSTRIALES, S.A. DE C.V",
+      "sanction_numbers": [
+        "INEGI.CIN3.05/ 13 /2016"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "KP ASOCIADOS, S.A. DE C.V.",
+      "sanction_numbers": [
+        "INWEGI.OIC5.03/15/2023"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "LICITAMAR, S.A. DE C.V.",
+      "sanction_numbers": [
+        "INEGI.CIN3.05/1/2015"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "MACRO CENTRO DE SERVICIOS, S.A. DE C.V.",
+      "sanction_numbers": [
+        "0021/2008"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "MAXI SERVICIOS DE MÉXICO, S.A. DE C.V.",
+      "sanction_numbers": [
+        "INEGI.OIC5.03/2/2024"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "MAYAR DE MÉXICO, S.A. DE C.V.",
+      "sanction_numbers": [
+        "40.902.05/010/2011"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "MULTISOLUCIONES DE DURANGO, S. DE R.L. DE C.V.",
+      "sanction_numbers": [
+        "INEGI.OIC5.03/1/2023"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "PAPELERIA MARGARET, S.A. DE C.V.",
+      "sanction_numbers": [
+        "SP-026/2009"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "PASELLE, S.A. DE C.V.",
+      "sanction_numbers": [
+        "INEGI.CIN3.05/11/2015"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "PLÁSTICOS Y FERTILIZANTES DE MORELOS, S.A. DE C.V.",
+      "sanction_numbers": [
+        "INEGI.OIC5.03/10/2021"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "PRODUCCIONES CONTI, S.A. DE C.V.",
+      "sanction_numbers": [
+        "40.902.05/06/2011"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "PRODUCTOS DE PRIMERISIMA, S.A. DE C.V.",
+      "sanction_numbers": [
+        "SP-001/2010"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "SE SUSTENTABLE, S.A. DE C.V.",
+      "sanction_numbers": [
+        "INEGI.OIC5.03/14/2023"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "SEGURIDAD PRIVADA INTEGRAL DE AUTOSERVICIO, S.A. DE C.V.",
+      "sanction_numbers": [
+        "INEGI.OIC5.03/10/2022"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "SERVICIOS ADMINISTRATIVOS Y EMPRESARIALES DEL SUR DE TAMAULIPAS, S.A. DE C.V.",
+      "sanction_numbers": [
+        "IINEGI.OIC5.03/5/2023"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "SERVICIOS, INGENIERIA, CONSULTORIA Y AUTOMATIZACION, S.A. DE C.V.",
+      "sanction_numbers": [
+        "40.902.05/2/2014"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "SHC CONSTRUCCIONES E INGENIERIA CIVIL, S.A. DE C.V.",
+      "sanction_numbers": [
+        "INEGI.OIC5.03/6/2021"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "SICARU LIMPIEZA, S.A. DE C.V.",
+      "sanction_numbers": [
+        "INEGI.OIC5.03/2/2023"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "SISTEMAS DE PROTECCIÓN CANINA INTERNACIONAL, SOCIEDAD ANÓNIMA DE CAPITAL VARIABLE",
+      "sanction_numbers": [
+        "INEGI.OIC3.05/14/2019"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "SISTEMAS ELECTRÓNICOS Y DE RADIOCOMUNICACIÓN, S.A. DE C.V.",
+      "sanction_numbers": [
+        "INEGI.CIN3.05/6/2017"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "SOLUCIONES ABIERTAS Y CONSULTORIA, S.A. DE C.V.",
+      "sanction_numbers": [
+        "SP-007/2009"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "SOLUCIONES CORPORATIVAS AMBIENTALES Y CONTRA INCENDIO, S.A. DE C.V.",
+      "sanction_numbers": [
+        "INEGI.OIC5.03/9/2021"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "SOLUCIONES INTEGRALES ELYM, S. DE RL. DE C.V.",
+      "sanction_numbers": [
+        "INEGI.OIC5.03/10/2023"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "ST SOLUCIONES EMPRESARIALES, S.A. DE C.V.",
+      "sanction_numbers": [
+        "INEGI.CIN3.05/10/2015"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "SUMINISTROS MARODIA, S.A. DE C.V.",
+      "sanction_numbers": [
+        "INEGI.OIC3.03/21/2018"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "SUPER TAZ, S.A. DE C.V.",
+      "sanction_numbers": [
+        "INEGI.CIN3.05/2/2016",
+        "INEGI.CIN3.05/2/2017"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "SUSST DHALCO, S.A. DE C.V.",
+      "sanction_numbers": [
+        "INEGI.OIC5.03/13/2024"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "TAZ CLEANING, SA. DE C.V.",
+      "sanction_numbers": [
+        "INEGI.CIN3.05/31/2016"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "TEAM COMPETITIVE TENDERING, SOCIEDAD ANÓNIMA DE CAPITAL VARIABLE",
+      "sanction_numbers": [
+        "INEGI.OIC5.03/6/2022"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "TELECOMUNICACIONES Y TECNOLOGÍA EN LÍNEA, S.A. DE C.V.",
+      "sanction_numbers": [
+        "40.902.05/005/2012"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "VALRO SERVICIOS INTEGRALES S.A. DE C.V.",
+      "sanction_numbers": [
+        "INEGI.CIN3.05/3/2017"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "Y & E INDUSTRY, S.A. DE C.V.",
+      "sanction_numbers": [
+        "INEGI.OIC5.03/16/2019"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "YUS & YUS, S.A. DE C.V.",
+      "sanction_numbers": [
+        "INEGI.OIC5.03/8/2024"
+      ],
+      "origin": "inegi_scraper"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+[2026-05-27T07:53:10.854+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: eu_fsf_sanc.trigger_merge scheduled__2026-05-25T00:00:00+00:00 [queued]>
+[2026-05-27T07:53:11.156+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: eu_fsf_sanc.trigger_merge scheduled__2026-05-25T00:00:00+00:00 [queued]>
+[2026-05-27T07:53:11.203+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 3
+[2026-05-27T07:53:11.733+0000] {taskinstance.py:2214} INFO - Executing <Task(TriggerDagRunOperator): trigger_merge> on 2026-05-25 00:00:00+00:00
+[2026-05-27T07:53:11.985+0000] {standard_task_runner.py:60} INFO - Started process 303 to run task
+[2026-05-27T07:53:12.072+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'eu_fsf_sanc', 'trigger_merge', 'scheduled__2026-05-25T00:00:00+00:00', '--job-id', '223', '--raw', '--subdir', 'DAGS_FOLDER/eu_fsf_sanc_dag.py', '--cfg-path', '/tmp/tmpd35cmx7k']
+[2026-05-27T07:53:12.196+0000] {standard_task_runner.py:88} INFO - Job 223: Subtask trigger_merge
+[2026-05-27T07:53:15.032+0000] {task_command.py:423} INFO - Running <TaskInstance: eu_fsf_sanc.trigger_merge scheduled__2026-05-25T00:00:00+00:00 [running]> on host f39b18a112ca
+[2026-05-27T07:53:16.525+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='eu_fsf_sanc' AIRFLOW_CTX_TASK_ID='trigger_merge' AIRFLOW_CTX_EXECUTION_DATE='2026-05-25T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-25T00:00:00+00:00'
+[2026-05-27T07:53:17.481+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=eu_fsf_sanc, task_id=trigger_merge, execution_date=20260525T000000, start_date=20260527T075310, end_date=20260527T075317
+[2026-05-27T07:53:17.691+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-05-27T07:53:17.806+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

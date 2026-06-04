@@ -1,0 +1,12 @@
+{
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "title": "Kaldata articles",
+	"properties": {
+		"title": {"type": "string"},
+		"body": {"type": "string"},
+		"author": {"type": "string"},
+		"pubdate": {"type": "string"}
+	},
+    "required": ["title", "author"],
+    "additionalProperties": false
+}

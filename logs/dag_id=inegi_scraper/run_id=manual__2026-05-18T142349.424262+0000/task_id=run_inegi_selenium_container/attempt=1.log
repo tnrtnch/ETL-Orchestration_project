@@ -1,0 +1,96 @@
+[2026-05-18T14:23:53.995+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: inegi_scraper.run_inegi_selenium_container manual__2026-05-18T14:23:49.424262+00:00 [queued]>
+[2026-05-18T14:23:54.404+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: inegi_scraper.run_inegi_selenium_container manual__2026-05-18T14:23:49.424262+00:00 [queued]>
+[2026-05-18T14:23:54.539+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2026-05-18T14:23:55.015+0000] {taskinstance.py:2214} INFO - Executing <Task(DockerOperator): run_inegi_selenium_container> on 2026-05-18 14:23:49.424262+00:00
+[2026-05-18T14:23:55.266+0000] {standard_task_runner.py:60} INFO - Started process 665 to run task
+[2026-05-18T14:23:55.279+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'inegi_scraper', 'run_inegi_selenium_container', 'manual__2026-05-18T14:23:49.424262+00:00', '--job-id', '61', '--raw', '--subdir', 'DAGS_FOLDER/inegi_scraper_dag.py', '--cfg-path', '/tmp/tmp6w68vplj']
+[2026-05-18T14:23:55.481+0000] {standard_task_runner.py:88} INFO - Job 61: Subtask run_inegi_selenium_container
+[2026-05-18T14:23:56.154+0000] {task_command.py:423} INFO - Running <TaskInstance: inegi_scraper.run_inegi_selenium_container manual__2026-05-18T14:23:49.424262+00:00 [running]> on host f39b18a112ca
+[2026-05-18T14:23:58.418+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='inegi_scraper' AIRFLOW_CTX_TASK_ID='run_inegi_selenium_container' AIRFLOW_CTX_EXECUTION_DATE='2026-05-18T14:23:49.424262+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-18T14:23:49.424262+00:00'
+[2026-05-18T14:23:58.868+0000] {docker.py:359} INFO - Starting docker container from image inegi-scraper:v1
+[2026-05-18T14:23:58.973+0000] {docker.py:367} WARNING - Using remote engine or docker-in-docker and mounting temporary volume from host is not supported. Falling back to `mount_tmp_dir=False` mode. You can set `mount_tmp_dir` parameter to False to disable mounting and remove the warning
+[2026-05-18T14:28:55.461+0000] {docker.py:429} INFO - 2026-05-18 14:28:55 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www3.inegi.org.mx/sistemas/ci/relps/> (referer: None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/scrapy/utils/defer.py", line 357, in iter_errback
+    yield next(it)
+          ^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/scrapy/utils/python.py", line 311, in __next__
+    return next(self.data)
+           ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/scrapy/utils/python.py", line 311, in __next__
+    return next(self.data)
+           ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 184, in process_sync
+    self._process_spider_exception(
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 257, in _process_spider_exception
+    raise exception
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 180, in process_sync
+    yield from iterable
+  File "/usr/local/lib/python3.11/site-packages/scrapy/spidermiddlewares/base.py", line 60, in process_spider_output
+    for o in result:
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 184, in process_sync
+    self._process_spider_exception(
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 257, in _process_spider_exception
+    raise exception
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 180, in process_sync
+    yield from iterable
+  File "/usr/local/lib/python3.11/site-packages/scrapy/spidermiddlewares/base.py", line 60, in process_spider_output
+    for o in result:
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 184, in process_sync
+    self._process_spider_exception(
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 257, in _process_spider_exception
+    raise exception
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 180, in process_sync
+    yield from iterable
+  File "/usr/local/lib/python3.11/site-packages/scrapy/spidermiddlewares/base.py", line 60, in process_spider_output
+    for o in result:
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 184, in process_sync
+    self._process_spider_exception(
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 257, in _process_spider_exception
+    raise exception
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 180, in process_sync
+    yield from iterable
+  File "/usr/local/lib/python3.11/site-packages/scrapy/spidermiddlewares/depth.py", line 61, in process_spider_output
+    yield from super().process_spider_output(response, result)
+  File "/usr/local/lib/python3.11/site-packages/scrapy/spidermiddlewares/base.py", line 60, in process_spider_output
+    for o in result:
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 184, in process_sync
+    self._process_spider_exception(
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 257, in _process_spider_exception
+    raise exception
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 180, in process_sync
+    yield from iterable
+  File "/app/inegi/spiders/inegi_spider.py", line 70, in parse_with_selenium
+    yield from self.parse_page()
+  File "/app/inegi/spiders/inegi_spider.py", line 82, in parse_page
+    name_part = self.wait.until(
+                ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 121, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+#0 0x603b086355b2 <unknown>
+#1 0x603b07fcdcb8 <unknown>
+#2 0x603b08021d69 <unknown>
+#3 0x603b08022115 <unknown>
+#4 0x603b08072df8 <unknown>
+#5 0x603b0804b7d1 <unknown>
+#6 0x603b08070431 <unknown>
+#7 0x603b0804b547 <unknown>
+#8 0x603b08014fde <unknown
+[2026-05-18T14:28:55.498+0000] {docker.py:429} INFO - >
+#9 0x603b08015e75 <unknown>
+#10 0x603b085f6dc4 <unknown>
+#11 0x603b085fa225 <unknown>
+#12 0x603b085f9c5e <unknown>
+#13 0x603b085fa689 <unknown>
+#14 0x603b085e61b8 <unknown>
+#15 0x603b085faa0a <unknown>
+#16 0x603b085ce889 <unknown>
+#17 0x603b086219e9 <unknown>
+#18 0x603b08621bfe <unknown>
+#19 0x603b08633e9e <unknown>
+#20 0x7cabaf7d0b7b <unknown>
+[2026-05-18T14:29:02.784+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=inegi_scraper, task_id=run_inegi_selenium_container, execution_date=20260518T142349, start_date=20260518T142354, end_date=20260518T142902
+[2026-05-18T14:29:03.457+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-05-18T14:29:04.027+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

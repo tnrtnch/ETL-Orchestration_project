@@ -1,0 +1,24 @@
+[2026-05-14T07:11:53.421+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: kaldata_scraper.trigger_merge scheduled__2026-05-13T00:00:00+00:00 [queued]>
+[2026-05-14T07:11:53.474+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: kaldata_scraper.trigger_merge scheduled__2026-05-13T00:00:00+00:00 [queued]>
+[2026-05-14T07:11:53.477+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2026-05-14T07:11:53.550+0000] {taskinstance.py:2214} INFO - Executing <Task(TriggerDagRunOperator): trigger_merge> on 2026-05-13 00:00:00+00:00
+[2026-05-14T07:11:53.571+0000] {standard_task_runner.py:60} INFO - Started process 597 to run task
+[2026-05-14T07:11:53.595+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'kaldata_scraper', 'trigger_merge', 'scheduled__2026-05-13T00:00:00+00:00', '--job-id', '36', '--raw', '--subdir', 'DAGS_FOLDER/kaldata_dag.py', '--cfg-path', '/tmp/tmpv6cl9akt']
+[2026-05-14T07:11:53.606+0000] {standard_task_runner.py:88} INFO - Job 36: Subtask trigger_merge
+[2026-05-14T07:11:53.903+0000] {task_command.py:423} INFO - Running <TaskInstance: kaldata_scraper.trigger_merge scheduled__2026-05-13T00:00:00+00:00 [running]> on host ab149d976c2e
+[2026-05-14T07:11:56.721+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='kaldata_scraper' AIRFLOW_CTX_TASK_ID='trigger_merge' AIRFLOW_CTX_EXECUTION_DATE='2026-05-13T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-13T00:00:00+00:00'
+[2026-05-14T07:11:57.298+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=kaldata_scraper, task_id=trigger_merge, execution_date=20260513T000000, start_date=20260514T071153, end_date=20260514T071157
+[2026-05-14T07:11:57.599+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-05-14T07:11:58.465+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-05-14T14:01:37.428+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: kaldata_scraper.trigger_merge scheduled__2026-05-13T00:00:00+00:00 [queued]>
+[2026-05-14T14:01:37.671+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: kaldata_scraper.trigger_merge scheduled__2026-05-13T00:00:00+00:00 [queued]>
+[2026-05-14T14:01:37.703+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2026-05-14T14:01:38.074+0000] {taskinstance.py:2214} INFO - Executing <Task(TriggerDagRunOperator): trigger_merge> on 2026-05-13 00:00:00+00:00
+[2026-05-14T14:01:38.266+0000] {standard_task_runner.py:60} INFO - Started process 917 to run task
+[2026-05-14T14:01:38.391+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'kaldata_scraper', 'trigger_merge', 'scheduled__2026-05-13T00:00:00+00:00', '--job-id', '11', '--raw', '--subdir', 'DAGS_FOLDER/kaldata_dag.py', '--cfg-path', '/tmp/tmpjce33a7g']
+[2026-05-14T14:01:38.478+0000] {standard_task_runner.py:88} INFO - Job 11: Subtask trigger_merge
+[2026-05-14T14:01:40.708+0000] {task_command.py:423} INFO - Running <TaskInstance: kaldata_scraper.trigger_merge scheduled__2026-05-13T00:00:00+00:00 [running]> on host 26acb5ca21e7
+[2026-05-14T14:01:41.833+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='kaldata_scraper' AIRFLOW_CTX_TASK_ID='trigger_merge' AIRFLOW_CTX_EXECUTION_DATE='2026-05-13T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-13T00:00:00+00:00'
+[2026-05-14T14:01:43.174+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=kaldata_scraper, task_id=trigger_merge, execution_date=20260513T000000, start_date=20260514T140137, end_date=20260514T140143
+[2026-05-14T14:01:43.262+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-05-14T14:01:43.339+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

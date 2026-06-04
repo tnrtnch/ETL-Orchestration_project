@@ -1,0 +1,69 @@
+[2026-05-27T07:50:48.318+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: kaldata_scraper.run_kaldata_scraper scheduled__2026-05-26T00:00:00+00:00 [queued]>
+[2026-05-27T07:50:48.703+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: kaldata_scraper.run_kaldata_scraper scheduled__2026-05-26T00:00:00+00:00 [queued]>
+[2026-05-27T07:50:48.724+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2026-05-27T07:50:49.255+0000] {taskinstance.py:2214} INFO - Executing <Task(DockerOperator): run_kaldata_scraper> on 2026-05-26 00:00:00+00:00
+[2026-05-27T07:50:49.398+0000] {standard_task_runner.py:60} INFO - Started process 192 to run task
+[2026-05-27T07:50:49.574+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'kaldata_scraper', 'run_kaldata_scraper', 'scheduled__2026-05-26T00:00:00+00:00', '--job-id', '216', '--raw', '--subdir', 'DAGS_FOLDER/kaldata_dag.py', '--cfg-path', '/tmp/tmp8vtd3hp_']
+[2026-05-27T07:50:49.716+0000] {standard_task_runner.py:88} INFO - Job 216: Subtask run_kaldata_scraper
+[2026-05-27T07:50:52.907+0000] {task_command.py:423} INFO - Running <TaskInstance: kaldata_scraper.run_kaldata_scraper scheduled__2026-05-26T00:00:00+00:00 [running]> on host f39b18a112ca
+[2026-05-27T07:50:58.356+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='kaldata_scraper' AIRFLOW_CTX_TASK_ID='run_kaldata_scraper' AIRFLOW_CTX_EXECUTION_DATE='2026-05-26T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-26T00:00:00+00:00'
+[2026-05-27T07:51:00.234+0000] {docker.py:359} INFO - Starting docker container from image kaldata-scrapy:v1
+[2026-05-27T07:51:00.551+0000] {docker.py:367} WARNING - Using remote engine or docker-in-docker and mounting temporary volume from host is not supported. Falling back to `mount_tmp_dir=False` mode. You can set `mount_tmp_dir` parameter to False to disable mounting and remove the warning
+[2026-05-27T07:51:34.000+0000] {docker.py:429} INFO - 2026-05-27 07:51:33 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://www.kaldata.com> (failed 2 times): DNS lookup failed: no results for hostname lookup: www.kaldata.com.
+[2026-05-27T07:51:34.255+0000] {docker.py:429} INFO - 2026-05-27 07:51:34 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.kaldata.com>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/twisted/internet/defer.py", line 1853, in _inlineCallbacks
+    result = context.run(
+             ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/twisted/python/failure.py", line 467, in throwExceptionIntoGenerator
+    return g.throw(self.value.with_traceback(self.tb))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/engine.py", line 490, in _download
+    result = yield self.downloader.fetch(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/twisted/internet/defer.py", line 1853, in _inlineCallbacks
+    result = context.run(
+             ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/twisted/python/failure.py", line 467, in throwExceptionIntoGenerator
+    return g.throw(self.value.with_traceback(self.tb))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/downloader/__init__.py", line 144, in fetch
+    yield deferred_from_coro(
+  File "/usr/local/lib/python3.11/site-packages/twisted/internet/defer.py", line 1257, in adapt
+    extracted: _SelfResultT | Failure = result.result()
+                                        ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/downloader/middleware.py", line 158, in download_async
+    result = await process_exception(ex)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/downloader/middleware.py", line 150, in process_exception
+    raise exception
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/downloader/middleware.py", line 153, in download_async
+    result: Response | Request = await process_request(request)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/downloader/middleware.py", line 97, in process_request
+    return await download_func(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/downloader/__init__.py", line 202, in _enqueue_request
+    return await maybe_deferred_to_future(d)  # fired in _wait_for_download()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/downloader/__init__.py", line 269, in _wait_for_download
+    response = await self._download(slot, request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/downloader/__init__.py", line 239, in _download
+    response: Response = await self.handlers.download_request_async(request)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/downloader/handlers/__init__.py", line 156, in download_request_async
+    return await handler.download_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/downloader/handlers/http11.py", line 113, in download_request
+    return await maybe_deferred_to_future(agent.download_request(request))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/twisted/internet/defer.py", line 1092, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/twisted/internet/endpoints.py", line 1091, in startConnectionAttempts
+    raise error.DNSLookupError(
+twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostname lookup: www.kaldata.com.
+[2026-05-27T07:51:41.809+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=kaldata_scraper, task_id=run_kaldata_scraper, execution_date=20260526T000000, start_date=20260527T075048, end_date=20260527T075141
+[2026-05-27T07:51:44.192+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-05-27T07:51:48.091+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

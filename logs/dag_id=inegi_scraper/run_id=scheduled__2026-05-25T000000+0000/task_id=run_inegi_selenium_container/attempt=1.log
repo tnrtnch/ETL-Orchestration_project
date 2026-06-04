@@ -1,0 +1,84 @@
+[2026-05-27T07:48:20.439+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: inegi_scraper.run_inegi_selenium_container scheduled__2026-05-25T00:00:00+00:00 [queued]>
+[2026-05-27T07:48:21.265+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: inegi_scraper.run_inegi_selenium_container scheduled__2026-05-25T00:00:00+00:00 [queued]>
+[2026-05-27T07:48:21.268+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2026-05-27T07:48:21.907+0000] {taskinstance.py:2214} INFO - Executing <Task(DockerOperator): run_inegi_selenium_container> on 2026-05-25 00:00:00+00:00
+[2026-05-27T07:48:22.042+0000] {standard_task_runner.py:60} INFO - Started process 79 to run task
+[2026-05-27T07:48:22.152+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'inegi_scraper', 'run_inegi_selenium_container', 'scheduled__2026-05-25T00:00:00+00:00', '--job-id', '211', '--raw', '--subdir', 'DAGS_FOLDER/inegi_scraper_dag.py', '--cfg-path', '/tmp/tmpf7r1uo37']
+[2026-05-27T07:48:22.220+0000] {standard_task_runner.py:88} INFO - Job 211: Subtask run_inegi_selenium_container
+[2026-05-27T07:48:24.748+0000] {task_command.py:423} INFO - Running <TaskInstance: inegi_scraper.run_inegi_selenium_container scheduled__2026-05-25T00:00:00+00:00 [running]> on host f39b18a112ca
+[2026-05-27T07:48:27.097+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='inegi_scraper' AIRFLOW_CTX_TASK_ID='run_inegi_selenium_container' AIRFLOW_CTX_EXECUTION_DATE='2026-05-25T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-25T00:00:00+00:00'
+[2026-05-27T07:48:27.928+0000] {docker.py:359} INFO - Starting docker container from image inegi-scraper:v1
+[2026-05-27T07:48:28.363+0000] {docker.py:367} WARNING - Using remote engine or docker-in-docker and mounting temporary volume from host is not supported. Falling back to `mount_tmp_dir=False` mode. You can set `mount_tmp_dir` parameter to False to disable mounting and remove the warning
+[2026-05-27T07:49:59.625+0000] {docker.py:429} INFO - 2026-05-27 07:49:59 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://www3.inegi.org.mx/sistemas/ci/relps/> (failed 2 times): DNS lookup failed: no results for hostname lookup: www3.inegi.org.mx.
+[2026-05-27T07:49:59.799+0000] {docker.py:429} INFO - 2026-05-27 07:49:59 [scrapy.core.scraper] ERROR: Error downloading <GET https://www3.inegi.org.mx/sistemas/ci/relps/>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/scrapy/utils/_download_handlers.py", line 61, in wrap_twisted_exceptions
+    yield
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/downloader/handlers/http11.py", line 129, in download_request
+    return await maybe_deferred_to_future(agent.download_request(request))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/twisted/internet/defer.py", line 1092, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/twisted/internet/endpoints.py", line 1091, in startConnectionAttempts
+    raise error.DNSLookupError(
+twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostname lookup: www3.inegi.org.mx.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/twisted/internet/defer.py", line 1853, in _inlineCallbacks
+    result = context.run(
+             ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/twisted/python/failure.py", line 467, in throwExceptionIntoGenerator
+    return g.throw(s
+[2026-05-27T07:49:59.814+0000] {docker.py:429} INFO - elf.value.with_traceback(self.tb))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/engine.py", line 496, in _download
+    result = yield self.downloader.fetch(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/twisted/internet/defer.py", line 1853, in _inlineCallbacks
+    result = context.run(
+             ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/twisted/python/failure.py", line 467, in throwExceptionIntoGenerator
+    return g.throw(self.value.with_traceback(self.tb))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/downloader/__init__.py", line 132, in fetch
+    yield deferred_from_coro(
+  File "/usr/local/lib/python3.11/site-packages/twisted/internet/defer.py", line 1257, in adapt
+    extracted: _SelfResultT | Failure = result.result()
+                                        ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/downloader/middleware.py", line 158, in download_async
+    result = await process_exception(ex)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/downloader/middleware.py", line 150, in process_exception
+    raise exception
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/downloader/middlewa
+[2026-05-27T07:49:59.823+0000] {docker.py:429} INFO - re.py", line 153, in download_async
+    result: Response | Request = await process_request(request)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/downloader/middleware.py", line 97, in process_request
+    return await download_func(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/downloader/__init__.py", line 189, in _enqueue_request
+    return await maybe_deferred_to_future(d)  # fired in _wait_for_download()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/downloader/__init__.py", line 256, in _wait_for_download
+    response = await self._download(slot, request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/downloader/__init__.py", line 226, in _download
+    response: Response = await self.handlers.download_request_async(request)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/downloader/handlers/__init__.py", line 156, in download_request_async
+    return await handler.download_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/downloader/handlers/http11.py", line 128, in download_request
+    with wrap_twisted_exceptions():
+  File "/usr/local/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/usr/local/lib/python3.11/site-packages/scrapy/utils/_download_handlers.py", line 69, in wrap_twisted_exceptions
+    raise CannotResolveHostError(str(e)) from e
+scrapy.exceptions.CannotResolveHostError: DNS lookup failed: no results for hostname lookup: www3.inegi.org.mx.
+[2026-05-27T07:50:04.755+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=inegi_scraper, task_id=run_inegi_selenium_container, execution_date=20260525T000000, start_date=20260527T074820, end_date=20260527T075004
+[2026-05-27T07:50:06.376+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-05-27T07:50:08.188+0000] {taskinstance.py:3309} INFO - 1 downstream tasks scheduled from follow-on schedule check

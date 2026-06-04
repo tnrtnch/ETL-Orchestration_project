@@ -1,0 +1,166 @@
+[2026-05-14T07:01:38.478+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: telegraph_scraper.run_telegraph_container scheduled__2026-05-13T00:00:00+00:00 [queued]>
+[2026-05-14T07:01:38.547+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: telegraph_scraper.run_telegraph_container scheduled__2026-05-13T00:00:00+00:00 [queued]>
+[2026-05-14T07:01:38.557+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2026-05-14T07:01:38.745+0000] {taskinstance.py:2214} INFO - Executing <Task(DockerOperator): run_telegraph_container> on 2026-05-13 00:00:00+00:00
+[2026-05-14T07:01:38.797+0000] {standard_task_runner.py:60} INFO - Started process 66 to run task
+[2026-05-14T07:01:38.868+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'telegraph_scraper', 'run_telegraph_container', 'scheduled__2026-05-13T00:00:00+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/telegraph_dag.py', '--cfg-path', '/tmp/tmp7lgbc_f5']
+[2026-05-14T07:01:39.024+0000] {standard_task_runner.py:88} INFO - Job 30: Subtask run_telegraph_container
+[2026-05-14T07:01:41.690+0000] {task_command.py:423} INFO - Running <TaskInstance: telegraph_scraper.run_telegraph_container scheduled__2026-05-13T00:00:00+00:00 [running]> on host ab149d976c2e
+[2026-05-14T07:01:44.244+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='telegraph_scraper' AIRFLOW_CTX_TASK_ID='run_telegraph_container' AIRFLOW_CTX_EXECUTION_DATE='2026-05-13T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-13T00:00:00+00:00'
+[2026-05-14T07:01:44.587+0000] {docker.py:359} INFO - Starting docker container from image telegraph-scraper:v1
+[2026-05-14T07:01:44.952+0000] {docker.py:367} WARNING - Using remote engine or docker-in-docker and mounting temporary volume from host is not supported. Falling back to `mount_tmp_dir=False` mode. You can set `mount_tmp_dir` parameter to False to disable mounting and remove the warning
+[2026-05-14T07:02:23.128+0000] {docker.py:429} INFO - [+] Saved: За първи път от 2024 г.: Барселона не вкара гол в Ла Лига
+[2026-05-14T07:02:26.034+0000] {docker.py:429} INFO - [+] Saved: Жената разплака Костакурта за ЧРД
+[2026-05-14T07:02:28.331+0000] {docker.py:429} INFO - [+] Saved: Трима депутати от „Прогресивна България“ подадоха оставки
+[2026-05-14T07:02:30.702+0000] {docker.py:429} INFO - [+] Saved: Меси блести в шоу с 8 гола, МЛС го лиши от хеттрик
+[2026-05-14T07:02:32.753+0000] {docker.py:429} INFO - [+] Saved: Сенатът на САЩ утвърди Кевин Уорш за шеф на Федералния резерв
+[2026-05-14T07:02:39.736+0000] {docker.py:429} INFO - [+] Saved: Промените в Закона за съдебната власт влизат в пленарна зала
+[2026-05-14T07:02:41.507+0000] {docker.py:429} INFO - [+] Saved: Колата на шофьора, карал в насрещното на "Тракия", била с прекратена регистрация
+[2026-05-14T07:02:48.438+0000] {docker.py:429} INFO - [+] Saved: Флорентино Перес похвали Моуриньо и обеща нови футболисти
+[2026-05-14T07:02:50.669+0000] {docker.py:429} INFO - [+] Saved: Дара открива втория полуфинал на „Евровизия“
+[2026-05-14T07:02:56.144+0000] {docker.py:429} INFO - [+] Saved: Шок в Германия: Педиатър обвинен в 130 сексуални престъпления
+[2026-05-14T07:02:59.791+0000] {docker.py:429} INFO - [+] Saved: Локомотив София стяга жестока чистка
+[2026-05-14T07:03:04.759+0000] {docker.py:429} INFO - [+] Saved: Vivacom Run Fest – първият маратон за служителите на телекома стартира през май
+[2026-05-14T07:03:07.387+0000] {docker.py:429} INFO - [+] Saved: ИСТОРИЧЕСКИ ПРЕГОВОРИ В ПЕКИН! Тръмп към Си: Вие сте велик лидер! (СНИМКИ)
+[2026-05-14T07:03:09.473+0000] {docker.py:429} INFO - [+] Saved: АД В КИЕВ: Руски ракети и дронове удариха жилищни блокове
+[2026-05-14T07:03:11.965+0000] {docker.py:429} INFO - [+] Saved: КАПРИЗИТЕ НА ВРЕМЕТО: Слънце сутринта, дъжд и гръмотевици следобед
+[2026-05-14T07:03:15.169+0000] {docker.py:429} INFO - [+] Saved: Гледайте три мача от кръга в efbet Лига
+[2026-05-14T07:03:19.751+0000] {docker.py:429} INFO - [+] Saved: Шифрин и Килде цъкат голф на топло
+[2026-05-14T07:03:22.166+0000] {docker.py:429} INFO - [+] Saved: Звезда на Байерн дочака син
+[2026-05-14T07:03:25.634+0000] {docker.py:429} INFO - [+] Saved: Ей Бо си разби главата
+[2026-05-14T07:03:29.580+0000] {docker.py:429} INFO - [+] Saved: Новата на Джинас е копие на старата
+[2026-05-14T07:03:33.518+0000] {docker.py:429} INFO - [+] Saved: ​ПСЖ шампион на Франция за пети пореден път
+[2026-05-14T07:03:36.111+0000] {docker.py:429} INFO - [+] Saved: Манчестър Сити отново се залепи за Арсенал
+[2026-05-14T07:03:39.224+0000] {docker.py:429} INFO - [+] Saved: Интер направи дубъл в Италия
+[2026-05-14T07:03:42.945+0000] {docker.py:429} INFO - [+] Saved: По идея на карловския кмет: Честваме Левски цяла година
+[2026-05-14T07:03:45.328+0000] {docker.py:429} INFO - [+] Saved: Рапърка се върна при ас от НФЛ
+[2026-05-14T07:03:47.150+0000] {docker.py:429} INFO - [+] Saved: Веласкес доволен: Играхме така, сякаш титлата не е решена
+[2026-05-14T07:03:48.955+0000] {docker.py:429} INFO - [+] Saved: V:rgo влиза в казармата
+[2026-05-14T07:03:52.306+0000] {docker.py:429} INFO - [+] Saved: Левски остана без победа срещу Лудогорец
+[2026-05-14T07:03:54.494+0000] {docker.py:429} INFO - [+] Saved: Таксита напират за бус лентите
+[2026-05-14T07:03:56.968+0000] {docker.py:429} INFO - [+] Saved: По стъпките на дядо: Георги Мърков триумфира с европейска титла
+[2026-05-14T07:03:58.836+0000] {docker.py:429} INFO - [+] Saved: Александър Александров: Изпуснахме две точки, не спечелихме една
+[2026-05-14T07:04:02.000+0000] {docker.py:429} INFO - [+] Saved: Лошата серия на Григор Димитров продължи и в Бордо
+[2026-05-14T07:04:04.502+0000] {docker.py:429} INFO - [+] Saved: СЗО: Хантавирусът ще продължи да се разпространява!
+[2026-05-14T07:04:06.565+0000] {docker.py:429} INFO - [+] Saved: Христо Янев: Имаме ясна цел и я следваме
+[2026-05-14T07:04:08.318+0000] {docker.py:429} INFO - [+] Saved: Световен вицешампион с България продължава кариерата си в Германия
+[2026-05-14T07:04:11.375+0000] {docker.py:429} INFO - [+] Saved: Денис в ареста, SMS-ите от КАТ пак летят!
+[2026-05-14T07:04:13.916+0000] {docker.py:429} INFO - [+] Saved: Без победител между ЦСКА и ЦСКА 1948
+[2026-05-14T07:04:17.145+0000] {docker.py:429} INFO - [+] Saved: УЧЕНИ ПРЕДУПРЕЖДАВАТ: Удрят ни магнитни бури!
+[2026-05-14T07:04:20.307+0000] {docker.py:429} INFO - [+] Saved: Експертът по въздействие на атмосферата Стефан Бабов пред “Телеграф”: В САЩ викат АI на помощ за повече дъжд
+[2026-05-14T07:04:23.911+0000] {docker.py:429} INFO - [+] Saved: Испанец триумфира в трилър на Джирото
+[2026-05-14T07:04:26.754+0000] {docker.py:429} INFO - [+] Saved: В сряда във вестник „Мач Телеграф“
+[2026-05-14T07:04:29.072+0000] {docker.py:429} INFO - [+] Saved: ИЗВЪНРЕДНО: Убиха мъж в Монтана, издирват един от извършителите!
+[2026-05-14T07:04:30.905+0000] {docker.py:429} INFO - [+] Saved: Дончич отказа на Словения заради децата
+[2026-05-14T07:04:32.723+0000] {docker.py:429} INFO - [+] Saved: НОВА РОКАДА: Смениха шефа на ДНСК!
+[2026-05-14T07:04:35.272+0000] {docker.py:429} INFO - [+] Saved: Испанската школа диктува тенденциите на Стария континент
+[2026-05-14T07:04:38.111+0000] {docker.py:429} INFO - [+] Saved: Дрон унищожи 1400 дка пшеница с тотален хербицид
+[2026-05-14T07:04:40.301+0000] {docker.py:429} INFO - [+] Saved: ПРЕЗИДЕНТСКИЯТ ШАМАР: Брижит ударила Макрон заради изневяра?!
+[2026-05-14T07:04:44.964+0000] {docker.py:429} INFO - [+] Saved: Ботев Пловдив обяви очаквана раздяла с основен футболист
+[2026-05-14T07:04:47.504+0000] {docker.py:429} INFO - [+] Saved: Добруджа с първи успех от над два месеца
+[2026-05-14T07:04:51.276+0000] {docker.py:429} INFO - [+] Saved: Представиха книгата „Дупнишки спортни корени“
+[2026-05-14T07:04:53.244+0000] {docker.py:429} INFO - [+] Saved: БЕЗОБРАЗИЕ: Хванаха шофьор да кара в насрещното по магистрала „Тракия”! (ВИДЕО)
+[2026-05-14T07:04:55.497+0000] {docker.py:429} INFO - [+] Saved: СЪДБОНОСНА СРЕЩА:Тръмп пристигна в Китай! (ВИДЕО)
+[2026-05-14T07:04:57.328+0000] {docker.py:429} INFO - [+] Saved: Манчестър Юнайтед готов да задържи Майкъл Карик
+[2026-05-14T07:05:02.433+0000] {docker.py:429} INFO - [+] Saved: За първи път: Българската федерация по лека атлетика разполага със собствен транспорт
+[2026-05-14T07:05:04.305+0000] {docker.py:429} INFO - [+] Saved: Александър Василев тръгна с категоричен успех в Сърбия
+[2026-05-14T07:05:08.645+0000] {docker.py:429} INFO - [+] Saved: Рекордните 3500 участници ще стартират в Маратон Варна през уикенда
+[2026-05-14T07:05:11.486+0000] {docker.py:429} INFO - [+] Saved: КОШМАРЪТ СЕ ПОВТАРЯ: Карантинираха още един круизен кораб заради починал пътник!
+[2026-05-14T07:05:13.200+0000] {docker.py:429} INFO - [+] Saved: Европейски гранд покани български баскетболист за финали в младежката Евролига
+[2026-05-14T07:05:16.683+0000] {docker.py:429} INFO - [+] Saved: Волейболният Левски с първо ново попълнение за следващия сезон
+[2026-05-14T07:05:19.015+0000] {docker.py:429} INFO - [+] Saved: ЕКШЪН В НЕБЕТО: Учебен самолет се разби, пилотите катапултираха
+[2026-05-14T07:05:21.030+0000] {docker.py:429} INFO - [+] Saved: Депутатите не гласуваха създаването на временна комисия за Петьо Петров-Еврото и на Мартин Божанов-Нотариуса
+[2026-05-14T07:05:22.837+0000] {docker.py:429} INFO - [+] Saved: СКАНДАЛНО! Пияна обърна количка с 2-годишното си дете (СНИМКА)
+[2026-05-14T07:05:25.069+0000] {docker.py:429} INFO - [+] Saved: Благотворителен футболен турнир в подкрепа на децата на ParaKids
+[2026-05-14T07:05:27.654+0000] {docker.py:429} INFO - [+] Saved: КАДРОВА РОКАДА: Кабинетът "Радев" смени всички 28 областни управители
+[2026-05-14T07:05:29.683+0000] {docker.py:429} INFO - [+] Saved: Борисов: Радвам се, че от днес съм сигурен и свободен български гражданин
+[2026-05-14T07:05:31.484+0000] {docker.py:429} INFO - [+] Saved: Деньо Денев е освободен от длъжността заместник-председател на ДАНС
+[2026-05-14T07:05:33.374+0000] {docker.py:429} INFO - [+] Saved: Илиян Филипов: Днес за някои Лъчо вече е “най-черният”, но винаги ще бъде част от Ботев
+[2026-05-14T07:05:36.175+0000] {docker.py:429} INFO - [+] Saved: Мъж открадна 800-годишен череп от църква
+[2026-05-14T07:05:38.269+0000] {docker.py:429} INFO - [+] Saved: Пет мерки и цените падат
+[2026-05-14T07:05:43.317+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=telegraph_scraper, task_id=run_telegraph_container, execution_date=20260513T000000, start_date=20260514T070138, end_date=20260514T070543
+[2026-05-14T07:05:46.675+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-05-14T07:05:47.778+0000] {taskinstance.py:3309} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-05-14T13:48:32.488+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: telegraph_scraper.run_telegraph_container scheduled__2026-05-13T00:00:00+00:00 [queued]>
+[2026-05-14T13:48:32.519+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: telegraph_scraper.run_telegraph_container scheduled__2026-05-13T00:00:00+00:00 [queued]>
+[2026-05-14T13:48:32.520+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2026-05-14T13:48:32.576+0000] {taskinstance.py:2214} INFO - Executing <Task(DockerOperator): run_telegraph_container> on 2026-05-13 00:00:00+00:00
+[2026-05-14T13:48:32.592+0000] {standard_task_runner.py:60} INFO - Started process 362 to run task
+[2026-05-14T13:48:32.613+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'telegraph_scraper', 'run_telegraph_container', 'scheduled__2026-05-13T00:00:00+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/telegraph_dag.py', '--cfg-path', '/tmp/tmpgu5bap07']
+[2026-05-14T13:48:32.634+0000] {standard_task_runner.py:88} INFO - Job 6: Subtask run_telegraph_container
+[2026-05-14T13:48:34.169+0000] {task_command.py:423} INFO - Running <TaskInstance: telegraph_scraper.run_telegraph_container scheduled__2026-05-13T00:00:00+00:00 [running]> on host 26acb5ca21e7
+[2026-05-14T13:48:34.477+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='telegraph_scraper' AIRFLOW_CTX_TASK_ID='run_telegraph_container' AIRFLOW_CTX_EXECUTION_DATE='2026-05-13T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-13T00:00:00+00:00'
+[2026-05-14T13:48:35.062+0000] {docker.py:359} INFO - Starting docker container from image telegraph-scraper:v1
+[2026-05-14T13:48:35.460+0000] {docker.py:367} WARNING - Using remote engine or docker-in-docker and mounting temporary volume from host is not supported. Falling back to `mount_tmp_dir=False` mode. You can set `mount_tmp_dir` parameter to False to disable mounting and remove the warning
+[2026-05-14T13:49:03.374+0000] {docker.py:429} INFO - [+] Saved: НА ПЪВРО ЧЕТЕНЕ: Създават отново Комисия за противодействие на корупцията!
+[2026-05-14T13:49:05.172+0000] {docker.py:429} INFO - [+] Saved: ЧАСОВЕ ПРЕДИ „ЕВРОВИЗИЯ“: Евтим Милошев подкрепи Дара!
+[2026-05-14T13:49:07.132+0000] {docker.py:429} INFO - [+] Saved: СПЕШЕН СЛУЧАЙ: Инфаркт покоси един от мениджърите АЕЦ „Козлодуй“, вдигнаха медицинския хеликоптер!
+[2026-05-14T13:49:08.841+0000] {docker.py:429} INFO - [+] Saved: ПИРАТСТВО? Неизвестни отвлякоха кораб в Ормузкия проток!
+[2026-05-14T13:49:10.735+0000] {docker.py:429} INFO - [+] Saved: Няма опасност водната криза от миналото лято да се повтори, увери екоминистърът
+[2026-05-14T13:49:12.785+0000] {docker.py:429} INFO - [+] Saved: СЛЕД СКАНДАЛА: Скопие иска среща с Велислава Петрова-Чамова!
+[2026-05-14T13:49:16.157+0000] {docker.py:429} INFO - [+] Saved: Медалистът в тройния скок Зинга Барбоза: Възможно е да се пробвам в спринта
+[2026-05-14T13:49:18.486+0000] {docker.py:429} INFO - [+] Saved: Катастрофа затруднява движението по Подбалканския път
+[2026-05-14T13:49:20.454+0000] {docker.py:429} INFO - [+] Saved: Участник в Шампионската лига отново иска Майкон
+[2026-05-14T13:49:24.191+0000] {docker.py:429} INFO - [+] Saved: УЖАСЯВАЩО! Завързаха и ограбиха дядо в Ловешко
+[2026-05-14T13:49:26.521+0000] {docker.py:429} INFO - [+] Saved: Разкриха измами с хранителни добавки за 240 милиона евро
+[2026-05-14T13:49:28.452+0000] {docker.py:429} INFO - [+] Saved: СЕНЗАЦИОННО! Победителят Евгени от Hell’s Kitchen разкри детайли за отношенията си с Нора Недкова и Лейди Гага! (ВИДЕО)
+[2026-05-14T13:49:30.473+0000] {docker.py:429} INFO - [+] Saved: Народните представители приеха промените в съдебната система
+[2026-05-14T13:49:32.756+0000] {docker.py:429} INFO - [+] Saved: КС: Мерките против скъпите горива противоречат на Конституцията
+[2026-05-14T13:49:35.910+0000] {docker.py:429} INFO - [+] Saved: МОН с брифинг за матурите (ВИДЕО)
+[2026-05-14T13:49:38.644+0000] {docker.py:429} INFO - [+] Saved: СКАНДАЛ: Новият областен управител на Сливен бил с отнета книжка, след като шофирал пиян в Германия
+[2026-05-14T13:49:40.349+0000] {docker.py:429} INFO - [+] Saved: КАТ рендоса 10 000 за алкохол
+[2026-05-14T13:49:42.274+0000] {docker.py:429} INFO - [+] Saved: Левски си върна шампион от САЩ
+[2026-05-14T13:49:45.897+0000] {docker.py:429} INFO - [+] Saved: ПАК СЕ ПРОЧУХМЕ: Пиян наш тираджия разби тунел в Гърция
+[2026-05-14T13:49:48.125+0000] {docker.py:429} INFO - [+] Saved: Кремъл: Съвсем скоро Путин ще посети Китай
+[2026-05-14T13:49:50.374+0000] {docker.py:429} INFO - [+] Saved: Български четвъртфинал на тенис турнир в Сърбия
+[2026-05-14T13:49:52.211+0000] {docker.py:429} INFO - [+] Saved: МЕСЕЦЪТ НА РАЖДАНЕ И НАШАТА РОДОВА КАРМА: Каква е кармичната ни родова задача по месеца на раждане?
+[2026-05-14T13:49:54.469+0000] {docker.py:429} INFO - [+] Saved: Поп взриви TikTok с набирания (ВИДЕО)
+[2026-05-14T13:49:56.659+0000] {docker.py:429} INFO - [+] Saved: В БЕРЛИН: Мерц посреща Радев с военни почести
+[2026-05-14T13:50:00.107+0000] {docker.py:429} INFO - [+] Saved: България ще има джудист на младежката олимпиада в Дакар
+[2026-05-14T13:50:01.881+0000] {docker.py:429} INFO - [+] Saved: ЖЕСТОКОТО УБИЙСТВО В МОНТАНА: Прокуратурата разследва случая, трима са задържани
+[2026-05-14T13:50:04.174+0000] {docker.py:429} INFO - [+] Saved: Събков от Hell’s Kitchen с шокиращо признание: Баща ми и майка ми са много разочаровани, защото ... (ВИДЕО)
+[2026-05-14T13:50:06.437+0000] {docker.py:429} INFO - [+] Saved: Гидженов ръководи последното дерби за сезона
+[2026-05-14T13:50:08.120+0000] {docker.py:429} INFO - [+] Saved: Парламентът прие на първо четене мерки срещу необоснованото поскъпване
+[2026-05-14T13:50:10.047+0000] {docker.py:429} INFO - [+] Saved: Fibank осъществи най-значимото международно пласиране на българска банка с две емисии облигации на обща стойност от 310 млн. евро
+[2026-05-14T13:50:11.975+0000] {docker.py:429} INFO - [+] Saved: Митничари осуетиха контрабанда на злато за над 400 000 евро
+[2026-05-14T13:50:13.632+0000] {docker.py:429} INFO - [+] Saved: АКЦИЯ: Полицията удари имотната мафия в София
+[2026-05-14T13:50:17.750+0000] {docker.py:429} INFO - [+] Saved: Учени: ФИФА рискува сериозно здравето на играчите
+[2026-05-14T13:50:21.250+0000] {docker.py:429} INFO - [+] Saved: Назначени са шестима нови заместник-министри
+[2026-05-14T13:50:26.795+0000] {docker.py:429} INFO - [+] Saved: Интуиция равна на титла - Артета се научи да реагира адекватно, когато сбърка
+[2026-05-14T13:50:31.638+0000] {docker.py:429} INFO - [+] Saved: 18 миньори са блокирани в мина
+[2026-05-14T13:50:34.807+0000] {docker.py:429} INFO - [+] Saved: Онкохирургът д-р Ваня Митова:  Всеки ден срещам жени с рак под 40 г.
+[2026-05-14T13:50:38.528+0000] {docker.py:429} INFO - [+] Saved: "Най-лошото решение на ВАР" остави Селтик в битката за титлата
+[2026-05-14T13:50:43.134+0000] {docker.py:429} INFO - [+] Saved: Симфония от вкусове осигури звездната победа на Евгени Генчев в Hell’s Kitchen
+[2026-05-14T13:50:47.908+0000] {docker.py:429} INFO - [+] Saved: Над 220 атлети стартират на турнира по лека атлетика „Нови звезди“
+[2026-05-14T13:50:51.816+0000] {docker.py:429} INFO - [+] Saved: ПОЛИЦИЯТА ПОД ТРЕВОГА: Мъж подаде сигнал за заложени пет бомби в Плевен
+[2026-05-14T13:50:54.251+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/sport/futbol-svqt/za-pyrvi-pyt-ot-2024-g.-barselona-ne-vkara-gol-v-la-liga-kraj-na-istoricheskata-seriia-na-kataluncite-491423
+[2026-05-14T13:50:57.013+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/sport/timeout/zhenata-razplaka-kostakurta-za-chrd.-legendata-na-milan-otpraznuva-60-godini-s-tanci-i-karaoke-snimki-491395
+[2026-05-14T13:51:00.017+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/bulgaria/novini/trima-deputati-ot-progresivna-bylgariia-podadoha-ostavki.-dvama-ot-tiah-sa-naznacheni-za-oblastni-upraviteli-491422
+[2026-05-14T13:51:05.485+0000] {docker.py:429} INFO - [+] Saved: Активисти се затвориха в клетки пред Народното събрание
+[2026-05-14T13:51:08.412+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/sport/futbol-svqt/mesi-blesti-v-shou-s-8-gola-mls-go-lishi-ot-hettrik-491420
+[2026-05-14T13:51:13.172+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/svetat/novini/senatyt-na-sasht-utvyrdi-kevin-uorsh-za-shef-na-federalniia-rezerv.-kandidaturata-mu-beshe-predlozhena-ot-donald-trymp-491419
+[2026-05-14T13:51:16.858+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/bulgaria/novini/promenite-v-zakona-za-sydebnata-vlast-vlizat-v-plenarna-zala.-resornata-komisiia-odobri-trite-zakonoproekta-491418
+[2026-05-14T13:51:19.539+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/bulgaria/novini/kolata-na-shofiora-karal-v-nasreshtnoto-na-trakiia-bila-s-prekratena-registraciia.-myzhyt-tvyrdi-che-se-obyrkal-zaradi-remont-491417
+[2026-05-14T13:51:23.047+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/sport/futbol-svqt/florentino-peres-pohvali-mourinio-i-obeshta-novi-futbolisti-vinagi-sym-privlichal-naj-dobrite-v-real-491416
+[2026-05-14T13:51:26.801+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/svetski/novini/dara-otkriva-vtoriia-polufinal-na-evroviziia.-bukmejkyrite-davat-prognozi-za-uspeh-491415
+[2026-05-14T13:51:29.785+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/svetat/novini/shok-v-germaniia-pediatyr-obvinen-v-130-seksualni-prestypleniia.-lekariat-nasilval-deca-v-bolnica-kraj-berlin-v-prodylzhenie-na-godini-vkliuchitelno-po-vreme-na-dezhurstva-491414
+[2026-05-14T13:51:32.348+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/sport/futbol-bulgaria/lokomotiv-sofiia-stiaga-zhestoka-chistka-zapochvat-razgovori-s-futbolisti-za-raztrogvane-491406
+[2026-05-14T13:51:35.668+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/bulgaria/novini/vivacom-run-fest-pyrviiat-maraton-za-sluzhitelite-na-telekoma-startira-prez-maj-491352
+[2026-05-14T13:51:39.514+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/svetat/novini/istoricheski-pregovori-v-pekin-trymp-kym-si-vie-ste-velik-lider-kitajskiiat-prezident-predupredi-za-kapana-na-tukidid-i-prizova-izbiagvane-na-sblysyk-mezhdu-dvete-svetovni-sili-snimki-491413
+[2026-05-14T13:51:45.035+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/svetat/novini/ad-v-kiev-ruski-raketi-i-dronove-udariha-zhilishtni-blokove.-naj-malko-chetirima-sa-raneni-ima-zatrupani-hora-pod-razvalinite-sled-masirana-noshtna-ataka-sreshtu-ukrainskata-stolica-491412
+[2026-05-14T13:51:47.383+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/bulgaria/novini/kaprizite-na-vremeto-slynce-sutrinta-dyzhd-i-grymotevici-sledobed.-zhivakyt-skacha-do-22-gradusa-dnes-buri-i-gradushki-se-zadavat-prez-uikenda-491411
+[2026-05-14T13:51:50.741+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/sport/tv-sport/gledajte-tri-macha-ot-kryga-v-efbet-liga-dvuboia-na-real-v-la-liga-a-syshto-i-shestiia-etap-na-obikolkata-na-italiia-491379
+[2026-05-14T13:51:52.923+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/sport/timeout/shifrin-i-kilde-cykat-golf-na-toplo.-podariha-si-vakanciia-an-mavricij-491391
+[2026-05-14T13:51:55.234+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/sport/timeout/zvezda-na-bajern-dochaka-sin.-liubimata-na-luis-dias-go-dari-s-fernando-radvat-se-i-na-dve-dyshteri-snimki-491390
+[2026-05-14T13:51:57.718+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/svetski/novini/ej-bo-si-razbi-glavata.-podhlyzvaneto-trygna-ot-vanata-obiasni-aktioryt-491334
+[2026-05-14T13:51:59.845+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/sport/timeout/novata-na-dzhinas-e-kopie-na-starata.-bivshiiat-anglijski-nacional-se-sreshta-s-brokerka-ot-franciia-491388
+[2026-05-14T13:52:02.819+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/sport/futbol-svqt/pszh-otnovo-e-shampion-na-franciia-grabna-peta-poredna-titla-v-liga-1-491410
+[2026-05-14T13:52:06.147+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/sport/futbol-svqt/manchestyr-siti-otnovo-se-zalepi-za-arsenal-grazhdanite-s-kategorichen-uspeh-sreshtu-kristyl-palas-491409
+[2026-05-14T13:52:09.212+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/sport/futbol-svqt/inter-napravi-dubyl-v-italiia-udari-lacio-vyv-finala-za-kupata-v-rim-491408
+[2026-05-14T13:52:11.823+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/bulgaria/novini/po-ideia-na-karlovskiia-kmet-chestvame-levski-ciala-godina.-celta-e-da-se-obediniat-vsichki-nacionalni-institucii-491344
+[2026-05-14T13:52:14.848+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/sport/timeout/rapyrka-se-vyrna-pri-as-ot-nfl.-liubovta-mezhdu-kardi-bi-i-stefon-digs-otnovo-razcyftia-snimki-491380
+[2026-05-14T13:52:17.898+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/sport/futbol-bulgaria/velaskes-dovolen-igrahme-taka-siakash-titlata-ne-e-reshena-svaliam-shapka-na-futbolistite-491405
+[2026-05-14T13:52:20.888+0000] {docker.py:429} INFO - [!] Already exists: https://telegraph.bg/svetski/novini/vrgo-vliza-v-kazarmata.-zapochva-sezonyt-na-kryv-i-sos-obiavi-rapyryt-491371
+[2026-05-14T13:52:32.956+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=telegraph_scraper, task_id=run_telegraph_container, execution_date=20260513T000000, start_date=20260514T134832, end_date=20260514T135232
+[2026-05-14T13:52:35.213+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-05-14T13:52:38.372+0000] {taskinstance.py:3309} INFO - 1 downstream tasks scheduled from follow-on schedule check

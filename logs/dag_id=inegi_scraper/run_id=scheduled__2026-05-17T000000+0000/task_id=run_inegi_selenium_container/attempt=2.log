@@ -1,0 +1,126 @@
+[2026-05-18T14:12:30.895+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: inegi_scraper.run_inegi_selenium_container scheduled__2026-05-17T00:00:00+00:00 [queued]>
+[2026-05-18T14:12:31.089+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: inegi_scraper.run_inegi_selenium_container scheduled__2026-05-17T00:00:00+00:00 [queued]>
+[2026-05-18T14:12:31.154+0000] {taskinstance.py:2193} INFO - Starting attempt 2 of 1
+[2026-05-18T14:12:31.571+0000] {taskinstance.py:2214} INFO - Executing <Task(DockerOperator): run_inegi_selenium_container> on 2026-05-17 00:00:00+00:00
+[2026-05-18T14:12:31.667+0000] {standard_task_runner.py:60} INFO - Started process 69 to run task
+[2026-05-18T14:12:31.839+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'inegi_scraper', 'run_inegi_selenium_container', 'scheduled__2026-05-17T00:00:00+00:00', '--job-id', '47', '--raw', '--subdir', 'DAGS_FOLDER/inegi_scraper_dag.py', '--cfg-path', '/tmp/tmphccmxj6p']
+[2026-05-18T14:12:31.913+0000] {standard_task_runner.py:88} INFO - Job 47: Subtask run_inegi_selenium_container
+[2026-05-18T14:12:32.829+0000] {task_command.py:423} INFO - Running <TaskInstance: inegi_scraper.run_inegi_selenium_container scheduled__2026-05-17T00:00:00+00:00 [running]> on host f39b18a112ca
+[2026-05-18T14:12:36.215+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='inegi_scraper' AIRFLOW_CTX_TASK_ID='run_inegi_selenium_container' AIRFLOW_CTX_EXECUTION_DATE='2026-05-17T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-17T00:00:00+00:00'
+[2026-05-18T14:12:37.549+0000] {docker.py:359} INFO - Starting docker container from image inegi-scraper:v1
+[2026-05-18T14:12:37.635+0000] {docker.py:367} WARNING - Using remote engine or docker-in-docker and mounting temporary volume from host is not supported. Falling back to `mount_tmp_dir=False` mode. You can set `mount_tmp_dir` parameter to False to disable mounting and remove the warning
+[2026-05-18T14:16:19.450+0000] {docker.py:429} INFO - 2026-05-18 14:16:18 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www3.inegi.org.mx/sistemas/ci/relps/> (referer: None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/urllib3/connection.py", line 571, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/http/client.py", line 1415, in getresponse
+    response.begin()
+  File "/usr/local/lib/python3.11/http/client.py", line 330, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/http/client.py", line 291, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/socket.py", line 718, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/scrapy/utils/defer.py", line 357, in iter_errback
+    yield next(it)
+          ^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/scrapy/utils/python.py", line 311, in __next__
+    return next(self.data)
+           ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/scrapy/utils/python.py", line 311, in __next__
+    return next(self.data)
+           ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 184, in process_sync
+    self._process_spider_exception(
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 257, in _process_spider_exception
+    raise exception
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 180, in process_sync
+    yield from iterable
+  File "/usr/local/lib/python3.11/site-packages/scrapy/spidermiddlewares/base.py", line 60, in process_spider_output
+    for o in result:
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 184, in process_sync
+    self._process_spider_exception(
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 257, in _process_spider_exception
+    raise exception
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 180, in process_sync
+    yield from iterable
+  File "/usr/local/lib/python3.11/site-packages/scrapy/spidermiddlewares/base.py", line 60, in process_spider_output
+    for o in result:
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 184, in process_sync
+    self._process_spider_exception(
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 257, in _process_spider_exception
+    raise exception
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 180, in process_sync
+    yield from iterable
+  File "/usr/local/lib/python3.11/site-packages/scrapy/spidermiddlewares/base.py", line 60, in process_spider_output
+    for o in result:
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 184, in process_sync
+    self._process_spider_exception(
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 257, in _process_spider_exception
+    raise exception
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 180, in process_sync
+    yield from iterable
+  File "/usr/local/lib/python3.11/site-packages/scrapy/spidermiddlewares/depth.py", line 61, in process_spider_output
+    yield from super().process_spider_output(response, result)
+  File "/usr/local/lib/python3.11/site-packages/scrapy/spidermiddlewares/base.py", line 60, in process_spider_output
+    for o in result:
+  File "/usr/local/lib/python3.11/sit
+[2026-05-18T14:16:19.483+0000] {docker.py:429} INFO - e-packages/scrapy/core/spidermw.py", line 184, in process_sync
+    self._process_spider_exception(
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 257, in _process_spider_exception
+    raise exception
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 180, in process_sync
+    yield from iterable
+  File "/app/inegi/spiders/inegi_spider.py", line 58, in parse_with_selenium
+    self.driver.get(response.url)
+  File "/usr/local/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 470, in get
+    self.execute(Command.GET, {"url": url})
+  File "/usr/local/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 447, in execute
+    response = cast(RemoteConnection, self.command_executor).execute(driver_command, params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/selenium/webdriver/remote/remote_connection.py", line 407, in execute
+    return self._request(command_info[0], url, body=data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/selenium/webdriver/remote/remote_connection.py", line 431, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/urllib3/_request_methods.py", line 143, in request
+    return self.request_encode_body(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/urllib3/_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/urllib3/poolmanager.py", line 457, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/urllib3/util/retry.py", line 490, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/usr/local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='localhost', port=36403): Read timed out. (read timeout=120)
+[2026-05-18T14:19:27.555+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=inegi_scraper, task_id=run_inegi_selenium_container, execution_date=20260517T000000, start_date=20260518T141230, end_date=20260518T141927
+[2026-05-18T14:19:28.641+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-05-18T14:19:29.883+0000] {taskinstance.py:3309} INFO - 1 downstream tasks scheduled from follow-on schedule check
