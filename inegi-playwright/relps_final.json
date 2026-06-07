@@ -1,0 +1,918 @@
+[
+    {
+        "proveedor": "ASHANTY FERNANDEZ MARTINEZ",
+        "numero": [
+            "40.902.05/8/2013"
+        ]
+    },
+    {
+        "proveedor": "CARLO REYES BANDERAS",
+        "numero": [
+            "INEGI.OIC5.03/8/2023"
+        ]
+    },
+    {
+        "proveedor": "DANIELA XIMENA VIVEROS URRIOLAGOITIA",
+        "numero": [
+            "INEGI.OIC5.03/3/2024",
+            "INEGI.OIC5.03/3/2024"
+        ]
+    },
+    {
+        "proveedor": "DANIELA XIMENA VIVEROS URRIOLAGOITIA",
+        "numero": [
+            "INEGI.OIC5.03/3/2024",
+            "INEGI.OIC5.03/3/2024"
+        ]
+    },
+    {
+        "proveedor": "FELIPE MORAN AGUILAR",
+        "numero": [
+            "INEGI.OIC5.03/12/2020"
+        ]
+    },
+    {
+        "proveedor": "GUADALUPE IRENE SOSA SALINAS",
+        "numero": [
+            "INEGI.CIN3.05/21/2018"
+        ]
+    },
+    {
+        "proveedor": "JAVIER SOLIS MARTNEZ",
+        "numero": [
+            "INEGI.OIC5.03/3/2023",
+            "INEGI.OIC5.03/3/2023"
+        ]
+    },
+    {
+        "proveedor": "JAVIER SOLIS MARTNEZ",
+        "numero": [
+            "INEGI.OIC5.03/3/2023",
+            "INEGI.OIC5.03/3/2023"
+        ]
+    },
+    {
+        "proveedor": "JAVIER VAZQUEZ DIEGUEZ",
+        "numero": [
+            "INEGI.OIC5.03/14/2022",
+            "INEGI.OIC5.03/14/2022",
+            "INEGI.OIC5.03/19/2022",
+            "INEGI.OIC5.03/19/2022"
+        ]
+    },
+    {
+        "proveedor": "JAVIER VAZQUEZ DIEGUEZ",
+        "numero": [
+            "INEGI.OIC5.03/14/2022",
+            "INEGI.OIC5.03/14/2022",
+            "INEGI.OIC5.03/19/2022",
+            "INEGI.OIC5.03/19/2022"
+        ]
+    },
+    {
+        "proveedor": "JAVIER VAZQUEZ DIEGUEZ",
+        "numero": [
+            "INEGI.OIC5.03/14/2022",
+            "INEGI.OIC5.03/14/2022",
+            "INEGI.OIC5.03/19/2022",
+            "INEGI.OIC5.03/19/2022"
+        ]
+    },
+    {
+        "proveedor": "JAVIER VAZQUEZ DIEGUEZ",
+        "numero": [
+            "INEGI.OIC5.03/14/2022",
+            "INEGI.OIC5.03/14/2022",
+            "INEGI.OIC5.03/19/2022",
+            "INEGI.OIC5.03/19/2022"
+        ]
+    },
+    {
+        "proveedor": "JOSE ANTONIO FERNANDEZ AYALA",
+        "numero": [
+            "40.902.05/13/2013"
+        ]
+    },
+    {
+        "proveedor": "JOSE LUIS HERNANDEZ JIMENEZ",
+        "numero": [
+            "INEGI.CIN3.05/6/2016",
+            "INEGI.CIN3.05/1/2016"
+        ]
+    },
+    {
+        "proveedor": "JOSE LUIS HERNANDEZ JIMENEZ",
+        "numero": [
+            "INEGI.CIN3.05/6/2016",
+            "INEGI.CIN3.05/1/2016"
+        ]
+    },
+    {
+        "proveedor": "PATRICIA ROMERO PEREZ",
+        "numero": [
+            "SP-011/2009",
+            "SP-011/2009"
+        ]
+    },
+    {
+        "proveedor": "PATRICIA ROMERO PEREZ",
+        "numero": [
+            "SP-011/2009",
+            "SP-011/2009"
+        ]
+    },
+    {
+        "proveedor": "PEDRO JAVIER DIAZ HUERTA",
+        "numero": [
+            "INEGI.OIC3.05/6/2019"
+        ]
+    },
+    {
+        "proveedor": "ROSA MARIA LARA MATA",
+        "numero": [
+            "IINEGI.OIC5.03/7/2023"
+        ]
+    },
+    {
+        "proveedor": "TANIA RUBI RODRIGUEZ ESPARZA",
+        "numero": [
+            "INEGI.OIC5.03/4/2024"
+        ]
+    },
+    {
+        "proveedor": "TERESA VIRGINIA HERRERA FLORES",
+        "numero": [
+            "INEGI.CIN3.05/18/2017"
+        ]
+    },
+    {
+        "proveedor": "ADMINISTRACIÓN VIRTUAL DEL SERVICIO DE LIMPIEZA, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC3.05/19/2019"
+        ]
+    },
+    {
+        "proveedor": "ARPLUS, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/8/2020",
+            "INEGI.OIC5.03/8/2020"
+        ]
+    },
+    {
+        "proveedor": "ARPLUS, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/8/2020",
+            "INEGI.OIC5.03/8/2020"
+        ]
+    },
+    {
+        "proveedor": "AUTOMABER, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/11/2023"
+        ]
+    },
+    {
+        "proveedor": "BARRERA ASESORES TURÍSTICOS INTERNACIONALES, SOCIEDAD ANÓNIMA DE CAPITAL VARIABLE",
+        "numero": [
+            "INEGI.OIC5.03/13/2023",
+            "INEGI.OIC5.03/13/2023"
+        ]
+    },
+    {
+        "proveedor": "BARRERA ASESORES TURÍSTICOS INTERNACIONALES, SOCIEDAD ANÓNIMA DE CAPITAL VARIABLE",
+        "numero": [
+            "INEGI.OIC5.03/13/2023",
+            "INEGI.OIC5.03/13/2023"
+        ]
+    },
+    {
+        "proveedor": "BL DISEÑO Y MANTENIMIENTO EMPRESARIAL, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/2/2020"
+        ]
+    },
+    {
+        "proveedor": "BNI ESTACIONAMIENTOS, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/12/2023"
+        ]
+    },
+    {
+        "proveedor": "BRAZZO SEGURIDAD PRIVADA, SOCIEDAD DE RESPONSABILIDAD LIMITADA DE CAPITAL VARIABLE",
+        "numero": [
+            "INEGI.OIC5.03./15/2022",
+            "INEGI.OIC5.03./15/2022"
+        ]
+    },
+    {
+        "proveedor": "BRAZZO SEGURIDAD PRIVADA, SOCIEDAD DE RESPONSABILIDAD LIMITADA DE CAPITAL VARIABLE",
+        "numero": [
+            "INEGI.OIC5.03./15/2022",
+            "INEGI.OIC5.03./15/2022"
+        ]
+    },
+    {
+        "proveedor": "CARROCERÍAS CARGOLEER, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC3.05/17/2018"
+        ]
+    },
+    {
+        "proveedor": "CIE RESTAURANTES, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/17/2023"
+        ]
+    },
+    {
+        "proveedor": "CILUR, S.A. DE C.V.",
+        "numero": [
+            "INEGI.CIN3.05/7/2016",
+            "INEGI.CIN3.05/7/2016"
+        ]
+    },
+    {
+        "proveedor": "CILUR, S.A. DE C.V.",
+        "numero": [
+            "INEGI.CIN3.05/7/2016",
+            "INEGI.CIN3.05/7/2016"
+        ]
+    },
+    {
+        "proveedor": "COMERCIALIZADORA INFINITO MC, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/2/2023",
+            "INEGI.OIC5.03/2/2023"
+        ]
+    },
+    {
+        "proveedor": "COMERCIALIZADORA INFINITO MC, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/2/2023",
+            "INEGI.OIC5.03/2/2023"
+        ]
+    },
+    {
+        "proveedor": "COMPAÑÍA KINICH DE LA PENÍNSULA, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/3/2025",
+            "INEGI.OIC5.03/3/2025"
+        ]
+    },
+    {
+        "proveedor": "COMPAÑÍA KINICH DE LA PENÍNSULA, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/3/2025",
+            "INEGI.OIC5.03/3/2025"
+        ]
+    },
+    {
+        "proveedor": "CONECTIVIDAD Y TELECOMUNICACIÓN, S.A. DE C.V.",
+        "numero": [
+            "SP-020/2009",
+            "SP-020/2009"
+        ]
+    },
+    {
+        "proveedor": "CONECTIVIDAD Y TELECOMUNICACIÓN, S.A. DE C.V.",
+        "numero": [
+            "SP-020/2009",
+            "SP-020/2009"
+        ]
+    },
+    {
+        "proveedor": "CONSORCIO EMPRESARIAL DE SEGURIDAD PRIVADA, LIMPIEZA Y MANTENIMIENTO, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/4/2023",
+            "INEGI.OIC5.03/4/2023"
+        ]
+    },
+    {
+        "proveedor": "CONSORCIO EMPRESARIAL DE SEGURIDAD PRIVADA, LIMPIEZA Y MANTENIMIENTO, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/4/2023",
+            "INEGI.OIC5.03/4/2023"
+        ]
+    },
+    {
+        "proveedor": "CONVERTIDORA DE PAPEL PRATZ, S.A. DE C.V.",
+        "numero": [
+            "40.902.05/001/2013"
+        ]
+    },
+    {
+        "proveedor": "CORPORACIÓN DE INSTALACIÓN Y SERVICIOS INTERNOS EMPRESARIALES, S.A. DE C.V.",
+        "numero": [
+            "INEGI.CIN3.05/12/2015",
+            "INEGI.CIN3.05/12/2015"
+        ]
+    },
+    {
+        "proveedor": "CORPORACIÓN DE INSTALACIÓN Y SERVICIOS INTERNOS EMPRESARIALES, S.A. DE C.V.",
+        "numero": [
+            "INEGI.CIN3.05/12/2015",
+            "INEGI.CIN3.05/12/2015"
+        ]
+    },
+    {
+        "proveedor": "CORPORACIÓN DE INSTALACIÓN Y SERVICIOS INTERNOS EMPRESARIALES, SOCIEDAD ANÓNIMA DE CAPITAL VARIABLE",
+        "numero": [
+            "INEGI.OIC3.05/10/2019",
+            "INEGI.OIC3.05/10/2019"
+        ]
+    },
+    {
+        "proveedor": "CORPORACIÓN DE INSTALACIÓN Y SERVICIOS INTERNOS EMPRESARIALES, SOCIEDAD ANÓNIMA DE CAPITAL VARIABLE",
+        "numero": [
+            "INEGI.OIC3.05/10/2019",
+            "INEGI.OIC3.05/10/2019"
+        ]
+    },
+    {
+        "proveedor": "DISEÑOS Y SOLUCIONES ADR, S. DE R.L. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/18/2022",
+            "INEGI.OIC5.03/18/2022",
+            "INEGI.OIC5.03/19/2022",
+            "INEGI.OIC5.03/19/2022"
+        ]
+    },
+    {
+        "proveedor": "DISEÑOS Y SOLUCIONES ADR, S. DE R.L. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/18/2022",
+            "INEGI.OIC5.03/18/2022",
+            "INEGI.OIC5.03/19/2022",
+            "INEGI.OIC5.03/19/2022"
+        ]
+    },
+    {
+        "proveedor": "DISEÑOS Y SOLUCIONES ADR, S. DE R.L. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/18/2022",
+            "INEGI.OIC5.03/18/2022",
+            "INEGI.OIC5.03/19/2022",
+            "INEGI.OIC5.03/19/2022"
+        ]
+    },
+    {
+        "proveedor": "DISEÑOS Y SOLUCIONES ADR, S. DE R.L. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/18/2022",
+            "INEGI.OIC5.03/18/2022",
+            "INEGI.OIC5.03/19/2022",
+            "INEGI.OIC5.03/19/2022"
+        ]
+    },
+    {
+        "proveedor": "DISTRIBUIDORA GARDI, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/16/2022",
+            "INEGI.OIC5.03/16/2022"
+        ]
+    },
+    {
+        "proveedor": "DISTRIBUIDORA GARDI, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/16/2022",
+            "INEGI.OIC5.03/16/2022"
+        ]
+    },
+    {
+        "proveedor": "DORLAB MEXICO, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/7/2021",
+            "INEGI.OIC5.03/7/2021"
+        ]
+    },
+    {
+        "proveedor": "DORLAB MEXICO, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/7/2021",
+            "INEGI.OIC5.03/7/2021"
+        ]
+    },
+    {
+        "proveedor": "ELECTRICA LOSI, S.A. DE C.V.",
+        "numero": [
+            "SP-013/2010",
+            "SP-013/2010"
+        ]
+    },
+    {
+        "proveedor": "ELECTRICA LOSI, S.A. DE C.V.",
+        "numero": [
+            "SP-013/2010",
+            "SP-013/2010"
+        ]
+    },
+    {
+        "proveedor": "EXPANSIÓN, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/14/2024",
+            "INEGI.OIC5.03/14/2024"
+        ]
+    },
+    {
+        "proveedor": "EXPANSIÓN, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/14/2024",
+            "INEGI.OIC5.03/14/2024"
+        ]
+    },
+    {
+        "proveedor": "GRUPO CONSULTOR EN INFORMATICA, S.A. DE C.V.",
+        "numero": [
+            "40.902.05/014/2011",
+            "40.902.05/014/2011"
+        ]
+    },
+    {
+        "proveedor": "GRUPO CONSULTOR EN INFORMATICA, S.A. DE C.V.",
+        "numero": [
+            "40.902.05/014/2011",
+            "40.902.05/014/2011"
+        ]
+    },
+    {
+        "proveedor": "GRUPO RENPO, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/5/2024",
+            "INEGI.OIC5.03/5/2024"
+        ]
+    },
+    {
+        "proveedor": "GRUPO RENPO, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/5/2024",
+            "INEGI.OIC5.03/5/2024"
+        ]
+    },
+    {
+        "proveedor": "IMPULSORA CULTURAL Y TECNOLÓGICA, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/16/2024",
+            "INEGI.OIC5.03/16/2024"
+        ]
+    },
+    {
+        "proveedor": "IMPULSORA CULTURAL Y TECNOLÓGICA, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/16/2024",
+            "INEGI.OIC5.03/16/2024"
+        ]
+    },
+    {
+        "proveedor": "INTEGRADORA DE PRODUCTOS Y SERVICIOS SOLANO, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/9/2021",
+            "INEGI.OIC5.03/9/2021"
+        ]
+    },
+    {
+        "proveedor": "INTEGRADORA DE PRODUCTOS Y SERVICIOS SOLANO, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/9/2021",
+            "INEGI.OIC5.03/9/2021"
+        ]
+    },
+    {
+        "proveedor": "INTEGRAL PROJECT ADVANCE DEVICES, S. DE R.L. DE C.V.",
+        "numero": [
+            "INEGI.CIN3.05/1/2017"
+        ]
+    },
+    {
+        "proveedor": "IT CLOUD DYNAMICS BUSINESS CONSULTING, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/11/2024"
+        ]
+    },
+    {
+        "proveedor": "JM REFACCIONES INDUSTRIALES, S.A. DE C.V",
+        "numero": [
+            "INEGI.CIN3.05/ 13 /2016",
+            "INEGI.CIN3.05/ 13 /2016"
+        ]
+    },
+    {
+        "proveedor": "JM REFACCIONES INDUSTRIALES, S.A. DE C.V",
+        "numero": [
+            "INEGI.CIN3.05/ 13 /2016",
+            "INEGI.CIN3.05/ 13 /2016"
+        ]
+    },
+    {
+        "proveedor": "KP ASOCIADOS, S.A. DE C.V.",
+        "numero": [
+            "INWEGI.OIC5.03/15/2023",
+            "INWEGI.OIC5.03/15/2023"
+        ]
+    },
+    {
+        "proveedor": "KP ASOCIADOS, S.A. DE C.V.",
+        "numero": [
+            "INWEGI.OIC5.03/15/2023",
+            "INWEGI.OIC5.03/15/2023"
+        ]
+    },
+    {
+        "proveedor": "LICITAMAR, S.A. DE C.V.",
+        "numero": [
+            "INEGI.CIN3.05/1/2015"
+        ]
+    },
+    {
+        "proveedor": "MACRO CENTRO DE SERVICIOS, S.A. DE C.V.",
+        "numero": [
+            "0021/2008",
+            "0021/2008"
+        ]
+    },
+    {
+        "proveedor": "MACRO CENTRO DE SERVICIOS, S.A. DE C.V.",
+        "numero": [
+            "0021/2008",
+            "0021/2008"
+        ]
+    },
+    {
+        "proveedor": "MAXI SERVICIOS DE MÉXICO, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/2/2024",
+            "INEGI.OIC5.03/2/2024"
+        ]
+    },
+    {
+        "proveedor": "MAXI SERVICIOS DE MÉXICO, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/2/2024",
+            "INEGI.OIC5.03/2/2024"
+        ]
+    },
+    {
+        "proveedor": "MAYAR DE MÉXICO, S.A. DE C.V.",
+        "numero": [
+            "40.902.05/010/2011",
+            "40.902.05/010/2011"
+        ]
+    },
+    {
+        "proveedor": "MAYAR DE MÉXICO, S.A. DE C.V.",
+        "numero": [
+            "40.902.05/010/2011",
+            "40.902.05/010/2011"
+        ]
+    },
+    {
+        "proveedor": "MULTISOLUCIONES DE DURANGO, S. DE R.L. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/1/2023",
+            "INEGI.OIC5.03/1/2023"
+        ]
+    },
+    {
+        "proveedor": "MULTISOLUCIONES DE DURANGO, S. DE R.L. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/1/2023",
+            "INEGI.OIC5.03/1/2023"
+        ]
+    },
+    {
+        "proveedor": "PAPELERIA MARGARET, S.A. DE C.V.",
+        "numero": [
+            "SP-026/2009"
+        ]
+    },
+    {
+        "proveedor": "PASELLE, S.A. DE C.V.",
+        "numero": [
+            "INEGI.CIN3.05/11/2015"
+        ]
+    },
+    {
+        "proveedor": "PLÁSTICOS Y FERTILIZANTES DE MORELOS, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/10/2021",
+            "INEGI.OIC5.03/10/2021"
+        ]
+    },
+    {
+        "proveedor": "PLÁSTICOS Y FERTILIZANTES DE MORELOS, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/10/2021",
+            "INEGI.OIC5.03/10/2021"
+        ]
+    },
+    {
+        "proveedor": "PRODUCCIONES CONTI, S.A. DE C.V.",
+        "numero": [
+            "40.902.05/06/2011",
+            "40.902.05/06/2011"
+        ]
+    },
+    {
+        "proveedor": "PRODUCCIONES CONTI, S.A. DE C.V.",
+        "numero": [
+            "40.902.05/06/2011",
+            "40.902.05/06/2011"
+        ]
+    },
+    {
+        "proveedor": "PRODUCTOS DE PRIMERISIMA, S.A. DE C.V.",
+        "numero": [
+            "SP-001/2010"
+        ]
+    },
+    {
+        "proveedor": "SE SUSTENTABLE, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/14/2023",
+            "INEGI.OIC5.03/14/2023"
+        ]
+    },
+    {
+        "proveedor": "SE SUSTENTABLE, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/14/2023",
+            "INEGI.OIC5.03/14/2023"
+        ]
+    },
+    {
+        "proveedor": "SEGURIDAD PRIVADA INTEGRAL DE AUTOSERVICIO, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/10/2022",
+            "INEGI.OIC5.03/10/2022"
+        ]
+    },
+    {
+        "proveedor": "SEGURIDAD PRIVADA INTEGRAL DE AUTOSERVICIO, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/10/2022",
+            "INEGI.OIC5.03/10/2022"
+        ]
+    },
+    {
+        "proveedor": "SERVICIOS ADMINISTRATIVOS Y EMPRESARIALES DEL SUR DE TAMAULIPAS, S.A. DE C.V.",
+        "numero": [
+            "IINEGI.OIC5.03/5/2023"
+        ]
+    },
+    {
+        "proveedor": "SERVICIOS, INGENIERIA, CONSULTORIA Y AUTOMATIZACION, S.A. DE C.V.",
+        "numero": [
+            "40.902.05/2/2014",
+            "40.902.05/2/2014"
+        ]
+    },
+    {
+        "proveedor": "SERVICIOS, INGENIERIA, CONSULTORIA Y AUTOMATIZACION, S.A. DE C.V.",
+        "numero": [
+            "40.902.05/2/2014",
+            "40.902.05/2/2014"
+        ]
+    },
+    {
+        "proveedor": "SHC CONSTRUCCIONES E INGENIERIA CIVIL, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/6/2021",
+            "INEGI.OIC5.03/6/2021"
+        ]
+    },
+    {
+        "proveedor": "SHC CONSTRUCCIONES E INGENIERIA CIVIL, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/6/2021",
+            "INEGI.OIC5.03/6/2021"
+        ]
+    },
+    {
+        "proveedor": "SICARU LIMPIEZA, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/2/2023",
+            "INEGI.OIC5.03/2/2023"
+        ]
+    },
+    {
+        "proveedor": "SICARU LIMPIEZA, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/2/2023",
+            "INEGI.OIC5.03/2/2023"
+        ]
+    },
+    {
+        "proveedor": "SISTEMAS DE PROTECCIÓN CANINA INTERNACIONAL, SOCIEDAD ANÓNIMA DE CAPITAL VARIABLE",
+        "numero": [
+            "INEGI.OIC3.05/14/2019",
+            "INEGI.OIC3.05/14/2019"
+        ]
+    },
+    {
+        "proveedor": "SISTEMAS DE PROTECCIÓN CANINA INTERNACIONAL, SOCIEDAD ANÓNIMA DE CAPITAL VARIABLE",
+        "numero": [
+            "INEGI.OIC3.05/14/2019",
+            "INEGI.OIC3.05/14/2019"
+        ]
+    },
+    {
+        "proveedor": "SISTEMAS ELECTRÓNICOS Y DE RADIOCOMUNICACIÓN, S.A. DE C.V.",
+        "numero": [
+            "INEGI.CIN3.05/6/2017",
+            "INEGI.CIN3.05/6/2017"
+        ]
+    },
+    {
+        "proveedor": "SISTEMAS ELECTRÓNICOS Y DE RADIOCOMUNICACIÓN, S.A. DE C.V.",
+        "numero": [
+            "INEGI.CIN3.05/6/2017",
+            "INEGI.CIN3.05/6/2017"
+        ]
+    },
+    {
+        "proveedor": "SOLUCIONES ABIERTAS Y CONSULTORIA, S.A. DE C.V.",
+        "numero": [
+            "SP-007/2009",
+            "SP-007/2009"
+        ]
+    },
+    {
+        "proveedor": "SOLUCIONES ABIERTAS Y CONSULTORIA, S.A. DE C.V.",
+        "numero": [
+            "SP-007/2009",
+            "SP-007/2009"
+        ]
+    },
+    {
+        "proveedor": "SOLUCIONES CORPORATIVAS AMBIENTALES Y CONTRA INCENDIO, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/9/2021",
+            "INEGI.OIC5.03/9/2021"
+        ]
+    },
+    {
+        "proveedor": "SOLUCIONES CORPORATIVAS AMBIENTALES Y CONTRA INCENDIO, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/9/2021",
+            "INEGI.OIC5.03/9/2021"
+        ]
+    },
+    {
+        "proveedor": "SOLUCIONES INTEGRALES ELYM, S. DE RL. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/10/2023",
+            "INEGI.OIC5.03/10/2023"
+        ]
+    },
+    {
+        "proveedor": "SOLUCIONES INTEGRALES ELYM, S. DE RL. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/10/2023",
+            "INEGI.OIC5.03/10/2023"
+        ]
+    },
+    {
+        "proveedor": "ST SOLUCIONES EMPRESARIALES, S.A. DE C.V.",
+        "numero": [
+            "INEGI.CIN3.05/10/2015",
+            "INEGI.CIN3.05/10/2015"
+        ]
+    },
+    {
+        "proveedor": "ST SOLUCIONES EMPRESARIALES, S.A. DE C.V.",
+        "numero": [
+            "INEGI.CIN3.05/10/2015",
+            "INEGI.CIN3.05/10/2015"
+        ]
+    },
+    {
+        "proveedor": "SUMINISTROS MARODIA, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC3.03/21/2018",
+            "INEGI.OIC3.03/21/2018"
+        ]
+    },
+    {
+        "proveedor": "SUMINISTROS MARODIA, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC3.03/21/2018",
+            "INEGI.OIC3.03/21/2018"
+        ]
+    },
+    {
+        "proveedor": "SUPER TAZ, S.A. DE C.V.",
+        "numero": [
+            "INEGI.CIN3.05/2/2016",
+            "INEGI.CIN3.05/2/2016",
+            "INEGI.CIN3.05/2/2017",
+            "INEGI.CIN3.05/2/2017"
+        ]
+    },
+    {
+        "proveedor": "SUPER TAZ, S.A. DE C.V.",
+        "numero": [
+            "INEGI.CIN3.05/2/2016",
+            "INEGI.CIN3.05/2/2016",
+            "INEGI.CIN3.05/2/2017",
+            "INEGI.CIN3.05/2/2017"
+        ]
+    },
+    {
+        "proveedor": "SUPER TAZ, S.A. DE C.V.",
+        "numero": [
+            "INEGI.CIN3.05/2/2016",
+            "INEGI.CIN3.05/2/2016",
+            "INEGI.CIN3.05/2/2017",
+            "INEGI.CIN3.05/2/2017"
+        ]
+    },
+    {
+        "proveedor": "SUPER TAZ, S.A. DE C.V.",
+        "numero": [
+            "INEGI.CIN3.05/2/2016",
+            "INEGI.CIN3.05/2/2016",
+            "INEGI.CIN3.05/2/2017",
+            "INEGI.CIN3.05/2/2017"
+        ]
+    },
+    {
+        "proveedor": "SUSST DHALCO, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/13/2024",
+            "INEGI.OIC5.03/13/2024"
+        ]
+    },
+    {
+        "proveedor": "SUSST DHALCO, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/13/2024",
+            "INEGI.OIC5.03/13/2024"
+        ]
+    },
+    {
+        "proveedor": "TAZ CLEANING, SA. DE C.V.",
+        "numero": [
+            "INEGI.CIN3.05/31/2016",
+            "INEGI.CIN3.05/31/2016"
+        ]
+    },
+    {
+        "proveedor": "TAZ CLEANING, SA. DE C.V.",
+        "numero": [
+            "INEGI.CIN3.05/31/2016",
+            "INEGI.CIN3.05/31/2016"
+        ]
+    },
+    {
+        "proveedor": "TEAM COMPETITIVE TENDERING, SOCIEDAD ANÓNIMA DE CAPITAL VARIABLE",
+        "numero": [
+            "INEGI.OIC5.03/6/2022",
+            "INEGI.OIC5.03/6/2022"
+        ]
+    },
+    {
+        "proveedor": "TEAM COMPETITIVE TENDERING, SOCIEDAD ANÓNIMA DE CAPITAL VARIABLE",
+        "numero": [
+            "INEGI.OIC5.03/6/2022",
+            "INEGI.OIC5.03/6/2022"
+        ]
+    },
+    {
+        "proveedor": "TELECOMUNICACIONES Y TECNOLOGÍA EN LÍNEA, S.A. DE C.V.",
+        "numero": [
+            "40.902.05/005/2012"
+        ]
+    },
+    {
+        "proveedor": "VALRO SERVICIOS INTEGRALES S.A. DE C.V.",
+        "numero": [
+            "INEGI.CIN3.05/3/2017",
+            "INEGI.CIN3.05/3/2017"
+        ]
+    },
+    {
+        "proveedor": "VALRO SERVICIOS INTEGRALES S.A. DE C.V.",
+        "numero": [
+            "INEGI.CIN3.05/3/2017",
+            "INEGI.CIN3.05/3/2017"
+        ]
+    },
+    {
+        "proveedor": "Y & E INDUSTRY, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/16/2019"
+        ]
+    },
+    {
+        "proveedor": "YUS & YUS, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/8/2024",
+            "INEGI.OIC5.03/8/2024"
+        ]
+    },
+    {
+        "proveedor": "YUS & YUS, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/8/2024",
+            "INEGI.OIC5.03/8/2024"
+        ]
+    }
+]
