@@ -1,0 +1,60 @@
+name: EU FSF Worker
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run scraper
+        run: |
+          scrapy crawl eu_spider
+
+      - name: Commit result (forced)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add eu_fsf_sanctions.json
+          git commit -m "Auto update eu_fsf_sanctions.json [$(date -u)]" || echo "No changes"
+          git push
+ 
+      - name: Send alert email on failure
+        if: failure()
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 587
+          username: ${{ secrets.EMAIL_USER }}
+          password: ${{ secrets.EMAIL_PASS }}
+          subject: "EU FSF Worker FAILED"
+          to: taner9321@gmail.com
+          from: EU FSF Worker Bot
+          body: |
+            EU FSF worker workflow failed.
+
+            Repository: ${{ github.repository }}
+            Workflow: ${{ github.workflow }}
+            Event: ${{ github.event_name }}
+            Run ID: ${{ github.run_id }}
+            Triggered by: repository_dispatch
+
+            Check logs:
+            https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+

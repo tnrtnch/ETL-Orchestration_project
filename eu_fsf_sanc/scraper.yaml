@@ -1,0 +1,2 @@
+target_url: "https://data.opensanctions.org/datasets/latest/eu_fsf/targets.simple.csv"
+output_file: "/app/data/eu_fsf_sanctions.json"
