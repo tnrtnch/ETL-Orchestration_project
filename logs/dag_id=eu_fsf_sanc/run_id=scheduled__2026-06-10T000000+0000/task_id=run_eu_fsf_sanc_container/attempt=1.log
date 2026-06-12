@@ -1,0 +1,38 @@
+[2026-06-11T08:38:50.509+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: eu_fsf_sanc.run_eu_fsf_sanc_container scheduled__2026-06-10T00:00:00+00:00 [queued]>
+[2026-06-11T08:38:51.489+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: eu_fsf_sanc.run_eu_fsf_sanc_container scheduled__2026-06-10T00:00:00+00:00 [queued]>
+[2026-06-11T08:38:51.566+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2026-06-11T08:38:53.245+0000] {taskinstance.py:2214} INFO - Executing <Task(DockerOperator): run_eu_fsf_sanc_container> on 2026-06-10 00:00:00+00:00
+[2026-06-11T08:38:53.551+0000] {standard_task_runner.py:60} INFO - Started process 64 to run task
+[2026-06-11T08:38:53.958+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'eu_fsf_sanc', 'run_eu_fsf_sanc_container', 'scheduled__2026-06-10T00:00:00+00:00', '--job-id', '434', '--raw', '--subdir', 'DAGS_FOLDER/eu_fsf_sanc_dag.py', '--cfg-path', '/tmp/tmpf_an__yt']
+[2026-06-11T08:38:54.260+0000] {standard_task_runner.py:88} INFO - Job 434: Subtask run_eu_fsf_sanc_container
+[2026-06-11T08:39:00.718+0000] {task_command.py:423} INFO - Running <TaskInstance: eu_fsf_sanc.run_eu_fsf_sanc_container scheduled__2026-06-10T00:00:00+00:00 [running]> on host f39b18a112ca
+[2026-06-11T08:39:10.951+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='eu_fsf_sanc' AIRFLOW_CTX_TASK_ID='run_eu_fsf_sanc_container' AIRFLOW_CTX_EXECUTION_DATE='2026-06-10T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-06-10T00:00:00+00:00'
+[2026-06-11T08:39:12.099+0000] {docker.py:486} INFO - Pulling docker image eu-fsf-sanc:v1
+[2026-06-11T08:39:16.088+0000] {taskinstance.py:2728} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/docker/api/client.py", line 265, in _raise_for_status
+    response.raise_for_status()
+  File "/home/airflow/.local/lib/python3.8/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: http+docker://localhost/v1.54/images/create?tag=v1&fromImage=eu-fsf-sanc
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/docker/operators/docker.py", line 488, in execute
+    for output in self.cli.pull(self.image, stream=True, decode=True):
+  File "/home/airflow/.local/lib/python3.8/site-packages/docker/api/image.py", line 429, in pull
+    self._raise_for_status(response)
+  File "/home/airflow/.local/lib/python3.8/site-packages/docker/api/client.py", line 267, in _raise_for_status
+    raise create_api_error_from_http_exception(e) from e
+  File "/home/airflow/.local/lib/python3.8/site-packages/docker/errors.py", line 39, in create_api_error_from_http_exception
+    raise cls(e, response=response, explanation=explanation) from e
+docker.errors.ImageNotFound: 404 Client Error for http+docker://localhost/v1.54/images/create?tag=v1&fromImage=eu-fsf-sanc: Not Found ("pull access denied for eu-fsf-sanc, repository does not exist or may require 'docker login'")
+[2026-06-11T08:39:17.943+0000] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=eu_fsf_sanc, task_id=run_eu_fsf_sanc_container, execution_date=20260610T000000, start_date=20260611T083850, end_date=20260611T083917
+[2026-06-11T08:39:19.241+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 434 for task run_eu_fsf_sanc_container (404 Client Error for http+docker://localhost/v1.54/images/create?tag=v1&fromImage=eu-fsf-sanc: Not Found ("pull access denied for eu-fsf-sanc, repository does not exist or may require 'docker login'"); 64)
+[2026-06-11T08:39:19.740+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2026-06-11T08:39:23.409+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

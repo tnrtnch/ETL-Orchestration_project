@@ -1,0 +1,30 @@
+[2026-06-08T14:45:23.088+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: merge_all_scrapers.merge_all_outputs manual__2026-06-08T14:45:09.492511+00:00 [queued]>
+[2026-06-08T14:45:23.224+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: merge_all_scrapers.merge_all_outputs manual__2026-06-08T14:45:09.492511+00:00 [queued]>
+[2026-06-08T14:45:23.279+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2026-06-08T14:45:23.417+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): merge_all_outputs> on 2026-06-08 14:45:09.492511+00:00
+[2026-06-08T14:45:24.267+0000] {standard_task_runner.py:60} INFO - Started process 1310 to run task
+[2026-06-08T14:45:25.021+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'merge_all_scrapers', 'merge_all_outputs', 'manual__2026-06-08T14:45:09.492511+00:00', '--job-id', '432', '--raw', '--subdir', 'DAGS_FOLDER/merge_dag.py', '--cfg-path', '/tmp/tmpdyyru3ej']
+[2026-06-08T14:45:25.131+0000] {standard_task_runner.py:88} INFO - Job 432: Subtask merge_all_outputs
+[2026-06-08T14:45:28.228+0000] {task_command.py:423} INFO - Running <TaskInstance: merge_all_scrapers.merge_all_outputs manual__2026-06-08T14:45:09.492511+00:00 [running]> on host f39b18a112ca
+[2026-06-08T14:45:34.098+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='merge_all_scrapers' AIRFLOW_CTX_TASK_ID='merge_all_outputs' AIRFLOW_CTX_EXECUTION_DATE='2026-06-08T14:45:09.492511+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-06-08T14:45:09.492511+00:00'
+[2026-06-08T14:45:36.961+0000] {logging_mixin.py:188} INFO - 📂 DATA PATH: /opt/***/data
+[2026-06-08T14:45:41.790+0000] {logging_mixin.py:188} INFO - 
+READING JSON: eu_fsf_sanctions.json
+[2026-06-08T14:45:56.709+0000] {logging_mixin.py:188} INFO - 
+READING JSON: inegi_playwright.json
+[2026-06-08T14:45:57.942+0000] {logging_mixin.py:188} INFO - 
+READING JSON: inegi_scraper.json
+[2026-06-08T14:45:59.229+0000] {logging_mixin.py:188} INFO - 
+READING DB: kaldata.db
+[2026-06-08T14:48:03.886+0000] {logging_mixin.py:188} INFO - 
+READING DB: telegraph.db
+[2026-06-08T14:48:05.715+0000] {logging_mixin.py:188} INFO - 
+TOTAL BEFORE DEDUP: 6713
+[2026-06-08T14:48:05.894+0000] {logging_mixin.py:188} INFO - AFTER DEDUP: 6710
+[2026-06-08T14:48:06.214+0000] {base.py:83} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-06-08T14:49:36.269+0000] {logging_mixin.py:188} INFO - JSON OUTPUT: /opt/***/data/final_output.json
+[2026-06-08T14:49:49.210+0000] {logging_mixin.py:188} INFO - LOCK REMOVED
+[2026-06-08T14:49:49.243+0000] {python.py:202} INFO - Done. Returned value was: None
+[2026-06-08T14:49:49.398+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=merge_all_scrapers, task_id=merge_all_outputs, execution_date=20260608T144509, start_date=20260608T144523, end_date=20260608T144949
+[2026-06-08T14:49:50.876+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-06-08T14:50:00.422+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

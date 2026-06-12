@@ -1,0 +1,38 @@
+[2026-06-11T14:42:45.742+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: inegi_scraper.run_inegi_selenium_container manual__2026-06-11T14:41:28.206329+00:00 [queued]>
+[2026-06-11T14:42:45.839+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: inegi_scraper.run_inegi_selenium_container manual__2026-06-11T14:41:28.206329+00:00 [queued]>
+[2026-06-11T14:42:45.851+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2026-06-11T14:42:46.018+0000] {taskinstance.py:2214} INFO - Executing <Task(DockerOperator): run_inegi_selenium_container> on 2026-06-11 14:41:28.206329+00:00
+[2026-06-11T14:42:46.080+0000] {standard_task_runner.py:60} INFO - Started process 4286 to run task
+[2026-06-11T14:42:46.144+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'inegi_scraper', 'run_inegi_selenium_container', 'manual__2026-06-11T14:41:28.206329+00:00', '--job-id', '491', '--raw', '--subdir', 'DAGS_FOLDER/inegi_scraper_dag.py', '--cfg-path', '/tmp/tmpktfm96bw']
+[2026-06-11T14:42:46.222+0000] {standard_task_runner.py:88} INFO - Job 491: Subtask run_inegi_selenium_container
+[2026-06-11T14:42:47.540+0000] {task_command.py:423} INFO - Running <TaskInstance: inegi_scraper.run_inegi_selenium_container manual__2026-06-11T14:41:28.206329+00:00 [running]> on host f39b18a112ca
+[2026-06-11T14:42:48.898+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='inegi_scraper' AIRFLOW_CTX_TASK_ID='run_inegi_selenium_container' AIRFLOW_CTX_EXECUTION_DATE='2026-06-11T14:41:28.206329+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-06-11T14:41:28.206329+00:00'
+[2026-06-11T14:42:49.963+0000] {docker.py:359} INFO - Starting docker container from image inegi-scraper:v1
+[2026-06-11T14:42:50.064+0000] {docker.py:367} WARNING - Using remote engine or docker-in-docker and mounting temporary volume from host is not supported. Falling back to `mount_tmp_dir=False` mode. You can set `mount_tmp_dir` parameter to False to disable mounting and remove the warning
+[2026-06-11T15:08:36.184+0000] {docker.py:429} INFO - 2026-06-11 15:08:35 [scrapy.core.engine] ERROR: Scraper close failure
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/engine.py", line 629, in close_spider_async
+    await self.scraper.close_spider_async()
+  File "/usr/local/lib/python3.11/site-packages/scrapy/core/scraper.py", line 199, in close_spider_async
+    await self.itemproc.close_spider_async()
+  File "/usr/local/lib/python3.11/site-packages/scrapy/pipelines/__init__.py", line 142, in close_spider_async
+    await self._process_parallel("close_spider")
+  File "/usr/local/lib/python3.11/site-packages/scrapy/pipelines/__init__.py", line 117, in _process_parallel
+    return await self._process_parallel_asyncio(methodname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/scrapy/pipelines/__init__.py", line 111, in _process_parallel_asyncio
+    awaitables = [self.get_awaitable(m) for m in methods]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/scrapy/pipelines/__init__.py", line 111, in <listcomp>
+    awaitables = [self.get_awaitable(m) for m in methods]
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/scrapy/pipelines/__init__.py", line 98, in get_awaitable
+    result = method(self._spider)
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/app/inegi/pipelines.py", line 60, in close_spider
+    with open(output_path, "w", encoding="utf-8") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/***/data/inegi_scraper.json'
+[2026-06-11T15:08:57.867+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=inegi_scraper, task_id=run_inegi_selenium_container, execution_date=20260611T144128, start_date=20260611T144245, end_date=20260611T150857
+[2026-06-11T15:08:58.738+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-06-11T15:09:01.737+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

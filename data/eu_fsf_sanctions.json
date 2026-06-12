@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T07:01:43.271792",
+  "generated_at": "2026-06-12T07:44:53.209753",
   "items": [
     {
       "name": "OJSC EHMZ named after N. D. Zelinsky",
@@ -1560,12 +1560,6 @@
       "schema": "Organization",
       "sanctions": "UKR - 2025/527 (OJ L202500527) - 2023-02-25",
       "aliases": "\"Joint Stock Company \"\"Battery Company \"\"Rigel\"\"\"\"\";Producent Baterii Rigel S.A.;Rigel;Societatea de baterii Rigel SA;Société par actions Battery Company Rigel;Spoločnosť na výrobu batérií Rigeľ a. s.;\"Акционерное Общество \"\"Аккумуляторная Компания \"\"Ригель\"\"\"\"\";Дружество за акумулаторни батерии „Ригел“ АД"
-    },
-    {
-      "name": "Hafiz Abdul Salam Bhattvi",
-      "schema": "Person",
-      "sanctions": "TAQA - 2024/328 (OJ L15012024) - 2012-03-14",
-      "aliases": "Abdul Salam Bhattwi;Abdul Salam Bhutvi;Abdul Salam Budvi;Hafiz Abdul Salam Bhuttavi;Hafiz Abdusalam Budvi;Hafiz Abdussalaam Bhutvi;Molvi Abdursalam Bhattvi;Mullah Abdul Salaam Bhattvi"
     },
     {
       "name": "Leonid Vladimirovich MIKHAILIUK",
@@ -3596,12 +3590,6 @@
       "aliases": "Gaffar Mohmed Elhassan"
     },
     {
-      "name": "Ansar al Charia",
-      "schema": "Organization",
-      "sanctions": "TAQA - 1273/2014 (OJ L344) - 2014-11-19",
-      "aliases": "Ansar Al Charia Benghazi;Ansar al Charia in Libya (ASL);Ansar al Sharia;Ansar al-Charia;Ansar al-Charia Benghazi;Ansar al-Sharia;Ansar al-Sharia Benghazi;Katibat Ansar al Charia"
-    },
-    {
       "name": "Evgeny Nikolaevich ZHURAVLEV",
       "schema": "Person",
       "sanctions": "UKR - 2023/429 (OJ L59 I) - 2023-02-25",
@@ -3744,12 +3732,6 @@
       "schema": "Person",
       "sanctions": "BLR - 2022/300 (OJ L46) - 2021-06-21",
       "aliases": "Lilija Valerjeuna LUKASJENKA;Lilija Valerjeuna SIAMASJKA;Lilija Valerjevna LUKASJENKO;Lilija Valerjevna SEMASJKO;Liliya Valereuna LUKASHENKA;Liliya Valereuna SIAMASHKA;Liliya Valerevna LUKASHENKO;Liliya Valerevna SEMASHKO;Лилия Валерьевна СЕМАШКО;Лілія Валер'еўна ЛУКАШЭНКА;Лілія Валер'еўна СЯМАШКА"
-    },
-    {
-      "name": "Aamir Ali Chaudary",
-      "schema": "Person",
-      "sanctions": "TAQA - 2023/329 (OJ L43I) - 2012-10-18",
-      "aliases": "Aamir Ali Chaudhry;Aamir Ali Choudry;Amir Ali Chaudry;Huzaifa;عامر علی چوہدری"
     },
     {
       "name": "Jan Mohammad Madani Ikram",
@@ -4824,6 +4806,12 @@
       "schema": "Person",
       "sanctions": "UKR - 2022/1270 (OJ L193) - 2022-07-21",
       "aliases": "Aleksej Stepanovitj BEZZUBIKOV;Алексей Степанович БЕЗЗУБИКОВ"
+    },
+    {
+      "name": "LLC “ECOPROM”",
+      "schema": "Organization",
+      "sanctions": "UKR - 2026/509 (OJ L202600509) - 2026-04-23",
+      "aliases": "Limited Liability Company “Ecoprom”;ООО “ЭКОПРОМ”;Общество с ограниченной ответственностью “Экопром”"
     },
     {
       "name": "Guidance Patrols",
@@ -8474,12 +8462,6 @@
       "aliases": "Роман Викторович ВЛАДИМИРОВ"
     },
     {
-      "name": "Alexei Talai Foundation",
-      "schema": "Organization",
-      "sanctions": "UKR - 2024/753 (OJ L23022024) - 2024-02-23",
-      "aliases": "Alexey Talay Alapítvány;Alexey Talay Foundation;Fondation Aleksey Talay;Fundación Aleksey Talay;Fundația Alexei Talai;Фонд Алексея Талая;Фонд Аляксея Талая"
-    },
-    {
       "name": "Viktor Nikolayevitch ADROV",
       "schema": "Person",
       "sanctions": "UKR - 2026/509 (OJ L202600509) - 2026-04-23",
@@ -10280,12 +10262,6 @@
       "aliases": "Jonel CATEL"
     },
     {
-      "name": "Gedo Hamdan Ahmed",
-      "schema": "Person",
-      "sanctions": "SDNZ - 2026/251 (OJ L202600251) - 2026-01-29",
-      "aliases": "Abnashuk;Abu Nushuk;Abunshuk;Gedo HAMDAN;Jadu Hamdan;Jido Hamdan Ahmed"
-    },
-    {
       "name": "Sureh Nuclear Reactors Fuel Company",
       "schema": "Organization",
       "sanctions": "IRN - 2025/1980 (OJ L202501980) - 2025-09-29",
@@ -11264,12 +11240,6 @@
       "aliases": "Industrias Electrónicas de Irán;Iráni Elektronikai Iparágak Vállalat"
     },
     {
-      "name": "ISLAMIC STATE IN THE GREATER SAHARA (ISGS)",
-      "schema": "Organization",
-      "sanctions": "TAQA - 2020/288 (OJ L61) - 2020-02-23",
-      "aliases": "ISIS in the Greater Sahara;ISIS in the Greater Sahel;ISIS in the Islamic Sahel;Islamic State in Iraq and Syria – Greater Sahara (ISIS-GS);Islamic State of Iraq and Syria – Greater Sahara (ISIS-GS);Islamic State of Iraq and the Levant - Greater Sahara (ISIL-GS);Islamic State of the Greater Sahel"
-    },
-    {
       "name": "JSC NPO Elektromechaniki",
       "schema": "Organization",
       "sanctions": "UKR - 2024/753 (OJ L23022024) - 2024-02-23",
@@ -11610,12 +11580,6 @@
       "schema": "Organization",
       "sanctions": "TAQA - 34/2012 (OJ L15) - 2012-01-17",
       "aliases": "Akhtarabad Medical Camp;Al-Akhtar Medical Centre;Al-Akhtar Trust International;Azmat Pakistan Trust;Azmat-e-Pakistan Trust;Pakistan Relief Foundation;Pakistani Relief Foundation"
-    },
-    {
-      "name": "Ousama Mahmood",
-      "schema": "Person",
-      "sanctions": "EUAQ - 2022/235 (OJ L40) - 2022-02-21",
-      "aliases": "Osama MAHMOOD;Ustadh Usama Mahmood"
     },
     {
       "name": "Andrei Fiodorovich SOPELNIK",
@@ -12078,6 +12042,12 @@
       "schema": "Person",
       "sanctions": "CAF - 2020/1171 (OJ L260) - 2015-08-20",
       "aliases": "Soussou Abib"
+    },
+    {
+      "name": "Ousama Mahmood",
+      "schema": "Person",
+      "sanctions": "EUAQ - 2022/235 (OJ L40) - 2022-02-21",
+      "aliases": "Osama MAHMOOD;Ustadh Usama Mahmood"
     },
     {
       "name": "Ahmad Ali FAIZULLAHI",
@@ -13934,12 +13904,6 @@
       "aliases": "Državno unitarno podjetje ‚Republike Krim‘‚Černomorneftegaz‘;Državno unitarno poduzeće „Republike Krima”„Chernomorneftegaz”;Empresa Pública Unitária da «República da Crimeia»«Chernomorneftegaz»;Empresa Unitaria Estatal de la “República de Crimea”“Chernomorneftegaz”;Entreprise unitaire d’État de la “République de Crimée”“Chernomorneftegaz”;Fiontar Aonadach Stáit de chuid ‘Republic of Crimea’‘Chernomorneftegaz’;Impresa unitaria statale della “Repubblica di Crimea”“Chernomorneftegaz”;Intrapriża Unitarja Statali tar-“Repubblika tal-Krimea”“Chernomorneftegaz”;PJSC ‘Chernomorneftegaz’;Staatliches Einheitsunternehmen der „Republik Krim“„Chernomorneftegaz“;State Unitary Enterprise van de “Republiek Krim”“Chernomorneftegaz”;Státní jednotný podnik „Republiky Krym“„Chernomorneftegaz“;jednolite przedsiębiorstwo państwowe »Republiki Krymu«»Chernomorneftegaz«;»Republikken Krims« statsejede virksomhed »Chernomorneftegaz«;Întreprinderea unitară de stat a «Republicii Crimeea»«Chernomorneftegaz»;Štátny unitárny podnik „Krymskej republiky“„Chernomorneftegaz“;Κρατική ενιαία επιχείρηση της “Δημοκρατίας της Κριμαίας”“Chernomorneftegaz”;Държавно единно предприятие на „Република Крим“„Черноморнефтегаз“;“Krimas republikas” valsts unitārs uzņēmums “Chernomorneftegaz”;”Krimin tasavallan” omistama valtion unitaarinen yritys ”Chernomorneftegaz”;”Republiken Krims” statliga företag ”Chernomorneftegaz”;„Chernomorneftegaz”, a „Krími Köztársaság” állami egységes vállalata;„Krymo Respublikos“ valstybės unitarinė įmonė „Chernomorneftegaz“"
     },
     {
-      "name": "Shamil Magomedovich Aliev",
-      "schema": "Person",
-      "sanctions": "TAQA - 2015/1815 (OJ L264) - 2015-10-02",
-      "aliases": "Abu Hanifa;Shamil Magomedovich Ismailov"
-    },
-    {
       "name": "Ahmad Mahmoud Hassan",
       "schema": "Person",
       "sanctions": "COD - 2024/1271 (OJ L30042024) - 2023-07-28",
@@ -14508,12 +14472,6 @@
       "schema": "Organization",
       "sanctions": "HR - 2024/2999 (OJ L03122024) - 2023-02-25",
       "aliases": ""
-    },
-    {
-      "name": "Majeed, Abdul",
-      "schema": "Person",
-      "sanctions": "TAQA - 2023/329 (OJ L43I) - 2001-12-24",
-      "aliases": "Majeed Abdul Chaudhry;Majeed Chaudhry Abdul;Majid, Abdul"
     },
     {
       "name": "Hossein BAKSHAYESH",
@@ -16652,10 +16610,10 @@
       "aliases": "Abdellah Ahmed;Abdellillah;Ahmed Deghdegh;Said"
     },
     {
-      "name": "Tufail, Sheik Mohammed",
+      "name": "Kirill Ramilievich ABDRAKHMANOV",
       "schema": "Person",
-      "sanctions": "TAQA - 2023/329 (OJ L43I) - 2001-12-24",
-      "aliases": "Mohammed Tufail;Tufail, S.M."
+      "sanctions": "UKR - 2025/2035 (OJ L202502035) - 2025-10-23",
+      "aliases": "Кирилл Рамилевич АБДРАХМАНОВ"
     },
     {
       "name": "Igor Vladimirovich NADOLINSKIY",
@@ -16770,6 +16728,12 @@
       "schema": "Organization",
       "sanctions": "BLR - 2022/300 (OJ L46) - 2021-12-02",
       "aliases": "Centrkurort „TSENTRKURORT“;Državno unitarno poduzeće „TSENTRKURORT”;\"Empresa unitaria de la República \"\"TSENTRKURORT\"\"\";\"Empresa unitária da República \"\"TSENTRKURORT\"\"\";\"Entreprise unitaire républicaine \"\"TSENTRKURORT\"\"\";Fofhiontar aonadach poblachtach ‘TSENTRKURORT’;Onder de Republiek Belarus vallende gecentraliseerde onderneming “TSENTRKURORT”;Państwowe jednolite przedsiębiorstwo »TSENTRKURORT«;Republican unitary enterprise “TSENTRKURORT”;Republikanisches Einheitsunternehmen ‚TSENTRKURORT‘;Republikansko unitarno podjetje ‚TSENTRKURORT‘;Respublikinė unitarinė įmonė TSENTRKURORT;Tasavallan unitaariyritys ”TSENTRKURORT”;riiklik ühisettevõte „TSENTRKURORT“;Întreprinderea unitară de stat «TSENTRKURORT»;Δημοκρατική διαχειριστική επιχείρηση “TSENTRKURORT”;Рэспубліканскае унітарнае прадпрыемства “ЦЭНТРКУРОРТ”"
+    },
+    {
+      "name": "Shamil Magomedovich Aliev",
+      "schema": "Person",
+      "sanctions": "TAQA - 2015/1815 (OJ L264) - 2015-10-02",
+      "aliases": "Abu Hanifa;Shamil Magomedovich Ismailov"
     },
     {
       "name": "Дмитрий Николаевич СТРЕБКОВ",
@@ -18758,6 +18722,12 @@
       "aliases": "رمضان محمود رمضان"
     },
     {
+      "name": "ISLAMIC STATE IN THE GREATER SAHARA (ISGS)",
+      "schema": "Organization",
+      "sanctions": "TAQA - 2020/288 (OJ L61) - 2020-02-23",
+      "aliases": "ISIS in the Greater Sahara;ISIS in the Greater Sahel;ISIS in the Islamic Sahel;Islamic State in Iraq and Syria – Greater Sahara (ISIS-GS);Islamic State of Iraq and Syria – Greater Sahara (ISIS-GS);Islamic State of Iraq and the Levant - Greater Sahara (ISIL-GS);Islamic State of the Greater Sahel"
+    },
+    {
       "name": "Igor Yurievich ANTIPOV",
       "schema": "Person",
       "sanctions": "UKR - 2024/849 (OJ L13032024) - 2022-04-08",
@@ -20342,6 +20312,12 @@
       "aliases": "Salmane"
     },
     {
+      "name": "Jadu Hamdan",
+      "schema": "Person",
+      "sanctions": "SDN - 2026/531 (OJ L202600531) - 2026-03-05;SDNZ - 2026/251 (OJ L202600251) - 2026-01-29",
+      "aliases": "Abnashuk;Abu Nashuk;Abu Nushuk;Abunshuk;Gedo HAMDAN;Gedo Hamdan Ahmed;Jido Hamdan Ahmed"
+    },
+    {
       "name": "LLC Invest Flot",
       "schema": "Organization",
       "sanctions": "UKR - 2025/389 (OJ L24022025) - 2025-02-24",
@@ -21266,6 +21242,12 @@
       "aliases": "Barnaultransmash Nyrt;Barnaultransmaš, otevřená a. s.;Барнаульский завод транспортного машиностроения"
     },
     {
+      "name": "Alexei Talai Foundation",
+      "schema": "Organization",
+      "sanctions": "UKR - 2024/753 (OJ L23022024) - 2024-02-23",
+      "aliases": "Alexey Talay Alapítvány;Alexey Talay Foundation;Fondation Aleksey Talay;Fundación Aleksey Talay;Fundația Alexei Talai;Фонд Алексея Талая;Фонд Аляксея Талая"
+    },
+    {
       "name": "Fedor Fedorovich POTEKHIN",
       "schema": "Person",
       "sanctions": "UKR - 2024/3183 (OJ L16122024) - 2024-12-16",
@@ -21512,6 +21494,12 @@
       "aliases": "Abu Jabal;Abu-Jabal;Ibrahim Suleiman Hamad Al-Hablain"
     },
     {
+      "name": "Ansar al Charia",
+      "schema": "Organization",
+      "sanctions": "TAQA - 1273/2014 (OJ L344) - 2014-11-19",
+      "aliases": "Ansar Al Charia Benghazi;Ansar al Charia in Libya (ASL);Ansar al Sharia;Ansar al-Charia;Ansar al-Charia Benghazi;Ansar al-Sharia;Ansar al-Sharia Benghazi;Katibat Ansar al Charia"
+    },
+    {
       "name": "Korea Pugang Trading Corporation",
       "schema": "Organization",
       "sanctions": "PRK - 2017/1509 (OJ L224) - 2016-11-30",
@@ -21624,6 +21612,12 @@
       "schema": "Organization",
       "sanctions": "UKR - 2023/429 (OJ L59 I) - 2023-02-25",
       "aliases": "Biroul de stat de proiectare în domeniul construcțiilor de mașini „Raduga” SA;Federalinė valstybės unitarinė įmonė „Rossiya Segodnya International Information Agency“;Federalno državno unitarno poduzeće Međunarodna izvještajna agencija ,ROSSIYA SEGODNYA’”;Państwowe Biuro Projektowe Budowy Maszyn „Raduga” S.A.;\"Société par actions Bureau d’études d’État pour la construction mécanique \"\"Raduga\"\"\";Staats machinebouw- en ontwerpbureau “Raduga”;\"Акционерное общество 'Государственное машиностроительное конструкторское бюро \"\"РАДУГА\"\" имени А.Я. Березняка'\""
+    },
+    {
+      "name": "JSC «Nizhny Novgorod research and production association named after M.V. Frunze»",
+      "schema": "Organization",
+      "sanctions": "UKR - 2026/509 (OJ L202600509) - 2026-04-23",
+      "aliases": "Joint Stock Company «Nizhny Novgorod research and production association named after M.V. Frunze»;Niżnonowogrodzkie Stowarzyszenie Badawczo Produkcyjne im. M. W. Frunzego SA;Niżnonowogrodzkie Stowarzyszenie Badawczo Produkcyjne im. M. W. Frunzego Spółka Akcyjna;Акционерное общество «Нижегородское научно-производственное объединение имени М.В. Фрунзе»"
     },
     {
       "name": "Structura National Technologies",
@@ -21744,6 +21738,12 @@
       "schema": "Person",
       "sanctions": "SDN - 2018/512 (OJ L84) - 2006-04-25",
       "aliases": "General Gibril Abdul Kareem Barey;Jibril Abdulkarim Ibrahim MAYU;‘Tek’"
+    },
+    {
+      "name": "JSC “Scientific and production association of automation named by academician N.A. Semikhatov”",
+      "schema": "Organization",
+      "sanctions": "UKR - 2026/509 (OJ L202600509) - 2026-04-23",
+      "aliases": "Joint Stock Company “Scientific and production association of automation named by academician N.A. Semikhatov”;Акционерное общество “Научно-Производственное Объединение Автоматики имени академика Н.А. Семихатова”"
     },
     {
       "name": "Armed Islamic Group",
@@ -22076,10 +22076,10 @@
       "aliases": "Calea Luminoasă;Caminho Luminoso;Den Lysende Sti;Den lysande stigen;Fényes Ösvény;It-Triq li Tiddi;Leuchtender Pfad;Lichtend Pad;Loistava polku;Mirdzošā taka;Osvijetljeni put;SL;Sendero Luminoso;Sentier lumineux;Sentiero luminoso;Sijoča pot;Svetlý chodník;Světlá stezka;Särav Tee;an Chonair Lonrach;Świetlisty Szlak;Šviečiantis kelias;Φωτεινό Μονοπάτι;Светъл път;Сияйната пътека"
     },
     {
-      "name": "ADF (Allied Democratic Forces)",
+      "name": "Allied Democratic Forces",
       "schema": "Organization",
       "sanctions": "COD - 2020/1507 (OJ L345) - 2014-06-30",
-      "aliases": "ADF/NALU;Forces Democratiques Alliees-Armee Nationale de Liberation de l'Ouganda;NALU"
+      "aliases": "ADF;ADF/NALU;Forces Democratiques Alliees-Armee Nationale de Liberation de l'Ouganda;NALU"
     },
     {
       "name": "Al Qa’ida",
@@ -26972,12 +26972,6 @@
       "aliases": "Michail Grigorjevitj BOROZNA;Michail Ryhoravitj BARAZNA;Mikhail Grigorevich BOROZNA;Mikhail Ryhoravich BARAZNA;Мiхаiл Рыгоравiч БАРАЗНА"
     },
     {
-      "name": "Hassan Ghul",
-      "schema": "Person",
-      "sanctions": "TAQA - 2005/611 (OJ L202500611) - 2012-03-14",
-      "aliases": "Abu Gharib al-Madani;Abu-Shaima;Abu-Shayma;Ahmad Shahji;Hasan Gul;Hassan Gul;Khalid Mahmud;MUSTAFA HAJJI MUHAMMAD KHAN;Mustafa Muhammad;أبو شيماء;حسن غول;مصطفى حجي محمد خان"
-    },
-    {
       "name": "Mikhail Efimovich FRADKOV",
       "schema": "Person",
       "sanctions": "UKR - 2020/398 (OJ L78) - 2014-07-25",
@@ -28752,12 +28746,6 @@
       "schema": "Person",
       "sanctions": "UKR - 2025/2035 (OJ L202502035) - 2025-10-23",
       "aliases": "Надежда Николаевна БОЛТЕНКО"
-    },
-    {
-      "name": "Maulana Fazlullah",
-      "schema": "Person",
-      "sanctions": "TAQA - 2024/328 (OJ L15012024) - 2015-04-07",
-      "aliases": "Fazal Hayat;Mullah Fazlullah;Mullah Radio;Radju ta’ Mullah"
     },
     {
       "name": "Evgeny Stepanovich SAVCHENKO",
@@ -32334,12 +32322,6 @@
       "schema": "Person",
       "sanctions": "TAQA - 866/2003 (OJ L124) - 2003-05-19",
       "aliases": "Abdul Rahman S. Taha;Abdul Rahman S. Taher;Abdul Rahman Yasin;Aboud Yasin"
-    },
-    {
-      "name": "Abdul Rehman Makki",
-      "schema": "Person",
-      "sanctions": "TAQA - 2023/140 (OJ L19) - 2023-01-16",
-      "aliases": "Abdul Rahman Makki;Abdur Rahman Makki;Abdur Rehman Makki;Hafiz Abdul Rahman Makki;Hafiz Abdul Rehman;Hafiz Abdul Rehman Makki"
     },
     {
       "name": "Alexei Maratovich ORLOV",

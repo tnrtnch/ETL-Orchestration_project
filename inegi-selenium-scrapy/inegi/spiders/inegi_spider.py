@@ -51,7 +51,7 @@ class InegiSpider(scrapy.Spider):
         self.driver.implicitly_wait(0)
         self.wait = WebDriverWait(self.driver, 6)
 
-    def start_requests(self):
+    async def start(self):
         yield scrapy.Request(url=self.config["target_url"], callback=self.parse_with_selenium)
 
     def parse_with_selenium(self, response):

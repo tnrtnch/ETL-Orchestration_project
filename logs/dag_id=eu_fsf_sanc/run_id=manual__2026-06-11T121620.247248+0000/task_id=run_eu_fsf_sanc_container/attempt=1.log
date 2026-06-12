@@ -1,0 +1,89 @@
+[2026-06-11T12:16:45.040+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: eu_fsf_sanc.run_eu_fsf_sanc_container manual__2026-06-11T12:16:20.247248+00:00 [queued]>
+[2026-06-11T12:16:45.726+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: eu_fsf_sanc.run_eu_fsf_sanc_container manual__2026-06-11T12:16:20.247248+00:00 [queued]>
+[2026-06-11T12:16:45.731+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2026-06-11T12:16:47.800+0000] {taskinstance.py:2214} INFO - Executing <Task(DockerOperator): run_eu_fsf_sanc_container> on 2026-06-11 12:16:20.247248+00:00
+[2026-06-11T12:16:47.954+0000] {standard_task_runner.py:60} INFO - Started process 2053 to run task
+[2026-06-11T12:16:49.699+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'eu_fsf_sanc', 'run_eu_fsf_sanc_container', 'manual__2026-06-11T12:16:20.247248+00:00', '--job-id', '456', '--raw', '--subdir', 'DAGS_FOLDER/eu_fsf_sanc_dag.py', '--cfg-path', '/tmp/tmp4c0ut249']
+[2026-06-11T12:16:49.924+0000] {standard_task_runner.py:88} INFO - Job 456: Subtask run_eu_fsf_sanc_container
+[2026-06-11T12:16:58.085+0000] {task_command.py:423} INFO - Running <TaskInstance: eu_fsf_sanc.run_eu_fsf_sanc_container manual__2026-06-11T12:16:20.247248+00:00 [running]> on host f39b18a112ca
+[2026-06-11T12:17:06.845+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='eu_fsf_sanc' AIRFLOW_CTX_TASK_ID='run_eu_fsf_sanc_container' AIRFLOW_CTX_EXECUTION_DATE='2026-06-11T12:16:20.247248+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-06-11T12:16:20.247248+00:00'
+[2026-06-11T12:17:10.572+0000] {docker.py:359} INFO - Starting docker container from image eu-fsf-sanc-scraper:v1
+[2026-06-11T12:17:11.685+0000] {docker.py:367} WARNING - Using remote engine or docker-in-docker and mounting temporary volume from host is not supported. Falling back to `mount_tmp_dir=False` mode. You can set `mount_tmp_dir` parameter to False to disable mounting and remove the warning
+[2026-06-11T12:17:53.783+0000] {docker.py:429} INFO - 2026-06-11 12:17:53 [scrapy.utils.log] INFO: Scrapy 2.16.0 started (bot: eu)
+[2026-06-11T12:17:54.142+0000] {docker.py:429} INFO - 2026-06-11 12:17:53 [scrapy.utils.log] INFO: Versions:
+{'lxml': '6.1.1',
+ 'libxml2': '2.14.6',
+ 'cssselect': '1.4.0',
+ 'parsel': '1.11.0',
+ 'w3lib': '2.4.1',
+ 'Twisted': '26.4.0',
+ 'Python': '3.11.15 (main, Jun 11 2026, 01:09:01) [GCC 14.2.0]',
+ 'pyOpenSSL': '26.2.0 (OpenSSL 4.0.1 9 Jun 2026)',
+ 'cryptography': '48.0.1',
+ 'Platform': 'Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.41'}
+2026-06-11 12:17:53 [scrapy.crawler] DEBUG: Using AsyncCrawlerProcess
+2026-06-11 12:17:53 [asyncio] DEBUG: Using selector: EpollSelector
+[2026-06-11T12:17:54.411+0000] {docker.py:429} INFO - 2026-06-11 12:17:54 [scrapy.addons] INFO: Enabled addons:
+[]
+[2026-06-11T12:17:55.345+0000] {docker.py:429} INFO - 2026-06-11 12:17:55 [scrapy.extensions.telnet] INFO: Telnet Password: de4e685232f4f604
+[2026-06-11T12:17:55.813+0000] {docker.py:429} INFO - 2026-06-11 12:17:55 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.logcount.LogCount',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2026-06-11 12:17:55 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'eu',
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'eu.spiders',
+ 'SPIDER_MODULES': ['eu.spiders']}
+[2026-06-11T12:18:07.131+0000] {docker.py:429} INFO - 2026-06-11 12:18:07 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+[2026-06-11T12:18:07.262+0000] {docker.py:429} INFO - 2026-06-11 12:18:07 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.start.StartSpiderMiddleware',
+ 'scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+[2026-06-11T12:18:07.330+0000] {docker.py:429} INFO - 2026-06-11 12:18:07 [scrapy.middleware] INFO: Enabled item pipelines:
+['eu.pipelines.EuPipeline']
+[2026-06-11T12:18:07.563+0000] {docker.py:429} INFO - 2026-06-11 12:18:07 [py.warnings] WARNING: /usr/local/lib/python3.11/site-packages/scrapy/pipelines/__init__.py:43: ScrapyDeprecationWarning: EuPipeline.open_spider() requires a spider argument, this is deprecated and the argument will not be passed in future Scrapy versions. If you need to access the spider instance you can save the crawler instance passed to from_crawler() and use its spider attribute.
+  self._check_mw_method_spider_arg(mw.open_spider)
+
+2026-06-11 12:18:07 [py.warnings] WARNING: /usr/local/lib/python3.11/site-packages/scrapy/pipelines/__init__.py:46: ScrapyDeprecationWarning: EuPipeline.close_spider() requires a spider argument, this is deprecated and the argument will not be passed in future Scrapy versions. If you need to access the spider instance you can save the crawler instance passed to from_crawler() and use its spider attribute.
+  self._check_mw_method_spider_arg(mw.close_spider)
+
+2026-06-11 12:18:07 [py.warnings] WARNING: /usr/local/lib/python3.11/site-packages/scrapy/pipelines/__init__.py:49: ScrapyDeprecationWarning: EuPipeline.process_item() requires a spider argument, this is deprecated and the argument will not be passed in future Scrapy versions. If you need to access the spider instance you can save the crawler instance passed to from_crawler() and use its spider attribute.
+  self._check_mw_method_spider_arg(mw.process_item)
+
+2026-06-11 12:18:07 [scrapy.core.engine] INFO: Spider opened
+[2026-06-11T12:18:07.762+0000] {docker.py:429} INFO - 2026-06-11 12:18:07 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2026-06-11 12:18:07 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2026-06-11 12:18:07 [scrapy.core.engine] INFO: Closing spider (finished)
+[2026-06-11T12:18:08.127+0000] {docker.py:429} INFO - 2026-06-11 12:18:08 [eu_spider] INFO: 0 records written to /app/data/eu_fsf_sanctions.json
+[2026-06-11T12:18:08.169+0000] {docker.py:429} INFO - 2026-06-11 12:18:08 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'elapsed_time_seconds': 0.389100777999829,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2026, 6, 11, 12, 18, 8, 67805, tzinfo=datetime.timezone.utc),
+ 'items_per_minute': None,
+ 'log_count/INFO': 4,
+ 'memusage/max': 70574080,
+ 'memusage/startup': 70574080,
+ 'responses_per_minute': None,
+ 'start_time': datetime.datetime(2026, 6, 11, 12, 18, 7, 678727, tzinfo=datetime.timezone.utc)}
+[2026-06-11T12:18:08.230+0000] {docker.py:429} INFO - 2026-06-11 12:18:08 [scrapy.core.engine] INFO: Spider closed (finished)
+[2026-06-11T12:18:25.654+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=eu_fsf_sanc, task_id=run_eu_fsf_sanc_container, execution_date=20260611T121620, start_date=20260611T121645, end_date=20260611T121825
+[2026-06-11T12:18:27.298+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-06-11T12:18:27.948+0000] {taskinstance.py:3309} INFO - 1 downstream tasks scheduled from follow-on schedule check

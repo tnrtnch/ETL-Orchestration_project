@@ -17,7 +17,7 @@ class EuSpider(scrapy.Spider):
 
             self.config = yaml.safe_load(f)
 
-    def start_requests(self):
+    async def start(self):
         yield scrapy.Request(
             url=self.config["target_url"],
             callback=self.parse_csv,

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-03 07:41:37 UTC",
+  "last_updated": "2026-06-12 08:45:46 UTC",
   "data": [
     {
       "name": "ASHANTY FERNANDEZ MARTINEZ",
@@ -246,6 +246,13 @@
       "name": "ELECTRICA LOSI, S.A. DE C.V.",
       "sanction_numbers": [
         "SP-013/2010"
+      ],
+      "origin": "inegi_scraper"
+    },
+    {
+      "name": "ELEVADORES SICEM, S.A. DE C.V.",
+      "sanction_numbers": [
+        "INEGI.OIC5.03/2/2026"
       ],
       "origin": "inegi_scraper"
     },

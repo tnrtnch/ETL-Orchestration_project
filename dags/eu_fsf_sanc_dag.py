@@ -67,7 +67,7 @@ with DAG(
 
     run_eu_fsf_sanc = DockerOperator(
         task_id="run_eu_fsf_sanc_container",
-        image="eu-fsf-sanc:v1",
+        image="eu-fsf-sanc-scraper:v1",
         api_version="auto",
         auto_remove=True,
         # docker_url="unix://var/run/docker.sock",

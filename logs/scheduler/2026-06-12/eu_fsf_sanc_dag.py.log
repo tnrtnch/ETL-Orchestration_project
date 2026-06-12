@@ -1,0 +1,1022 @@
+[2026-06-12T07:43:15.408+0000] {processor.py:161} INFO - Started process (PID=60) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:43:15.439+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T07:43:15.514+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:43:15.503+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:43:16.070+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:43:23.681+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:43:23.681+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T07:43:25.259+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:43:25.258+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T07:43:25.833+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 10.738 seconds
+[2026-06-12T07:44:31.949+0000] {processor.py:161} INFO - Started process (PID=94) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:44:32.117+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T07:44:32.306+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:44:32.291+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:44:34.651+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:44:35.514+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:44:35.513+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T07:44:36.309+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:44:36.309+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T07:44:37.225+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 5.478 seconds
+[2026-06-12T07:45:14.748+0000] {processor.py:161} INFO - Started process (PID=126) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:45:14.780+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T07:45:14.937+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:45:14.824+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:45:17.857+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:45:24.506+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:45:24.302+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T07:45:32.320+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:45:32.290+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T07:45:36.044+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 21.282 seconds
+[2026-06-12T07:46:07.910+0000] {processor.py:161} INFO - Started process (PID=161) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:46:07.920+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T07:46:07.947+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:46:07.946+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:46:09.306+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:46:10.097+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:46:10.096+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T07:46:11.000+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:46:10.999+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T07:46:11.816+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 3.958 seconds
+[2026-06-12T07:46:43.774+0000] {processor.py:161} INFO - Started process (PID=196) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:46:43.974+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T07:46:44.024+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:46:44.010+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:46:45.959+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:46:46.326+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:46:46.326+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T07:46:46.503+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:46:46.502+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T07:46:47.668+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 3.906 seconds
+[2026-06-12T07:47:30.088+0000] {processor.py:161} INFO - Started process (PID=230) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:47:30.152+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T07:47:30.296+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:47:30.295+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:47:36.482+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:47:37.254+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:47:37.253+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T07:47:38.421+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:47:38.359+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T07:47:39.447+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 9.492 seconds
+[2026-06-12T07:48:28.107+0000] {processor.py:161} INFO - Started process (PID=260) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:48:28.128+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T07:48:28.148+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:48:28.146+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:48:30.530+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:48:31.299+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:48:31.298+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T07:48:32.068+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:48:32.067+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T07:48:33.224+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 5.165 seconds
+[2026-06-12T07:49:04.197+0000] {processor.py:161} INFO - Started process (PID=290) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:49:04.211+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T07:49:04.229+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:49:04.228+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:49:04.917+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:49:05.037+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:49:05.036+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T07:49:05.120+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:49:05.120+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T07:49:05.414+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 1.241 seconds
+[2026-06-12T07:49:40.338+0000] {processor.py:161} INFO - Started process (PID=318) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:49:40.514+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T07:49:40.561+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:49:40.560+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:49:43.588+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:49:44.086+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:49:44.085+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T07:49:44.554+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:49:44.540+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T07:49:47.443+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 9.343 seconds
+[2026-06-12T07:50:19.847+0000] {processor.py:161} INFO - Started process (PID=348) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:50:19.963+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T07:50:20.031+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:50:20.029+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:50:22.499+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:50:22.933+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:50:22.922+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T07:50:23.591+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:50:23.591+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T07:50:23.931+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 4.138 seconds
+[2026-06-12T07:50:57.699+0000] {processor.py:161} INFO - Started process (PID=378) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:50:57.761+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T07:50:57.825+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:50:57.824+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:51:00.069+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:51:00.565+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:51:00.564+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T07:51:01.530+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:51:01.529+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T07:51:02.316+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 4.686 seconds
+[2026-06-12T07:51:33.395+0000] {processor.py:161} INFO - Started process (PID=410) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:51:33.398+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T07:51:33.404+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:51:33.402+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:51:33.485+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:51:33.602+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:51:33.602+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T07:51:33.801+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:51:33.800+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T07:51:33.856+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.481 seconds
+[2026-06-12T07:52:04.136+0000] {processor.py:161} INFO - Started process (PID=440) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:52:04.141+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T07:52:04.144+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:52:04.144+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:52:04.206+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:52:04.279+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:52:04.279+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T07:52:04.386+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:52:04.384+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T07:52:04.470+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.346 seconds
+[2026-06-12T07:52:35.686+0000] {processor.py:161} INFO - Started process (PID=470) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:52:35.694+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T07:52:35.705+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:52:35.702+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:52:36.361+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:52:36.736+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:52:36.735+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T07:52:36.903+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:52:36.902+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T07:52:36.983+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 1.346 seconds
+[2026-06-12T07:53:36.497+0000] {processor.py:161} INFO - Started process (PID=503) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:53:36.560+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T07:53:36.609+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:53:36.607+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:53:38.926+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:53:40.271+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:53:40.270+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T07:53:42.229+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:53:42.228+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T07:53:43.239+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 6.793 seconds
+[2026-06-12T07:54:15.350+0000] {processor.py:161} INFO - Started process (PID=530) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:54:15.357+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T07:54:15.368+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:54:15.361+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:54:15.494+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:54:15.808+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:54:15.807+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T07:54:16.648+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:54:16.647+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T07:54:17.738+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 2.404 seconds
+[2026-06-12T07:54:57.209+0000] {processor.py:161} INFO - Started process (PID=563) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:54:57.257+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T07:54:57.323+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:54:57.322+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:54:59.571+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:55:01.168+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:55:01.167+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T07:55:02.437+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:55:02.436+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T07:55:04.187+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 7.041 seconds
+[2026-06-12T07:55:40.061+0000] {processor.py:161} INFO - Started process (PID=593) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:55:40.079+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T07:55:40.161+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:55:40.096+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:55:42.357+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:55:43.742+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:55:43.741+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T07:55:44.502+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:55:44.501+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T07:55:45.384+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 5.465 seconds
+[2026-06-12T07:56:16.821+0000] {processor.py:161} INFO - Started process (PID=623) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:56:16.830+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T07:56:16.836+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:56:16.835+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:56:16.957+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:56:17.097+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:56:17.096+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T07:56:17.196+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:56:17.196+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T07:56:17.338+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.535 seconds
+[2026-06-12T07:56:48.019+0000] {processor.py:161} INFO - Started process (PID=653) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:56:48.022+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T07:56:48.026+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:56:48.025+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:56:48.093+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:56:48.239+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:56:48.238+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T07:56:48.828+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:56:48.827+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T07:56:49.215+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 1.212 seconds
+[2026-06-12T07:57:22.471+0000] {processor.py:161} INFO - Started process (PID=684) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:57:22.538+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T07:57:22.572+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:57:22.570+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:57:24.199+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:57:27.616+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:57:27.615+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T07:57:29.132+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:57:29.131+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T07:57:30.246+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 7.857 seconds
+[2026-06-12T07:58:03.098+0000] {processor.py:161} INFO - Started process (PID=719) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:58:03.105+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T07:58:03.109+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:58:03.108+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:58:03.179+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:58:03.259+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:58:03.258+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T07:58:03.333+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:58:03.332+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T07:58:03.508+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.432 seconds
+[2026-06-12T07:58:34.247+0000] {processor.py:161} INFO - Started process (PID=747) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:58:34.273+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T07:58:34.282+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:58:34.281+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:58:34.578+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:58:35.328+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:58:35.327+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T07:58:35.894+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:58:35.893+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T07:58:36.022+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 1.817 seconds
+[2026-06-12T07:59:06.937+0000] {processor.py:161} INFO - Started process (PID=779) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:59:06.941+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T07:59:06.945+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:59:06.944+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:59:07.023+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:59:07.147+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:59:07.147+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T07:59:07.222+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:59:07.221+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T07:59:07.278+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.357 seconds
+[2026-06-12T07:59:37.609+0000] {processor.py:161} INFO - Started process (PID=807) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:59:37.612+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T07:59:37.617+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:59:37.615+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:59:37.690+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T07:59:37.774+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:59:37.774+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T07:59:37.856+0000] {logging_mixin.py:188} INFO - [2026-06-12T07:59:37.856+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T07:59:37.930+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.335 seconds
+[2026-06-12T08:00:08.828+0000] {processor.py:161} INFO - Started process (PID=837) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:00:08.834+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:00:08.839+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:00:08.838+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:00:08.913+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:00:09.019+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:00:09.018+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:00:09.114+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:00:09.114+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:00:09.178+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.361 seconds
+[2026-06-12T08:00:39.648+0000] {processor.py:161} INFO - Started process (PID=867) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:00:39.653+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:00:39.657+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:00:39.656+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:00:39.762+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:00:39.879+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:00:39.878+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:00:39.998+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:00:39.997+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:00:40.065+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.428 seconds
+[2026-06-12T08:01:10.934+0000] {processor.py:161} INFO - Started process (PID=897) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:01:10.936+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:01:10.941+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:01:10.939+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:01:11.024+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:01:11.176+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:01:11.175+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:01:11.495+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:01:11.494+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:01:11.752+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.829 seconds
+[2026-06-12T08:01:42.718+0000] {processor.py:161} INFO - Started process (PID=927) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:01:42.721+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:01:42.727+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:01:42.726+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:01:42.787+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:01:42.915+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:01:42.914+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:01:43.291+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:01:43.291+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:01:43.773+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 1.067 seconds
+[2026-06-12T08:02:15.632+0000] {processor.py:161} INFO - Started process (PID=957) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:02:15.684+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:02:15.722+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:02:15.721+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:02:16.485+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:02:16.851+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:02:16.839+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:02:17.096+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:02:17.095+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:02:17.254+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 1.641 seconds
+[2026-06-12T08:02:47.725+0000] {processor.py:161} INFO - Started process (PID=987) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:02:47.727+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:02:47.730+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:02:47.730+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:02:47.799+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:02:47.933+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:02:47.933+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:02:48.055+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:02:48.053+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:02:48.149+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.435 seconds
+[2026-06-12T08:03:20.362+0000] {processor.py:161} INFO - Started process (PID=1017) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:03:20.372+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:03:20.384+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:03:20.383+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:03:20.732+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:03:21.039+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:03:21.038+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:03:21.115+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:03:21.114+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:03:21.246+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.918 seconds
+[2026-06-12T08:03:52.163+0000] {processor.py:161} INFO - Started process (PID=1047) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:03:52.176+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:03:52.180+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:03:52.179+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:03:52.243+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:03:52.313+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:03:52.313+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:03:52.384+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:03:52.384+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:03:52.468+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.330 seconds
+[2026-06-12T08:04:22.955+0000] {processor.py:161} INFO - Started process (PID=1077) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:04:22.959+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:04:22.968+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:04:22.961+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:04:23.065+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:04:23.222+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:04:23.222+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:04:23.420+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:04:23.420+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:04:23.646+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.708 seconds
+[2026-06-12T08:04:56.814+0000] {processor.py:161} INFO - Started process (PID=1107) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:04:56.833+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:04:56.849+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:04:56.848+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:04:57.526+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:04:58.116+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:04:58.116+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:04:58.459+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:04:58.458+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:04:58.618+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 1.824 seconds
+[2026-06-12T08:05:29.086+0000] {processor.py:161} INFO - Started process (PID=1137) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:05:29.112+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:05:29.130+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:05:29.129+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:05:29.556+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:05:29.636+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:05:29.635+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:05:29.710+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:05:29.709+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:05:29.784+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.719 seconds
+[2026-06-12T08:06:00.569+0000] {processor.py:161} INFO - Started process (PID=1167) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:06:00.573+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:06:00.577+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:06:00.576+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:06:00.650+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:06:00.739+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:06:00.739+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:06:00.860+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:06:00.859+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:06:00.929+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.375 seconds
+[2026-06-12T08:06:34.084+0000] {processor.py:161} INFO - Started process (PID=1197) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:06:34.121+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:06:34.136+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:06:34.135+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:06:34.744+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:06:35.166+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:06:35.165+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:06:35.622+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:06:35.610+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:06:36.067+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 2.007 seconds
+[2026-06-12T08:07:09.752+0000] {processor.py:161} INFO - Started process (PID=1227) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:07:09.765+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:07:09.772+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:07:09.771+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:07:11.132+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:07:11.420+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:07:11.420+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:07:11.705+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:07:11.693+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:07:12.161+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 2.429 seconds
+[2026-06-12T08:07:44.047+0000] {processor.py:161} INFO - Started process (PID=1259) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:07:44.059+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:07:44.069+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:07:44.068+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:07:44.390+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:07:44.493+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:07:44.493+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:07:44.566+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:07:44.566+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:07:44.952+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.914 seconds
+[2026-06-12T08:08:19.409+0000] {processor.py:161} INFO - Started process (PID=1287) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:08:19.456+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:08:19.502+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:08:19.501+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:08:20.587+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:08:20.961+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:08:20.960+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:08:21.141+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:08:21.140+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:08:21.246+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 1.873 seconds
+[2026-06-12T08:09:06.270+0000] {processor.py:161} INFO - Started process (PID=1317) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:09:06.366+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:09:06.423+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:09:06.413+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:09:08.618+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:09:08.794+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:09:08.793+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:09:09.141+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:09:09.140+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:09:09.597+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 3.378 seconds
+[2026-06-12T08:09:41.979+0000] {processor.py:161} INFO - Started process (PID=1344) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:09:41.993+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:09:42.008+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:09:41.997+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:09:43.880+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:09:44.906+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:09:44.905+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:09:45.325+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:09:45.325+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:09:45.822+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 3.877 seconds
+[2026-06-12T08:10:19.935+0000] {processor.py:161} INFO - Started process (PID=1374) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:10:20.002+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:10:20.111+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:10:20.110+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:10:21.029+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:10:21.343+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:10:21.341+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:10:22.087+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:10:22.086+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:10:23.220+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 3.315 seconds
+[2026-06-12T08:10:58.324+0000] {processor.py:161} INFO - Started process (PID=1407) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:10:58.329+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:10:58.340+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:10:58.339+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:11:00.691+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:11:00.955+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:11:00.955+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:11:01.347+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:11:01.346+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:11:01.761+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 3.462 seconds
+[2026-06-12T08:11:34.769+0000] {processor.py:161} INFO - Started process (PID=1439) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:11:34.797+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:11:34.862+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:11:34.846+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:11:38.032+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:11:38.364+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:11:38.363+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:11:38.701+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:11:38.700+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:11:38.953+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 4.235 seconds
+[2026-06-12T08:12:13.752+0000] {processor.py:161} INFO - Started process (PID=1469) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:12:13.783+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:12:13.793+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:12:13.792+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:12:14.554+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:12:14.764+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:12:14.764+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:12:15.094+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:12:15.093+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:12:15.388+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 1.657 seconds
+[2026-06-12T08:12:47.856+0000] {processor.py:161} INFO - Started process (PID=1499) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:12:47.920+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:12:47.978+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:12:47.967+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:12:48.530+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:12:48.722+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:12:48.721+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:12:48.956+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:12:48.955+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:12:49.318+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 1.500 seconds
+[2026-06-12T08:13:20.896+0000] {processor.py:161} INFO - Started process (PID=1529) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:13:20.900+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:13:20.903+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:13:20.902+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:13:20.976+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:13:21.086+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:13:21.085+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:13:21.169+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:13:21.168+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:13:21.267+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.384 seconds
+[2026-06-12T08:13:52.851+0000] {processor.py:161} INFO - Started process (PID=1559) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:13:52.865+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:13:52.869+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:13:52.867+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:13:52.947+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:13:53.100+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:13:53.099+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:13:53.269+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:13:53.268+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:13:53.378+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.548 seconds
+[2026-06-12T08:14:23.562+0000] {processor.py:161} INFO - Started process (PID=1589) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:14:23.568+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:14:23.571+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:14:23.570+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:14:23.629+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:14:23.838+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:14:23.837+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:14:24.036+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:14:24.036+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:14:24.204+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.654 seconds
+[2026-06-12T08:14:54.889+0000] {processor.py:161} INFO - Started process (PID=1619) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:14:54.900+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:14:54.908+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:14:54.903+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:14:55.039+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:14:55.247+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:14:55.245+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:14:55.377+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:14:55.376+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:14:55.430+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.579 seconds
+[2026-06-12T08:15:26.087+0000] {processor.py:161} INFO - Started process (PID=1649) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:15:26.090+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:15:26.094+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:15:26.093+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:15:26.189+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:15:26.272+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:15:26.272+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:15:26.350+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:15:26.349+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:15:26.422+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.346 seconds
+[2026-06-12T08:15:56.842+0000] {processor.py:161} INFO - Started process (PID=1679) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:15:56.865+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:15:56.879+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:15:56.877+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:15:57.231+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:15:57.495+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:15:57.491+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:15:57.637+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:15:57.636+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:15:57.733+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.913 seconds
+[2026-06-12T08:16:28.088+0000] {processor.py:161} INFO - Started process (PID=1709) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:16:28.091+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:16:28.095+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:16:28.093+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:16:28.151+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:16:28.220+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:16:28.219+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:16:28.287+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:16:28.287+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:16:28.345+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.269 seconds
+[2026-06-12T08:16:59.199+0000] {processor.py:161} INFO - Started process (PID=1739) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:16:59.214+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:16:59.220+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:16:59.219+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:16:59.305+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:16:59.374+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:16:59.373+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:16:59.440+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:16:59.440+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:16:59.498+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.318 seconds
+[2026-06-12T08:17:29.995+0000] {processor.py:161} INFO - Started process (PID=1769) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:17:29.998+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:17:30.002+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:17:30.001+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:17:30.060+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:17:30.222+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:17:30.221+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:17:30.343+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:17:30.342+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:17:30.538+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.554 seconds
+[2026-06-12T08:18:00.814+0000] {processor.py:161} INFO - Started process (PID=1799) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:18:00.817+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:18:00.821+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:18:00.820+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:18:00.878+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:18:00.949+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:18:00.948+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:18:01.018+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:18:01.017+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:18:01.071+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.268 seconds
+[2026-06-12T08:18:31.372+0000] {processor.py:161} INFO - Started process (PID=1829) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:18:31.376+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:18:31.388+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:18:31.387+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:18:31.464+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:18:31.545+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:18:31.545+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:18:31.610+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:18:31.609+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:18:31.665+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.304 seconds
+[2026-06-12T08:19:02.383+0000] {processor.py:161} INFO - Started process (PID=1859) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:19:02.386+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:19:02.389+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:19:02.388+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:19:02.443+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:19:02.524+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:19:02.524+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:19:02.614+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:19:02.613+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:19:02.673+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.303 seconds
+[2026-06-12T08:19:37.746+0000] {processor.py:161} INFO - Started process (PID=1887) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:19:37.879+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:19:37.945+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:19:37.944+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:19:39.970+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:19:40.239+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:19:40.238+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:19:40.578+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:19:40.577+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:19:40.762+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 3.035 seconds
+[2026-06-12T08:20:11.495+0000] {processor.py:161} INFO - Started process (PID=1919) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:20:11.501+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:20:11.505+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:20:11.504+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:20:11.627+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:20:12.245+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:20:12.244+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:20:12.487+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:20:12.486+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:20:12.544+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 1.072 seconds
+[2026-06-12T08:20:42.902+0000] {processor.py:161} INFO - Started process (PID=1949) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:20:42.905+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:20:42.908+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:20:42.907+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:20:42.964+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:20:43.072+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:20:43.071+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:20:43.158+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:20:43.157+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:20:43.213+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.323 seconds
+[2026-06-12T08:21:13.807+0000] {processor.py:161} INFO - Started process (PID=1979) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:21:13.811+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:21:13.815+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:21:13.814+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:21:13.888+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:21:13.963+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:21:13.962+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:21:14.029+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:21:14.029+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:21:14.121+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.329 seconds
+[2026-06-12T08:21:45.311+0000] {processor.py:161} INFO - Started process (PID=2009) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:21:45.314+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:21:45.317+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:21:45.316+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:21:45.371+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:21:45.442+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:21:45.441+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:21:45.505+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:21:45.504+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:21:45.561+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.261 seconds
+[2026-06-12T08:22:15.822+0000] {processor.py:161} INFO - Started process (PID=2039) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:22:15.831+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:22:15.836+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:22:15.835+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:22:16.098+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:22:16.210+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:22:16.209+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:22:16.321+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:22:16.321+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:22:16.391+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.594 seconds
+[2026-06-12T08:22:47.028+0000] {processor.py:161} INFO - Started process (PID=2069) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:22:47.034+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:22:47.039+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:22:47.038+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:22:47.138+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:22:47.218+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:22:47.217+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:22:47.287+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:22:47.286+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:22:47.357+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.350 seconds
+[2026-06-12T08:23:17.719+0000] {processor.py:161} INFO - Started process (PID=2099) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:23:17.731+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:23:17.734+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:23:17.733+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:23:17.801+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:23:17.899+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:23:17.899+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:23:17.984+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:23:17.983+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:23:18.138+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.438 seconds
+[2026-06-12T08:23:50.824+0000] {processor.py:161} INFO - Started process (PID=2127) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:23:50.843+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:23:50.867+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:23:50.866+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:23:52.628+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:23:52.904+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:23:52.903+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:23:53.707+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:23:53.706+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:23:54.552+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 3.737 seconds
+[2026-06-12T08:24:28.013+0000] {processor.py:161} INFO - Started process (PID=2157) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:24:28.029+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:24:28.094+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:24:28.093+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:24:28.696+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:24:28.969+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:24:28.968+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:24:29.179+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:24:29.178+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:24:29.525+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 1.557 seconds
+[2026-06-12T08:25:06.803+0000] {processor.py:161} INFO - Started process (PID=2187) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:25:06.827+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:25:06.837+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:25:06.836+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:25:08.009+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:25:08.495+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:25:08.468+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:25:08.867+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:25:08.867+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:25:09.134+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 2.351 seconds
+[2026-06-12T08:25:40.693+0000] {processor.py:161} INFO - Started process (PID=2217) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:25:40.761+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:25:40.780+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:25:40.779+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:25:41.731+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:25:42.090+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:25:42.089+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:25:42.398+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:25:42.397+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:25:42.718+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 2.056 seconds
+[2026-06-12T08:26:22.238+0000] {processor.py:161} INFO - Started process (PID=2247) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:26:22.373+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:26:22.528+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:26:22.527+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:26:27.454+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:26:28.503+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:26:28.502+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:26:29.429+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:26:29.178+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:26:31.800+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 9.696 seconds
+[2026-06-12T08:27:04.213+0000] {processor.py:161} INFO - Started process (PID=2274) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:27:04.240+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:27:04.266+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:27:04.259+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:27:04.495+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:27:04.787+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:27:04.786+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:27:05.044+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:27:05.044+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:27:05.304+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 1.206 seconds
+[2026-06-12T08:27:37.618+0000] {processor.py:161} INFO - Started process (PID=2305) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:27:37.644+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:27:37.667+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:27:37.665+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:27:38.148+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:27:39.111+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:27:39.101+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:27:39.539+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:27:39.538+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:27:40.419+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 2.880 seconds
+[2026-06-12T08:28:23.794+0000] {processor.py:161} INFO - Started process (PID=2336) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:28:23.860+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:28:23.882+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:28:23.881+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:28:25.031+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:28:25.453+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:28:25.452+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:28:25.727+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:28:25.726+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:28:26.179+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 2.459 seconds
+[2026-06-12T08:29:07.714+0000] {processor.py:161} INFO - Started process (PID=2369) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:29:07.855+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:29:07.950+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:29:07.914+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:29:09.798+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:29:11.340+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:29:11.339+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:29:12.349+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:29:12.320+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:29:13.000+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 5.903 seconds
+[2026-06-12T08:29:48.826+0000] {processor.py:161} INFO - Started process (PID=2401) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:29:48.940+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:29:48.972+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:29:48.971+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:29:52.004+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:29:58.918+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:29:58.917+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:30:00.347+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:30:00.338+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:30:01.000+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 12.531 seconds
+[2026-06-12T08:30:34.024+0000] {processor.py:161} INFO - Started process (PID=2431) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:30:34.078+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:30:34.093+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:30:34.091+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:30:36.678+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:30:39.070+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:30:39.053+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:30:39.561+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:30:39.560+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:30:40.508+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 6.699 seconds
+[2026-06-12T08:31:13.577+0000] {processor.py:161} INFO - Started process (PID=2461) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:31:13.630+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:31:13.692+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:31:13.648+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:31:15.500+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:31:16.304+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:31:16.304+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:31:18.571+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:31:18.571+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:31:20.925+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 7.547 seconds
+[2026-06-12T08:31:52.140+0000] {processor.py:161} INFO - Started process (PID=2493) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:31:52.327+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:31:52.362+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:31:52.361+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:31:53.047+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:31:53.237+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:31:53.236+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:31:53.379+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:31:53.378+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:31:53.541+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 1.643 seconds
+[2026-06-12T08:32:26.353+0000] {processor.py:161} INFO - Started process (PID=2521) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:32:26.564+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:32:26.667+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:32:26.636+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:32:28.720+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:32:30.345+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:32:30.344+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:32:30.788+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:32:30.752+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:32:31.609+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 5.383 seconds
+[2026-06-12T08:33:04.051+0000] {processor.py:161} INFO - Started process (PID=2551) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:33:04.823+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:33:05.020+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:33:04.914+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:33:06.888+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:33:08.496+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:33:08.495+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:33:09.994+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:33:09.994+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:33:10.931+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 7.160 seconds
+[2026-06-12T08:33:42.100+0000] {processor.py:161} INFO - Started process (PID=2583) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:33:42.115+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:33:42.150+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:33:42.134+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:33:42.357+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:33:42.528+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:33:42.527+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:33:42.886+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:33:42.885+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:33:43.844+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 1.798 seconds
+[2026-06-12T08:34:15.256+0000] {processor.py:161} INFO - Started process (PID=2612) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:34:15.273+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:34:15.280+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:34:15.279+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:34:15.749+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:34:16.312+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:34:16.298+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:34:16.738+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:34:16.737+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:34:16.921+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 1.709 seconds
+[2026-06-12T08:34:49.968+0000] {processor.py:161} INFO - Started process (PID=2641) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:34:50.043+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:34:50.062+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:34:50.061+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:34:50.326+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:34:50.669+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:34:50.669+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:34:51.611+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:34:51.610+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:34:52.202+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 2.285 seconds
+[2026-06-12T08:35:23.226+0000] {processor.py:161} INFO - Started process (PID=2671) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:35:23.299+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:35:23.306+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:35:23.305+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:35:23.446+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:35:23.584+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:35:23.584+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:35:23.867+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:35:23.866+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:35:24.573+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 1.508 seconds
+[2026-06-12T08:35:56.371+0000] {processor.py:161} INFO - Started process (PID=2703) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:35:56.393+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:35:56.398+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:35:56.397+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:35:56.625+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:35:56.889+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:35:56.889+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:35:57.074+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:35:57.074+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:35:58.154+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 1.825 seconds
+[2026-06-12T08:36:29.719+0000] {processor.py:161} INFO - Started process (PID=2733) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:36:29.724+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:36:29.795+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:36:29.741+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:36:33.855+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:36:36.662+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:36:36.632+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:36:38.150+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:36:38.144+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:36:39.015+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 9.352 seconds
+[2026-06-12T08:37:18.458+0000] {processor.py:161} INFO - Started process (PID=2763) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:37:18.565+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:37:18.633+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:37:18.632+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:37:23.033+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:37:23.972+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:37:23.971+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:37:25.010+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:37:25.009+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:37:26.376+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 7.970 seconds
+[2026-06-12T08:38:02.480+0000] {processor.py:161} INFO - Started process (PID=2793) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:38:02.590+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:38:02.659+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:38:02.658+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:38:05.778+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:38:06.769+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:38:06.769+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:38:08.145+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:38:08.100+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:38:08.992+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 6.582 seconds
+[2026-06-12T08:38:52.316+0000] {processor.py:161} INFO - Started process (PID=2821) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:38:52.345+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:38:52.350+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:38:52.349+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:38:52.530+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:38:52.965+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:38:52.963+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:38:53.669+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:38:53.668+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:38:54.173+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 1.890 seconds
+[2026-06-12T08:39:25.514+0000] {processor.py:161} INFO - Started process (PID=2851) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:39:25.541+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:39:25.591+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:39:25.567+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:39:26.688+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:39:27.398+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:39:27.397+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:39:27.861+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:39:27.860+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:39:28.338+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 3.072 seconds
+[2026-06-12T08:40:00.151+0000] {processor.py:161} INFO - Started process (PID=2881) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:40:00.177+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:40:00.223+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:40:00.215+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:40:00.625+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:40:01.229+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:40:01.228+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:40:01.913+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:40:01.913+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:40:02.154+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 2.044 seconds
+[2026-06-12T08:40:34.455+0000] {processor.py:161} INFO - Started process (PID=2913) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:40:34.469+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:40:34.482+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:40:34.477+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:40:34.646+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:40:34.818+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:40:34.813+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:40:34.972+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:40:34.971+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:40:35.162+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.741 seconds
+[2026-06-12T08:41:12.218+0000] {processor.py:161} INFO - Started process (PID=2941) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:41:12.298+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:41:12.460+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:41:12.459+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:41:15.278+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:41:16.005+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:41:16.005+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:41:16.873+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:41:16.844+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:41:17.644+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 5.505 seconds
+[2026-06-12T08:42:01.517+0000] {processor.py:161} INFO - Started process (PID=2966) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:42:01.564+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:42:01.599+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:42:01.598+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:42:04.750+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:42:05.843+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:42:05.842+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:42:06.507+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:42:06.506+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:42:07.112+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 5.861 seconds
+[2026-06-12T08:42:39.927+0000] {processor.py:161} INFO - Started process (PID=2996) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:42:40.067+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:42:40.102+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:42:40.100+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:42:41.865+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:42:42.788+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:42:42.788+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:42:43.458+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:42:43.457+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:42:44.955+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 5.123 seconds
+[2026-06-12T08:43:40.122+0000] {processor.py:161} INFO - Started process (PID=3026) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:43:40.182+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:43:40.210+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:43:40.209+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:43:41.895+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:43:42.712+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:43:42.711+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:43:43.323+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:43:43.311+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:43:43.899+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 3.817 seconds
+[2026-06-12T08:44:18.187+0000] {processor.py:161} INFO - Started process (PID=3053) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:44:18.218+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:44:18.244+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:44:18.240+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:44:19.309+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:44:21.361+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:44:21.360+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:44:23.217+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:44:23.216+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:44:24.420+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 6.297 seconds
+[2026-06-12T08:44:56.848+0000] {processor.py:161} INFO - Started process (PID=3085) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:44:57.069+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:44:57.121+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:44:57.120+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:44:57.923+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:44:59.411+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:44:59.410+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:44:59.788+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:44:59.787+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:45:00.200+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 3.770 seconds
+[2026-06-12T08:45:31.742+0000] {processor.py:161} INFO - Started process (PID=3117) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:45:31.802+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:45:31.867+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:45:31.835+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:45:33.139+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:45:33.538+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:45:33.537+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:45:34.314+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:45:34.313+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:45:34.910+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 3.200 seconds
+[2026-06-12T08:46:05.951+0000] {processor.py:161} INFO - Started process (PID=3151) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:46:05.971+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:46:05.984+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:46:05.981+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:46:06.192+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:46:06.412+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:46:06.412+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:46:06.721+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:46:06.721+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:46:07.229+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 1.326 seconds
+[2026-06-12T08:46:38.402+0000] {processor.py:161} INFO - Started process (PID=3181) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:46:38.406+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:46:38.410+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:46:38.409+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:46:38.483+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:46:38.648+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:46:38.647+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:46:38.821+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:46:38.821+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:46:38.904+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.515 seconds
+[2026-06-12T08:47:10.035+0000] {processor.py:161} INFO - Started process (PID=3211) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:47:10.050+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:47:10.068+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:47:10.067+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:47:10.311+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:47:10.417+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:47:10.416+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:47:10.543+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:47:10.542+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:47:10.617+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.602 seconds
+[2026-06-12T08:47:40.902+0000] {processor.py:161} INFO - Started process (PID=3241) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:47:40.905+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:47:40.909+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:47:40.907+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:47:40.968+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:47:41.049+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:47:41.049+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:47:41.161+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:47:41.161+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:47:41.232+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.342 seconds
+[2026-06-12T08:48:12.383+0000] {processor.py:161} INFO - Started process (PID=3271) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:48:12.389+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:48:12.392+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:48:12.391+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:48:12.479+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:48:12.550+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:48:12.549+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:48:12.621+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:48:12.621+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:48:12.675+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.306 seconds
+[2026-06-12T08:48:43.338+0000] {processor.py:161} INFO - Started process (PID=3301) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:48:43.342+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:48:43.345+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:48:43.344+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:48:43.435+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:48:43.592+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:48:43.591+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:48:43.862+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:48:43.861+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:48:44.155+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.831 seconds
+[2026-06-12T08:49:14.944+0000] {processor.py:161} INFO - Started process (PID=3331) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:49:14.954+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:49:14.963+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:49:14.962+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:49:15.118+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:49:15.315+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:49:15.315+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:49:15.505+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:49:15.504+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:49:15.581+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.657 seconds
+[2026-06-12T08:49:46.304+0000] {processor.py:161} INFO - Started process (PID=3361) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:49:46.307+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:49:46.311+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:49:46.310+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:49:46.369+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:49:46.500+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:49:46.499+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:49:46.588+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:49:46.587+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:49:46.654+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.361 seconds
+[2026-06-12T08:50:17.509+0000] {processor.py:161} INFO - Started process (PID=3391) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:50:17.514+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:50:17.520+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:50:17.517+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:50:17.597+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:50:17.686+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:50:17.685+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:50:17.774+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:50:17.773+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:50:17.835+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.351 seconds
+[2026-06-12T08:50:49.049+0000] {processor.py:161} INFO - Started process (PID=3421) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:50:49.068+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:50:49.074+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:50:49.073+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:50:49.235+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:50:49.376+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:50:49.376+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:50:49.442+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:50:49.441+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:50:49.505+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.505 seconds
+[2026-06-12T08:51:20.496+0000] {processor.py:161} INFO - Started process (PID=3451) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:51:20.499+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:51:20.503+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:51:20.502+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:51:20.577+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:51:20.696+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:51:20.695+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:51:20.793+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:51:20.793+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:51:20.869+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.388 seconds
+[2026-06-12T08:51:51.060+0000] {processor.py:161} INFO - Started process (PID=3481) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:51:51.063+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:51:51.066+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:51:51.065+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:51:51.127+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:51:51.200+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:51:51.199+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:51:51.264+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:51:51.263+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:51:51.330+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.282 seconds
+[2026-06-12T08:52:22.242+0000] {processor.py:161} INFO - Started process (PID=3511) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:52:22.248+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:52:22.251+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:52:22.250+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:52:22.381+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:52:22.563+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:52:22.563+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:52:22.675+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:52:22.674+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:52:22.853+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.634 seconds
+[2026-06-12T08:52:54.156+0000] {processor.py:161} INFO - Started process (PID=3541) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:52:54.174+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:52:54.193+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:52:54.191+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:52:54.307+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:52:54.472+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:52:54.471+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:52:54.583+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:52:54.583+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:52:54.692+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.558 seconds
+[2026-06-12T08:53:25.997+0000] {processor.py:161} INFO - Started process (PID=3571) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:53:26.002+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:53:26.005+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:53:26.004+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:53:26.144+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:53:26.220+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:53:26.220+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:53:26.333+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:53:26.326+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:53:26.456+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.513 seconds
+[2026-06-12T08:53:57.257+0000] {processor.py:161} INFO - Started process (PID=3601) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:53:57.281+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:53:57.305+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:53:57.304+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:53:57.624+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:53:57.731+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:53:57.730+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:53:57.807+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:53:57.806+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:53:57.868+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.633 seconds
+[2026-06-12T08:54:28.180+0000] {processor.py:161} INFO - Started process (PID=3631) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:54:28.184+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:54:28.189+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:54:28.188+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:54:28.260+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:54:28.354+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:54:28.354+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:54:28.472+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:54:28.471+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:54:28.921+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.756 seconds
+[2026-06-12T08:54:59.882+0000] {processor.py:161} INFO - Started process (PID=3661) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:54:59.887+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:54:59.891+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:54:59.890+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:54:59.963+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:55:00.063+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:55:00.063+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:55:00.175+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:55:00.174+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:55:00.421+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.551 seconds
+[2026-06-12T08:55:31.037+0000] {processor.py:161} INFO - Started process (PID=3691) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:55:31.040+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:55:31.043+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:55:31.043+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:55:31.103+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:55:31.180+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:55:31.180+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:55:31.249+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:55:31.248+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:55:31.305+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.281 seconds
+[2026-06-12T08:56:01.993+0000] {processor.py:161} INFO - Started process (PID=3721) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:56:01.997+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:56:02.004+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:56:02.003+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:56:02.069+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:56:02.252+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:56:02.251+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:56:02.915+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:56:02.914+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:56:02.982+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 1.003 seconds
+[2026-06-12T08:56:34.286+0000] {processor.py:161} INFO - Started process (PID=3751) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:56:34.299+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:56:34.303+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:56:34.302+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:56:34.392+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:56:34.518+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:56:34.515+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:56:34.629+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:56:34.628+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:56:34.721+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.468 seconds
+[2026-06-12T08:57:07.570+0000] {processor.py:161} INFO - Started process (PID=3781) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:57:07.625+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:57:07.637+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:57:07.635+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:57:08.777+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:57:09.021+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:57:09.020+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:57:09.672+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:57:09.671+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:57:10.019+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 2.469 seconds
+[2026-06-12T08:57:42.752+0000] {processor.py:161} INFO - Started process (PID=3811) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:57:42.777+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:57:42.816+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:57:42.815+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:57:44.968+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:57:45.380+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:57:45.379+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:57:45.590+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:57:45.589+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:57:45.808+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 3.074 seconds
+[2026-06-12T08:58:36.887+0000] {processor.py:161} INFO - Started process (PID=3841) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:58:36.986+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:58:37.091+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:58:37.090+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:58:38.044+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:58:38.256+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:58:38.255+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:58:38.565+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:58:38.565+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:58:39.128+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 2.262 seconds
+[2026-06-12T08:59:09.970+0000] {processor.py:161} INFO - Started process (PID=3871) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:59:09.973+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:59:09.976+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:59:09.975+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:59:10.174+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:59:10.268+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:59:10.268+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:59:10.345+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:59:10.344+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:59:10.401+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.444 seconds
+[2026-06-12T08:59:43.485+0000] {processor.py:161} INFO - Started process (PID=3901) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:59:43.517+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T08:59:43.521+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:59:43.520+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:59:44.216+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T08:59:44.421+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:59:44.420+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T08:59:45.060+0000] {logging_mixin.py:188} INFO - [2026-06-12T08:59:45.059+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T08:59:45.449+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 1.985 seconds
+[2026-06-12T09:00:26.184+0000] {processor.py:161} INFO - Started process (PID=3931) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:00:26.207+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T09:00:26.295+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:00:26.294+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:00:28.059+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:00:28.346+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:00:28.346+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T09:00:28.620+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:00:28.620+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T09:00:28.941+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 2.782 seconds
+[2026-06-12T09:01:01.076+0000] {processor.py:161} INFO - Started process (PID=3964) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:01:01.092+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T09:01:01.096+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:01:01.095+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:01:03.409+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:01:03.680+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:01:03.680+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T09:01:03.948+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:01:03.947+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T09:01:04.355+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 3.300 seconds
+[2026-06-12T09:01:37.236+0000] {processor.py:161} INFO - Started process (PID=3994) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:01:37.299+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T09:01:37.337+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:01:37.336+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:01:38.469+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:01:38.875+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:01:38.874+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T09:01:39.080+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:01:39.080+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T09:01:39.202+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 2.014 seconds
+[2026-06-12T09:02:10.130+0000] {processor.py:161} INFO - Started process (PID=4021) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:02:10.136+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T09:02:10.151+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:02:10.146+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:02:10.236+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:02:10.349+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:02:10.349+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T09:02:10.459+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:02:10.459+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T09:02:10.550+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.434 seconds
+[2026-06-12T09:02:46.575+0000] {processor.py:161} INFO - Started process (PID=4051) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:02:46.619+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T09:02:46.637+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:02:46.636+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:02:48.183+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:02:48.649+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:02:48.646+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T09:02:49.122+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:02:49.121+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T09:02:49.668+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 3.114 seconds
+[2026-06-12T09:03:20.588+0000] {processor.py:161} INFO - Started process (PID=4081) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:03:20.592+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T09:03:20.597+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:03:20.594+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:03:20.663+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:03:20.739+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:03:20.739+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T09:03:20.814+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:03:20.813+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T09:03:20.875+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.297 seconds
+[2026-06-12T09:03:51.496+0000] {processor.py:161} INFO - Started process (PID=4111) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:03:51.499+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T09:03:51.503+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:03:51.501+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:03:51.558+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:03:51.707+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:03:51.706+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T09:03:51.878+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:03:51.877+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T09:03:51.949+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.464 seconds
+[2026-06-12T09:04:23.372+0000] {processor.py:161} INFO - Started process (PID=4141) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:04:23.376+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T09:04:23.379+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:04:23.378+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:04:23.450+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:04:23.550+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:04:23.550+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T09:04:23.629+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:04:23.628+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T09:04:23.697+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.341 seconds
+[2026-06-12T09:04:56.151+0000] {processor.py:161} INFO - Started process (PID=4171) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:04:56.329+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T09:04:56.661+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:04:56.616+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:04:57.814+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:04:58.079+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:04:58.068+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T09:04:58.301+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:04:58.300+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T09:04:58.716+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 2.652 seconds
+[2026-06-12T09:05:29.694+0000] {processor.py:161} INFO - Started process (PID=4201) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:05:29.698+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T09:05:29.710+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:05:29.709+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:05:29.782+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:05:29.866+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:05:29.866+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T09:05:29.968+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:05:29.968+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T09:05:30.134+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.451 seconds
+[2026-06-12T09:06:00.856+0000] {processor.py:161} INFO - Started process (PID=4231) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:06:00.860+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T09:06:00.863+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:06:00.862+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:06:00.945+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:06:01.031+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:06:01.030+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T09:06:01.126+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:06:01.125+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T09:06:01.198+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.356 seconds
+[2026-06-12T09:06:32.165+0000] {processor.py:161} INFO - Started process (PID=4261) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:06:32.168+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T09:06:32.171+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:06:32.170+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:06:32.227+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:06:32.305+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:06:32.304+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T09:06:32.388+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:06:32.387+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T09:06:32.460+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.304 seconds
+[2026-06-12T09:07:03.009+0000] {processor.py:161} INFO - Started process (PID=4291) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:07:03.014+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T09:07:03.019+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:07:03.017+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:07:03.135+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:07:03.238+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:07:03.238+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T09:07:03.486+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:07:03.486+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T09:07:03.621+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.630 seconds
+[2026-06-12T09:07:33.994+0000] {processor.py:161} INFO - Started process (PID=4321) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:07:33.997+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T09:07:34.000+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:07:33.999+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:07:34.058+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:07:34.160+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:07:34.159+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T09:07:34.366+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:07:34.365+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T09:07:34.533+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.550 seconds
+[2026-06-12T09:08:12.177+0000] {processor.py:161} INFO - Started process (PID=4351) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:08:12.243+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T09:08:12.408+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:08:12.406+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:08:16.075+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:08:16.389+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:08:16.377+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T09:08:16.601+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:08:16.600+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T09:08:17.091+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 4.936 seconds
+[2026-06-12T09:08:56.656+0000] {processor.py:161} INFO - Started process (PID=4381) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:08:56.697+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T09:08:56.731+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:08:56.730+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:08:59.281+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:09:00.111+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:09:00.110+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T09:09:01.443+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:09:01.414+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T09:09:06.813+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 10.206 seconds
+[2026-06-12T09:09:45.034+0000] {processor.py:161} INFO - Started process (PID=4416) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:09:45.065+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T09:09:45.178+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:09:45.153+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:09:45.452+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:09:45.657+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:09:45.656+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T09:09:45.856+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:09:45.856+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T09:09:46.494+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 1.494 seconds
+[2026-06-12T09:10:17.831+0000] {processor.py:161} INFO - Started process (PID=4446) to work on /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:10:17.835+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eu_fsf_sanc_dag.py for tasks to queue
+[2026-06-12T09:10:17.838+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:10:17.837+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:10:17.897+0000] {processor.py:840} INFO - DAG(s) 'eu_fsf_sanc' retrieved from /opt/airflow/dags/eu_fsf_sanc_dag.py
+[2026-06-12T09:10:17.975+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:10:17.975+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-06-12T09:10:18.051+0000] {logging_mixin.py:188} INFO - [2026-06-12T09:10:18.050+0000] {dag.py:3834} INFO - Setting next_dagrun for eu_fsf_sanc to 2026-06-12 00:00:00+00:00, run_after=2026-06-13 00:00:00+00:00
+[2026-06-12T09:10:18.134+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eu_fsf_sanc_dag.py took 0.315 seconds

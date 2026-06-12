@@ -248,6 +248,13 @@
         "source": "inegi_playwright.json"
     },
     {
+        "proveedor": "ELEVADORES SICEM, S.A. DE C.V.",
+        "numero": [
+            "INEGI.OIC5.03/2/2026"
+        ],
+        "source": "inegi_playwright.json"
+    },
+    {
         "proveedor": "EXPANSIÓN, S.A. DE C.V.",
         "numero": [
             "INEGI.OIC5.03/14/2024"

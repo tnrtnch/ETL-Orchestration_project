@@ -1,0 +1,136 @@
+[2026-06-11T15:56:43.269+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: inegi_scraper.run_inegi_selenium_container manual__2026-06-11T15:54:21.066503+00:00 [queued]>
+[2026-06-11T15:56:43.757+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: inegi_scraper.run_inegi_selenium_container manual__2026-06-11T15:54:21.066503+00:00 [queued]>
+[2026-06-11T15:56:43.921+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2026-06-11T15:56:44.651+0000] {taskinstance.py:2214} INFO - Executing <Task(DockerOperator): run_inegi_selenium_container> on 2026-06-11 15:54:21.066503+00:00
+[2026-06-11T15:56:44.716+0000] {standard_task_runner.py:60} INFO - Started process 734 to run task
+[2026-06-11T15:56:44.765+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'inegi_scraper', 'run_inegi_selenium_container', 'manual__2026-06-11T15:54:21.066503+00:00', '--job-id', '530', '--raw', '--subdir', 'DAGS_FOLDER/inegi_scraper_dag.py', '--cfg-path', '/tmp/tmpvy8dbu7i']
+[2026-06-11T15:56:45.015+0000] {standard_task_runner.py:88} INFO - Job 530: Subtask run_inegi_selenium_container
+[2026-06-11T15:56:48.629+0000] {task_command.py:423} INFO - Running <TaskInstance: inegi_scraper.run_inegi_selenium_container manual__2026-06-11T15:54:21.066503+00:00 [running]> on host f39b18a112ca
+[2026-06-11T15:56:56.924+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='inegi_scraper' AIRFLOW_CTX_TASK_ID='run_inegi_selenium_container' AIRFLOW_CTX_EXECUTION_DATE='2026-06-11T15:54:21.066503+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-06-11T15:54:21.066503+00:00'
+[2026-06-11T15:56:59.553+0000] {docker.py:359} INFO - Starting docker container from image inegi-scraper:v1
+[2026-06-11T15:57:01.972+0000] {docker.py:367} WARNING - Using remote engine or docker-in-docker and mounting temporary volume from host is not supported. Falling back to `mount_tmp_dir=False` mode. You can set `mount_tmp_dir` parameter to False to disable mounting and remove the warning
+[2026-06-11T15:59:27.217+0000] {docker.py:429} INFO - Unhandled error in Deferred:
+[2026-06-11T15:59:27.249+0000] {docker.py:429} INFO - 2026-06-11 15:59:27 [twisted] CRITICAL: Unhandled error in Deferred:
+[2026-06-11T15:59:27.419+0000] {docker.py:429} INFO - Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/twisted/internet/defer.py", line 1834, in _inlineCallbacks
+    result = context.run(
+  File "/usr/local/lib/python3.11/site-packages/twisted/python/failure.py", line 467, in throwExceptionIntoGenerator
+    return g.throw(self.value.with_traceback(self.tb))
+  File "/usr/local/lib/python3.11/site-packages/scrapy/crawler.py", line 465, in _crawl
+    yield d
+  File "/usr/local/lib/python3.11/site-packages/twisted/internet/defer.py", line 1838, in _inlineCallbacks
+    result = context.run(gen.send, result)
+  File "/usr/local/lib/python3.11/site-packages/scrapy/crawler.py", line 188, in crawl
+    self.spider = self._create_spider(*args, **kwargs)
+  File "/usr/local/lib/python3.11/site-packages/scrapy/crawler.py", line 231, in _create_spider
+    return self.spidercls.from_crawler(self, *args, **kwargs)
+  File "/usr/local/lib/python3.11/site-packages/scrapy/spiders/__init__.py", line 73, in from_crawler
+    spider = cls(*args, **kwargs)
+  File "/app/inegi/spiders/inegi_spider.py", line 49, in __init__
+    self.driver = webdriver.Chrome(service=service, options=options)
+  File "/usr/local/lib/python3.11/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+  File "/usr/local/lib/python3.11/site-packages/selenium/webdriver/chromium/webdriver.py", line 66, in __init__
+    super().__init__(command_executor=executor, options=self.options)
+  File "/usr/local/lib/python3.11/site-packages/selenium/webdriver/common/webdriver.py", line 25, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/local/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 276, in __init__
+    self.start_session(capabilities)
+  File "/usr/local/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 372, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+  File "/usr/local/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 468, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: DevToolsActivePort file doesn't exist; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x58cc0f6d9db2 <unknown>
+#1 0x58cc0f059748 <unknown>
+#2 0x58cc0f09cb31 <unknown>
+#3 0x58cc0f098a01 <unknown>
+#4 0x58cc0f092d52 <unknown>
+#5 0x58cc0f0e76d3 <unknown>
+#6 0x58cc0f0e6e1d <unknown>
+#7 0x58cc0f0d73f7 <unknown>
+#8 0x58cc0f0a15ee <unknown>
+#9 0x58cc0f0a2485 <unknown>
+#10 0x58cc0f69e069 <unknown>
+#11 0x58cc0f69c9ec <unknown>
+#12 0x58cc0f69c3de <unknown>
+#13 0x58cc0f69ce69 <unknown>
+#14 0x58cc0f68ae69 <unknown>
+#15 0x58cc0f69d21c <unknown>
+#16 0x58cc0f6753e9 <unknown>
+#17 0x58cc0f6c6239 <unknown>
+#18 0x58cc0f6c6414 <unknown>
+#19 0x58cc0f6d868e <unknown>
+#20 0x7f554b976b7b <unknown>
+
+
+2026-06-11 15:59:27 [twisted] CRITICAL: 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/twisted/internet/defer.py", line 1834, in _inlineCallbacks
+    result = context.run(
+             ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/twisted/python/failure.py", line 467, in throwExceptionIntoGenerator
+    return g.throw(self.value.with_traceback(self.tb))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/scrapy/crawler.py", line 465, in _crawl
+    yield d
+  File "/usr/local/lib/python3.11/site-packages/twisted/internet/defer.py", line 1838, in _inlineCallbacks
+    result = context.run(gen.send, result)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/scrapy/crawler.py", line 188, in crawl
+    self.spider
+[2026-06-11T15:59:27.423+0000] {docker.py:429} INFO - = self._create_spider(*args, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/scrapy/crawler.py", line 231, in _create_spider
+    return self.spidercls.from_crawler(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/scrapy/spiders/__init__.py", line 73, in from_crawler
+    spider = cls(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/app/inegi/spiders/inegi_spider.py", line 49, in __init__
+    self.driver = webdriver.Chrome(service=service, options=options)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+  File "/usr/local/lib/python3.11/site-packages/selenium/webdriver/chromium/webdriver.py", line 66, in __init__
+    super().__init__(command_executor=executor, options=self.options)
+  File "/usr/local/lib/python3.11/site-packages/selenium/webdriver/common/webdriver.py", line 25, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/local/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 276, in __init__
+    self.start_session(capabilities)
+  File "/usr/local/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 372, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 468, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: DevToolsActivePort file doesn't exist; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x58cc0f6d9db2 <unknown>
+#1 0x58cc0f059748 <unknown>
+#2 0x58cc0f09cb31 <unknown>
+#3 0x58cc0f098a01 <unknown>
+#4 0x58cc0f092d52 <unknown>
+#5 0x58cc0f0e76d3 <unknown>
+#6 0x58cc0f0e6e1d <unknown>
+#7 0x58cc0f0d73f7 <unknown>
+#8 0x58cc0f0a15ee <unknown>
+#9 0x58cc0f0a2485 <unknown>
+#10 0x58cc0f69e069 <unknown>
+#11 0x58cc0f69c9ec <unknown>
+#12 0x58cc0f69c3de <unknown>
+#13 0x58cc0f69ce69 <unknown>
+#14 0x58cc0f68ae69 <unknown>
+#15 0x58cc0f69d21c <unknown>
+#16 0x58cc0f6753e9 <unknown>
+#17 0x58cc0f6c6239 <unknown>
+#18 0x58cc0f6c6414 <unknown>
+#19 0x58cc0f6d868e <unknown>
+#20 0x7f554b976b7b <unknown>
+[2026-06-11T15:59:31.780+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=inegi_scraper, task_id=run_inegi_selenium_container, execution_date=20260611T155421, start_date=20260611T155643, end_date=20260611T155931
+[2026-06-11T15:59:32.651+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-06-11T15:59:33.033+0000] {taskinstance.py:3309} INFO - 1 downstream tasks scheduled from follow-on schedule check

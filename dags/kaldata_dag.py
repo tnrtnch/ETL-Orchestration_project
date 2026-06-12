@@ -72,7 +72,7 @@ with DAG(
 
     run_kaldata_scraper = DockerOperator(
         task_id="run_kaldata_scraper",
-        image="kaldata-scrapy:v1",
+        image="kaldata-scraper:v1",
         api_version="auto",
         auto_remove=True,
         network_mode="bridge",

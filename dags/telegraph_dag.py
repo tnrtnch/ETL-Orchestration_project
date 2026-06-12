@@ -84,6 +84,7 @@ with DAG(
         tty=True,
         do_xcom_push=False,
         retries=0,
+        mount_tmp_dir=False,
     )
 
     # check_all_done = ShortCircuitOperator(
