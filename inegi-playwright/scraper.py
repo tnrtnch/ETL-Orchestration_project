@@ -38,7 +38,7 @@ try:
         total = rows.count()
         print("Total rows:", total)
 
-        # 🔥 MERGE STRUCTURE (KEY FIX)
+
         merged = {}
 
         for i in range(total):
@@ -86,9 +86,7 @@ try:
                 relps.locator("text=Ver total de proveedores sancionados").click()
                 continue
 
-            # ---------------------------
-            # 🔥 MERGE LOGIC (FIX)
-            # ---------------------------
+
             if proveedor not in merged:
                 merged[proveedor] = set(numeros)
             else:
@@ -100,9 +98,7 @@ try:
             relps.wait_for_selector("(//tbody)[5]")
 
 
-            # ---------------------------
-            # FINAL CLEAN DATA
-            # ---------------------------
+
         data = []
 
 
@@ -117,9 +113,6 @@ try:
 
 
 
-        # ---------------------------
-        # SAVE
-        # ---------------------------
     output_path = "/app/data/inegi_playwright.json"
 
     with open(output_path, "w", encoding="utf-8") as f:
