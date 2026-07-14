@@ -51,6 +51,5 @@ class KaldataPipeline:
         return item
 
     def close_spider(self, spider):
-        """Spider kapanınca bağlantıyı kapat"""
         if self.con:
             self.con.close()
