@@ -17,7 +17,7 @@ try:
         page.goto("https://www3.inegi.org.mx/sistemas/ci/relps/", wait_until="load")
         page.wait_for_timeout(2000)
 
-        # find iframe
+
         relps = None
         for f in page.frames:
             if "relps" in f.url.lower():
